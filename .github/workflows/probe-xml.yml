@@ -1,0 +1,21 @@
+name: probe-xml (temporary)
+on: push
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - run: npm install --no-save --no-package-lock playwright@1.47.2
+      - run: |
+          cat > p.mjs <<'JS'
+          import { chromium } from 'playwright';
+          const b = await chromium.launch({ channel: 'chrome' });
+          const p = await b.newPage();
+          await p.goto('https://ftp.ilga.gov/');
+          for (const f of ['10400HB4068.xml', '10400HB4416.xml']) {
+            const t = await p.evaluate(async (u) => { const r = await fetch(u); return new TextDecoder('windows-1252').decode(await r.arrayBuffer()); }, '/Legislation/104/BillStatus/XML/' + f);
+            console.log('=====', f); console.log(t.split(/<actions>/i)[0].slice(0, 4000));
+          }
+          await b.close();
+          JS
+          node p.mjs
