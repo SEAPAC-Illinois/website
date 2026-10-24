@@ -176,8 +176,8 @@ nav a:hover { color: var(--capitol); }
 @media (max-width: 760px) { .bills { grid-template-columns: 1fr; } }
 .bills li { border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem 1rem; display: grid; gap: 0.35rem; align-content: start; }
 .bills .num { font: 750 0.75rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--prairie); }
-.bills h4 { font: 700 1rem/1.3 var(--body); margin: 0; }
-.bills h4 a { color: var(--ink); }
+.bills .num a { color: inherit; }
+.bills .sum { color: var(--ink); margin: 0; }
 .bills .stage { font-size: 0.88rem; color: var(--muted); }
 .rep.sample { border-style: dashed; background: transparent; }
 .rep .ph { width: 64px; height: 80px; border-radius: 8px; flex: none; background: var(--tint); color: var(--rule); display: grid; place-items: end center; overflow: hidden; }
@@ -601,12 +601,13 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
     var nice = function (iso) { var p = iso.split('-'); return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); };
     d.bills.slice(0, 6).forEach(function (b) {
       var li = el('li');
-      li.appendChild(el('p', { 'class': 'num' }, b.number));
-      var h = el('h4');
-      var a = el('a', { href: b.url, target: '_blank', rel: 'noopener' }, b.summary || b.title);
-      a.appendChild(el('span', { 'class': 'sr-only' }, ' (opens in a new tab)'));
-      h.appendChild(a);
-      li.appendChild(h);
+      var num = el('p', { 'class': 'num' });
+      var a = el('a', { href: b.url, target: '_blank', rel: 'noopener' }, b.number);
+      a.appendChild(el('span', { 'class': 'sr-only' }, ' at the General Assembly (opens in a new tab)'));
+      num.appendChild(a);
+      li.appendChild(num);
+      var sum = b.summary || b.title;
+      li.appendChild(el('p', { 'class': 'sum' }, sum.length > 170 ? sum.slice(0, 167).replace(/\s+\S*$/, '') + '...' : sum));
       li.appendChild(el('p', { 'class': 'stage' }, b.status + '. Last action ' + nice(b.date) + '.'));
       list.appendChild(li);
     });
