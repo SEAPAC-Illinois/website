@@ -119,11 +119,13 @@ function match(bill, key) {
   for (const s of config.statutes) if (refs.includes(s.pattern)) hit(s);
   const text = (bill.title + ' ' + bill.synopsis).toLowerCase();
   const schoolCode = /105 ILCS 5\//.test(refs);
+  const title = bill.title.toLowerCase();
   for (const p of config.phrases) {
     if (p.needsSchoolCode && !schoolCode) continue;
-    if (text.includes(p.text.toLowerCase())) hit(p);
+    const t = p.text.toLowerCase();
+    if (p.field === 'title' ? new RegExp('\\b' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(title) : text.includes(t)) hit(p);
   }
-  if (/\bIEPs?\b/.test(bill.synopsis)) hit({ tag: 'special-ed', platform: ['P3'] });
+  if (/\bIEPs?\b/.test(bill.synopsis)) hit({ tag: 'special-ed' });
   const items = config.platformItems || {};
   return { tags: [...found].sort(), platform: [...platform].sort().map(k => items[k] || k) };
 }
