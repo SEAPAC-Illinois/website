@@ -1,18 +1,18 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-10-24T20:29:50.339Z",
+ "updated": "2026-10-24T20:34:00.500Z",
  "general_assemblies": [
   104
  ],
  "scan": "full",
  "files_read": 11964,
- "config": "264d1f084546",
+ "config": "11e8feaa37b6",
  "listing_newest": {
   "104": "2026-10-23T23:20"
  },
  "counts": {
-  "watched": 108,
-  "active": 73
+  "watched": 110,
+  "active": 75
  },
  "bills": [
   {
@@ -500,10 +500,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Adriane Johnson-David Koehler and Kimberly A. Lightford",
    "summary": "In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\".",
    "synopsis": "Amends the School Code. In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\". Provides that in the development of an individualized education program (IEP) or federal Section 504 plan for a twice-exceptional student, if the student's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be recognized and addressed in the student's IEP or Section 504 plan and be reflected in the individualized services, goals, accommodations, and objectives for the student, while continuing to provide appropriate services and...",
@@ -649,10 +646,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Cristina Castro-Meg Loughran Cappel-David Koehler-Kimberly A. Lightford-Mary Edly-Allen, Christopher Belt, Ram Villivalam, Adriane Johnson, Li Arellano, Jr., Jason Plummer, Willie Preston, Suzy Glowiak Hilton, Laura M. Murphy, Julie A. Morrison, Michael W. Halpin, Mike Simmons, Mark L. Walker, ",
    "summary": "Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time.",
    "synopsis": "Amends the School Code. Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time. Provides that the policy may not prohibit a student from using a wireless communication device during instructional time: (1) when a teacher or instructor has authorized the student to use a wireless communication device for educational purposes; (2) in an emergency or in response to an imminent...",
@@ -1012,10 +1006,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Julie A. Morrison-Meg Loughran Cappel and Cristina Castro",
    "summary": "Allows a school district, public school, charter school, or nonpublic school to authorize a school nurse or trained personnel to: (1) provide undesignated ready-to-use glucagon to authorized personnel to administer ready-to-use glucagon to a student that meets the student's prescription on file; (2) administer undesignated ready-to-use glucagon that meets the prescription on file to any student who has a plan that authorizes the use of ready-to-use glucagon; and (3) administer undesignated ready-to-use glucagon to any person that the school nurse or trained personnel believes in good faith...",
    "synopsis": "Amends the School Code. Allows a school district, public school, charter school, or nonpublic school to authorize a school nurse or trained personnel to: (1) provide undesignated ready-to-use glucagon to authorized personnel to administer ready-to-use glucagon to a student that meets the student's prescription on file; (2) administer undesignated ready-to-use glucagon that meets the prescription on file to any student who has a plan that authorizes the use of ready-to-use glucagon; and (3) administer undesignated ready-to-use glucagon to any person that the school nurse or trained personnel believes in good faith is having a severe hypoglycemia emergency. Makes conforming changes...",
@@ -1823,9 +1814,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
-   ],
+   "platform": [],
    "sponsors": "Rep. Kevin John Olickal, Michelle Mussman and Janet Yang Rohr",
    "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
    "synopsis": "Amends the Illinois Civil Rights Act of 2003. Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal financial assistance; or (iv) any program or activity...",
@@ -1896,7 +1885,6 @@
     "workforce"
    ],
    "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful",
     "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Sen. Adriane Johnson",
@@ -2173,10 +2161,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Nicole La Ha and Elizabeth \"Lisa\" Hernandez",
    "summary": "In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\".",
    "synopsis": "Amends the School Code. In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\". Provides that in the development of an individualized education program (IEP) or federal Section 504 plan for a twice-exceptional student, if the student's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be recognized and addressed in the student's IEP or Section 504 plan and be reflected in the individualized services, goals, accommodations, and objectives for the student, while continuing to provide appropriate services and...",
@@ -2322,9 +2307,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Amy Elik, Michael J. Coffey, Jr. and Dan Swanson",
    "summary": "Provides that qualified expenses related to special needs services include elementary and secondary school expenses incurred as a result of a recognized disability or an individualized education program.",
    "synopsis": "Amends the State Treasurer Act. Provides that qualified expenses related to special needs services include elementary and secondary school expenses incurred as a result of a recognized disability or an individualized education program. Makes conforming changes to the definition of \"eligible educational institution\". Defines \"recognized disability\" as a physical, developmental, or learning disability recognized by the State Board of Education.",
@@ -2517,9 +2500,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Maura Hirschauer",
    "summary": "Sets forth eligibility requirements for Smart Start Workforce Grants.",
    "synopsis": "Amends the Smart Start Illinois Act. Sets forth eligibility requirements for Smart Start Workforce Grants. Provides that a grant applicant must: (i) be a licensed day care home, day care center, or group day care home as of the month prior to the applicant submitting an application and maintain the applicable license for the duration of the grant; (ii) regularly provide year-round child care; (iii) meet minimum enrollment levels for children whose care is paid for by the Child Care Assistance Program, child care subsidies for foster child care, or military child care subsidies. Provides that if an applicant does not meet the minimum enrollment requirements under the Child Care Assistance...",
@@ -3745,9 +3726,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Nicole La Ha-Janet Yang Rohr-Diane Blair-Sherlock-Michelle Mussman-Norine K. Hammond, Katie Stuart, Tony M. McCombie, Amy Elik, Amy L. Grant, Jennifer Sanalitro, Jackie Haas, Patrick Sheehan, Michael Crawford, Mary Gill, Suzanne M. Ness, Matt Hanson, Yolonda Morris, Nicolle Grasse, Martha Deute",
    "summary": "Provides that, by no later than the beginning of a student's third year of high school or by the student's 16th birthday, whichever occurs first, the transition planning process must include a consideration of whether the student is a candidate for graduation.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that, by no later than the beginning of a student's third year of high school or by the student's 16th birthday, whichever occurs first, the transition planning process must include a consideration of whether the student is a candidate for graduation. Requires this process to involve discussions with the student's individualized education program team, including the parent and the student. Provides that the discussions must address the implications of graduating with a regular diploma, particularly how it affects the student's right to receive a free appropriate public education (FAPE). Effective immediately....",
@@ -3968,9 +3947,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Camille Y. Lilly",
    "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made.",
    "synopsis": "Amends the Department of Human Services Act. In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made. Provides that unredacted investigative reports may be shared with the Department of Financial and Professional Regulation. Amends the Rehabilitation of Persons with Disabilities Act. Provides that the Department of Human Services shall operate and maintain an Illinois Center for Rehabilitation and Education-Wood for the education...",
@@ -4050,10 +4027,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Suzanne M. Ness-Sue Scherer",
    "summary": "Provides that beginning with the 2026-2027 school year, a school district shall provide informational materials about the Illinois Achieving a Better Life Experience (ABLE) account program (rather than the Achieving a Better Life Experience (ABLE) account program) annually to the parent or guardian of a student who has a section 504 Plan under the federal Rehabilitation Act of 1973, using the same distribution methods employed for other communications related to the student's section 504 Plan.",
    "synopsis": "Amends the School Code. Provides that beginning with the 2026-2027 school year, a school district shall provide informational materials about the Illinois Achieving a Better Life Experience (ABLE) account program (rather than the Achieving a Better Life Experience (ABLE) account program) annually to the parent or guardian of a student who has a section 504 Plan under the federal Rehabilitation Act of 1973, using the same distribution methods employed for other communications related to the student's section 504 Plan. Removes language providing that a school may transmit the informational material to a parent or guardian in the same manner as other documents and information related to an...",
@@ -4339,9 +4313,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Mary Edly-Allen-Meg Loughran Cappel-Linda Holmes, Rachel Ventura, Julie A. Morrison, Laura Ellman, Adriane L. Johnson, Kimberly A. Lightford, Suzy Glowiak Hilton, Christopher Belt, Napoleon Harris III, Doris Turner and Steve Stadelman",
    "summary": "Removes outdated provisions regarding social science learning standards and provisions regarding meeting minimum higher education preparation and admission requirements.",
    "synopsis": "Amends the Illinois Grant Funds Recovery Act to make a change concerning school maintenance project grants. Amends the Soybean Ink Act to make a change concerning school districts. Amends the School Code. Removes outdated provisions regarding social science learning standards and provisions regarding meeting minimum higher education preparation and admission requirements. Removes language providing that students who do not take the State's final accountability assessment or its approved alternate assessment may not receive a regular high school diploma unless the student is exempted from taking the State assessments. Prohibits a school board from discriminating against, punishing, or...",
@@ -4421,10 +4393,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Cristina Castro and Lakesia Collins",
    "summary": "Provides that initial physical therapy evaluations without a referral or an established diagnosis may be performed by a licensed physical therapist via telehealth when the physical therapist determines that an in-person examination is not required based on the physical therapist's clinical judgment and the applicable standard of care (rather than cannot be performed via telehealth unless necessary to address a documented hardship).",
    "synopsis": "Amends the Illinois Physical Therapy Act. Provides that initial physical therapy evaluations without a referral or an established diagnosis may be performed by a licensed physical therapist via telehealth when the physical therapist determines that an in-person examination is not required based on the physical therapist's clinical judgment and the applicable standard of care (rather than cannot be performed via telehealth unless necessary to address a documented hardship). Provides that a physical therapist or a licensed physical therapy assistant may require the patient to undergo an in-person visit instead of providing telehealth services (rather than the use of telehealth as a primary...",
@@ -4647,9 +4616,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Michael Crawford-Lisa Davis-Yolonda Morris-Maurice A. West, II-Nicole La Ha, Jaime M. Andrade, Jr., Theresa Mah, Gregg Johnson, Nicolle Grasse, Joyce Mason, Janet Yang Rohr, Diane Blair-Sherlock, Martha Deuter and Hoan Huynh",
    "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP. Provides that the school may provide the written notification as a part of other provided documentation, including, but not limited to, admission and enrollment documents. Replaces everything after the enacting clause....",
@@ -5153,9 +5120,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Mattie Hunter-Karina Villa",
    "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made.",
    "synopsis": "Amends the Department of Human Services Act. In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made. Provides that unredacted investigative reports may be shared with the Department of Financial and Professional Regulation. Amends the Rehabilitation of Persons with Disabilities Act. Provides that the Department of Human Services shall operate and maintain an Illinois Center for Rehabilitation and Education-Wood for the education...",
@@ -5527,8 +5492,6 @@
     "workforce"
    ],
    "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful",
     "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Sen. Michael W. Halpin and Laura M. Murphy",
@@ -5601,10 +5564,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Meg Loughran Cappel",
    "summary": "Expands the definitions of \"isolated time out\" or \"time out\", \"physical restraint\" or \"restraint\", and \"time out\".",
    "synopsis": "Amends the School Code. Expands the definitions of \"isolated time out\" or \"time out\", \"physical restraint\" or \"restraint\", and \"time out\". Removes exceptions to the prohibition of prone restraint. Removes language providing that the parents or guardian of a student and the State Superintendent of Education shall be informed whenever isolated time out, time out, or physical restraint is used. Establishes complaint procedures to replace the complaint procedures set forth in the State Board of Education's rules. Provides that staff members responsible for implementing isolated time out, time out, or physical restraint must be trained in accordance with the system of non-violent intervention...",
@@ -5673,9 +5633,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Ram Villivalam",
    "summary": "Provides that any student with an individualized education program or any child with a disability who has not been removed from the regular education environment shall receive educational services at the local building that the child would attend if the child did not require special education services.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that any student with an individualized education program or any child with a disability who has not been removed from the regular education environment shall receive educational services at the local building that the child would attend if the child did not require special education services.",
@@ -5740,9 +5698,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
-   ],
+   "platform": [],
    "sponsors": "Rep. Michelle Mussman-Fred Crespo-Tracy Katz Muhl-Margaret Croke, Janet Yang Rohr and Jennifer Gong-Gershowitz",
    "summary": "Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time.",
    "synopsis": "Amends the School Code. Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time. Provides that the policy may not prohibit a student from using a wireless communication device during instructional time: (1) when a teacher or instructor has authorized the student to use a wireless communication device for educational purposes; (2) in an emergency or in response to an imminent...",
@@ -5931,10 +5887,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Maurice A. West, II",
    "summary": "Requires a school district to develop and implement a plan to provide additional instructional services, support, or special accommodations to students who suffer from trauma related to experiencing the death of a sibling, parent, guardian, or household member by suicide or homicide or suffer from trauma caused by domestic violence or abuse and whom the school has determined require additional instructional services, support, or special accommodations but do not qualify for an individualized education program or for services under Section 504 of the federal Rehabilitation Act of 1973.",
    "synopsis": "Amends the School Code. Requires a school district to develop and implement a plan to provide additional instructional services, support, or special accommodations to students who suffer from trauma related to experiencing the death of a sibling, parent, guardian, or household member by suicide or homicide or suffer from trauma caused by domestic violence or abuse and whom the school has determined require additional instructional services, support, or special accommodations but do not qualify for an individualized education program or for services under Section 504 of the federal Rehabilitation Act of 1973. Sets forth what the plan may include. Provides that the plan shall remain in...",
@@ -6451,10 +6404,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Tracy Katz Muhl",
    "summary": "Provides that a school board shall establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student, including rules that restrict the use of cellular radio telecommunication devices during instructional time (instead of providing that the school board may establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student).",
    "synopsis": "Amends the School Code. Provides that a school board shall establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student, including rules that restrict the use of cellular radio telecommunication devices during instructional time (instead of providing that the school board may establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student). Provides that a school board may create exceptions to these rules, including exceptions for school-based emergencies, individual student and family emergencies, and individualized...",
@@ -6671,6 +6621,63 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HB3353",
+   "ga": 104,
+   "number": "HB 3353",
+   "title": "SCH CD-DIETARY ACCOMMODATIONS",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
+   ],
+   "sponsors": "Rep. Terra Costa Howard",
+   "summary": "Requires each school board to adopt a policy that outlines how schools should track, meet, and adhere to the medical dietary requirements of students and the legal accommodations for the religious dietary needs of students.",
+   "synopsis": "Amends the School Code. Requires each school board to adopt a policy that outlines how schools should track, meet, and adhere to the medical dietary requirements of students and the legal accommodations for the religious dietary needs of students.",
+   "references": [
+    "105 ILCS 5/10-20.88 new",
+    "105 ILCS 5/34-18.88 new"
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2025-03-21",
+    "chamber": "House",
+    "action": "Rule 19(a) / Re-referred to Rules Committee"
+   },
+   "recent_actions": [
+    {
+     "date": "2025-03-21",
+     "chamber": "House",
+     "action": "Rule 19(a) / Re-referred to Rules Committee"
+    },
+    {
+     "date": "2025-03-11",
+     "chamber": "House",
+     "action": "Assigned to Education Policy Committee"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "House",
+     "action": "Referred to Rules Committee"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "House",
+     "action": "First Reading"
+    },
+    {
+     "date": "2025-02-07",
+     "chamber": "House",
+     "action": "Filed with the Clerk by Rep. Terra Costa Howard"
+    }
+   ],
+   "action_count": 5,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3353&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-SB70",
    "ga": 104,
    "number": "SB 70",
@@ -6722,6 +6729,55 @@
    ],
    "action_count": 5,
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=70&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "104-SB2522",
+   "ga": 104,
+   "number": "SB 2522",
+   "title": "$IEPA-CITY OF MORRIS LANDFILL",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
+   "sponsors": "Sen. Chris Balkema and Sue Rezin",
+   "summary": "Makes appropriations from the General Revenue Fund to the Illinois Environmental Protection Agency for grants to the City of Morris for costs associated with landfill closures and landfill well monitoring.",
+   "synopsis": "Makes appropriations from the General Revenue Fund to the Illinois Environmental Protection Agency for grants to the City of Morris for costs associated with landfill closures and landfill well monitoring. Effective July 1, 2025.",
+   "references": [],
+   "status": "Waiting in Senate Assignments",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2025-03-05",
+    "chamber": "Senate",
+    "action": "Added as Co-Sponsor Sen. Sue Rezin"
+   },
+   "recent_actions": [
+    {
+     "date": "2025-03-05",
+     "chamber": "Senate",
+     "action": "Added as Co-Sponsor Sen. Sue Rezin"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "Senate",
+     "action": "Referred to Assignments"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "Senate",
+     "action": "First Reading"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "Senate",
+     "action": "Filed with Secretary by Sen. Chris Balkema"
+    }
+   ],
+   "action_count": 4,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2522&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
    "first_seen": "2026-10-24"
   },
   {
@@ -6783,9 +6839,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Nicole La Ha",
    "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP. Provides that the school may provide the written notification as a part of other provided documentation, including, but not limited to, admission and enrollment documents.",
@@ -6874,10 +6928,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Sen. Laura Fine",
    "summary": "Provides that in the development of an individual education program (IEP) or Section 504 plan for a twice-exceptional child, if the child's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be the primary focus of the child's IEP or Section 504 plan and be reflected in the individualized services, goals, and objectives for the child.",
    "synopsis": "Amends the School Code. Provides that in the development of an individual education program (IEP) or Section 504 plan for a twice-exceptional child, if the child's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be the primary focus of the child's IEP or Section 504 plan and be reflected in the individualized services, goals, and objectives for the child. Defines \"twice-exceptional child\". Effective immediately.",
@@ -6977,9 +7028,7 @@
    "tags": [
     "special-ed"
    ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
+   "platform": [],
    "sponsors": "Rep. Jed Davis",
    "summary": "Allows parents or guardians to use audio recording devices during meetings with their child's individualized education program team regarding the child's placement or progress in an individualized education program.",
    "synopsis": "Amends the Children With Disabilities Article of the School Code. Allows parents or guardians to use audio recording devices during meetings with their child's individualized education program team regarding the child's placement or progress in an individualized education program. Effective immediately.",
@@ -7061,6 +7110,26 @@
   }
  ],
  "changes": [
+  {
+   "seen": "2026-10-24T20:34:00.500Z",
+   "bill": "104-HB3353",
+   "number": "HB 3353",
+   "title": "SCH CD-DIETARY ACCOMMODATIONS",
+   "kind": "newly-watched",
+   "date": "2025-03-21",
+   "chamber": "House",
+   "action": "Rule 19(a) / Re-referred to Rules Committee"
+  },
+  {
+   "seen": "2026-10-24T20:34:00.500Z",
+   "bill": "104-SB2522",
+   "number": "SB 2522",
+   "title": "$IEPA-CITY OF MORRIS LANDFILL",
+   "kind": "newly-watched",
+   "date": "2025-03-05",
+   "chamber": "Senate",
+   "action": "Added as Co-Sponsor Sen. Sue Rezin"
+  },
   {
    "seen": "2026-10-24T20:29:50.339Z",
    "bill": "104-HR1026",
