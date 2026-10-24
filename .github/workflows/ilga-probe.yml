@@ -1,0 +1,35 @@
+# Temporary: explores the ILGA public data repository from a GitHub runner.
+# Removed before the bill watcher PR is opened.
+name: ILGA probe
+on:
+  push:
+    branches: [claude/project-thread-7wsh73]
+    paths: [.github/workflows/ilga-probe.yml]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Plain curl
+        run: |
+          for u in https://ftp.ilga.gov/ https://ftp.ilga.gov/Legislation/104/BillStatus/XML/ ; do
+            echo "== $u"; curl -sS -m 60 -o out.html -w '%{http_code} %{size_download}\n' "$u" && head -c 3000 out.html; echo
+          done
+          echo | openssl s_client -connect ftp.ilga.gov:443 -servername ftp.ilga.gov -showcerts 2>/dev/null | grep -E 's:|i:' | head
+      - name: Python
+        run: python3 -c "import urllib.request;print(urllib.request.urlopen('https://ftp.ilga.gov/',timeout=60).status)" || true
+      - name: Chrome
+        run: |
+          npm i --no-save playwright@1.47.2 >/dev/null 2>&1
+          cat > p.js <<'JS'
+          const { chromium } = require('playwright');
+          (async () => {
+            const b = await chromium.launch({ channel: 'chrome' });
+            const p = await b.newPage();
+            for (const u of ['https://ftp.ilga.gov/', 'https://ftp.ilga.gov/Legislation/', 'https://ftp.ilga.gov/Legislation/104/', 'https://ftp.ilga.gov/Legislation/104/BillStatus/']) {
+              try { const r = await p.goto(u, { timeout: 60000 }); const t = await p.evaluate(() => document.body.innerText); console.log('==', u, r.status()); console.log(t.slice(0, 4000)); }
+              catch (e) { console.log('ERR', u, e.message.split('\n')[0]); }
+            }
+            await b.close();
+          })();
+          JS
+          node p.js
