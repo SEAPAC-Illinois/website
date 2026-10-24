@@ -2,247 +2,376 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SEA-PAC Illinois</title>
-<meta name="description" content="SEA-PAC Illinois is the political action committee of Illinois special education administrators, affiliated with IAASE.">
+<meta name="description" content="SEA-PAC Illinois is the political action committee of Illinois special education leaders, affiliated with IAASE. Members back legislators who champion students with disabilities.">
+<link rel="icon" href="assets/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <style>
-/* Layout: a civic one-pager. Full-width bands, a 68ch reading column, and a ledger-style "where your money goes" table. */
+/* Layout: campaign landing page. Brand gradient hero (the green-to-blue of the current Canva site) with the join card beside the promise, a proof strip, then alternating paper and tint bands that each end in one clear action. */
 :root {
-  --bg: #f6f7fb;
+  --paper: #f3f6f4;
   --surface: #ffffff;
-  --ink: #141b2e;
-  --muted: #4a5670;
-  --rule: #d5dae6;
-  --blue: #0e27b5;
-  --blue-ink: #ffffff;
-  --slate: #304254;
-  --band: #e8ebf6;
-  --draft: #8a5a00;
-  --draft-bg: #fff4dc;
+  --tint: #e6eef0;
+  --ink: #0f1a2e;
+  --muted: #4a586c;
+  --rule: #d3dce1;
+  --capitol: #0d27b4;
+  --prairie: #236a1f;
+  --go: #236a1f;
+  --go-hover: #1b5418;
+  --go-ink: #ffffff;
+  --hero-a: #1f5f22;
+  --hero-b: #123d72;
+  --hero-c: #0d27b4;
+  --on-hero: #ffffff;
+  --on-hero-muted: #d7e2f4;
+  --bar: #0d27b4;
+  --bar-track: #e1e7f2;
+  --sample: #7a4d00;
+  --sample-bg: #fff1d2;
+  --foot: #0c1630;
+  --foot-ink: #c9d3e6;
   --display: "Archivo", "Arial Narrow", Arial, sans-serif;
   --body: "Public Sans", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0d1220; --surface: #151c2f; --ink: #e8ecf6; --muted: #a6b0c8; --rule: #2a3450;
-    --blue: #8ea0ff; --blue-ink: #0d1220; --slate: #c3cde0; --band: #182241;
-    --draft: #ffcf73; --draft-bg: #2e2410; color-scheme: dark;
+    --paper: #0b1220; --surface: #131c30; --tint: #101a2e; --ink: #e9eef6; --muted: #a5b1c4; --rule: #26324a;
+    --capitol: #9aa9ff; --prairie: #7cc873; --go: #2b7d25; --go-hover: #33912c; --go-ink: #ffffff;
+    --hero-a: #143f17; --hero-b: #0c2a52; --hero-c: #0a1c86; --on-hero: #ffffff; --on-hero-muted: #c6d2ea;
+    --bar: #8c9cff; --bar-track: #1e2942; --sample: #ffd27a; --sample-bg: #2f2410; --foot: #060b18; --foot-ink: #a5b1c4;
+    color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0d1220; --surface: #151c2f; --ink: #e8ecf6; --muted: #a6b0c8; --rule: #2a3450;
-  --blue: #8ea0ff; --blue-ink: #0d1220; --slate: #c3cde0; --band: #182241;
-  --draft: #ffcf73; --draft-bg: #2e2410; color-scheme: dark;
+  --paper: #0b1220; --surface: #131c30; --tint: #101a2e; --ink: #e9eef6; --muted: #a5b1c4; --rule: #26324a;
+  --capitol: #9aa9ff; --prairie: #7cc873; --go: #2b7d25; --go-hover: #33912c; --go-ink: #ffffff;
+  --hero-a: #143f17; --hero-b: #0c2a52; --hero-c: #0a1c86; --on-hero: #ffffff; --on-hero-muted: #c6d2ea;
+  --bar: #8c9cff; --bar-track: #1e2942; --sample: #ffd27a; --sample-bg: #2f2410; --foot: #060b18; --foot-ink: #a5b1c4;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.65 var(--body); }
-a { color: var(--blue); }
-a:focus-visible, .btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
-.wrap { max-width: 68rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.read { max-width: 68ch; }
-h1, h2, h3 { font-family: var(--display); line-height: 1.12; text-wrap: balance; margin: 0; }
-h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); font-weight: 750; font-stretch: 90%; }
-h3 { font-size: 1.15rem; font-weight: 700; }
-p { margin: 0; }
-.eyebrow { font: 700 0.78rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-.stack { display: grid; gap: 1rem; }
-section { padding-block: 3.5rem; border-top: 1px solid var(--rule); scroll-margin-top: 4.5rem; }
-
-.draft { background: var(--draft-bg); color: var(--draft); font-size: 0.92rem; }
-.draft .wrap { padding-block: 0.7rem; }
-.todo { background: var(--draft-bg); color: var(--draft); padding: 0.05em 0.35em; border-radius: 3px; font-size: 0.92em; }
-
-header.top { padding-block: 0.75rem; position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--rule); }
-header.top .btn { padding: 0.6rem 1rem; }
-@media (max-width: 44rem) { header.top nav { display: none; } }
-header.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; }
-.mark { font: 800 1.35rem/1 var(--display); font-stretch: 85%; letter-spacing: 0.02em; color: var(--ink); text-decoration: none; }
-.mark span { color: var(--blue); }
-nav ul { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; list-style: none; margin: 0; padding: 0; font-weight: 600; font-size: 0.95rem; }
-nav a { color: var(--muted); text-decoration: none; }
-nav a:hover { color: var(--blue); }
-
-.hero { padding-block: 3rem 3.5rem; border-top: 0; }
-.hero h1 { font-size: clamp(2.1rem, 5.4vw, 3.6rem); font-weight: 800; font-stretch: 82%; max-width: 20ch; }
-.hero h1 em { font-style: normal; color: var(--blue); }
-.hero .lede { font-size: 1.2rem; color: var(--muted); max-width: 58ch; }
-.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
-.btn { display: inline-block; padding: 0.8rem 1.3rem; border-radius: 6px; font: 700 1rem/1 var(--display); text-decoration: none; border: 2px solid var(--blue); }
-.btn.primary { background: var(--blue); color: var(--blue-ink); }
-.btn.secondary { color: var(--blue); background: transparent; }
-.paid { font-size: 0.85rem; color: var(--muted); }
-
-.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.75rem; }
-.cols > * { min-width: 0; }
-
-.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
-.level { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem; display: grid; gap: 0.35rem; align-content: start; color: inherit; text-decoration: none; }
-a.level:hover { border-color: var(--blue); }
-.level .go { font: 700 0.95rem/1 var(--display); color: var(--blue); margin-top: 0.35rem; }
-.monthly { font-size: 1rem; }
-.level.lead { border: 2px solid var(--blue); }
-.amt { font: 800 1.9rem/1 var(--display); font-stretch: 85%; font-variant-numeric: tabular-nums; }
-.amt small { font-size: 0.95rem; font-weight: 600; color: var(--muted); }
-.level .name { font-weight: 600; }
-.level p { color: var(--muted); font-size: 0.95rem; }
-
-.ledger-box { overflow-x: auto; }
-table.ledger { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-.ledger th, .ledger td { text-align: left; padding: 0.7rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
-.ledger th { font: 700 0.78rem/1.2 var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-.ledger td.num, .ledger th.num { text-align: right; white-space: nowrap; }
-.ledger tfoot td { font-weight: 700; border-bottom: 0; }
-.ledger .story { display: block; color: var(--muted); font-size: 0.92rem; }
-@media (max-width: 36rem) {
-  .ledger thead { display: none; }
-  .ledger tr { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--rule); }
-  .ledger td { padding: 0; border: 0; }
-  .ledger td:nth-child(2) { grid-column: 1 / -1; grid-row: 1; font-weight: 600; }
-  .ledger td:first-child { grid-row: 2; color: var(--muted); }
-  .ledger td.num { grid-row: 2; }
-  .ledger tfoot tr { border-bottom: 0; }
-  .ledger tfoot td:first-child { display: none; }
-  .ledger tfoot td:nth-child(2) { grid-column: 1; grid-row: 1; }
-  .ledger tfoot td.num { grid-row: 1; }
-}
-
-.band { background: var(--band); }
-.quote { background: var(--surface); border-radius: 8px; padding: 1.1rem 1.2rem; border: 1px solid var(--rule); }
-.quote p { font-style: italic; }
-.quote .who { font-style: normal; font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; }
-
-footer { background: var(--slate); color: var(--bg); padding-block: 2.5rem; }
-footer .wrap { display: grid; gap: 1rem; font-size: 0.92rem; }
-footer strong { font-family: var(--display); }
-footer .notice { max-width: 72ch; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) footer { background: #070b16; color: var(--muted); } }
-:root[data-theme="dark"] footer { background: #070b16; color: var(--muted); }
-@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 html { scroll-behavior: smooth; }
-</style>
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1.0625rem/1.6 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+a { color: var(--capitol); }
+:focus-visible { outline: 3px solid var(--capitol); outline-offset: 3px; }
+.wrap { max-width: 70rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.05; text-wrap: balance; }
+h2 { font-size: clamp(1.9rem, 4.2vw, 2.9rem); font-weight: 850; font-stretch: 78%; letter-spacing: -0.005em; }
+h3 { font-size: 1.2rem; font-weight: 750; font-stretch: 92%; line-height: 1.2; }
+p { margin: 0; }
+.eyebrow { font: 750 0.8rem/1 var(--display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--prairie); }
+.lede { font-size: 1.15rem; color: var(--muted); max-width: 56ch; }
+.stack { display: grid; gap: 1rem; }
+section { padding-block: 4.5rem; scroll-margin-top: 5rem; }
+.sample { background: var(--sample-bg); color: var(--sample); font: 700 0.68rem/1 var(--body); letter-spacing: 0.06em; text-transform: uppercase; padding: 0.3em 0.5em; border-radius: 3px; vertical-align: 0.2em; }
 
+.draft { background: var(--sample-bg); color: var(--sample); font-size: 0.9rem; }
+.draft .wrap { padding-block: 0.6rem; }
+
+/* header */
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--rule); }
+header.top .wrap { display: flex; align-items: center; gap: 1rem 2rem; padding-block: 0.6rem; }
+.brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); margin-right: auto; }
+.brand img { width: 46px; height: 46px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule); background: #fff; }
+.brand b { font: 900 1.25rem/1 var(--display); font-stretch: 80%; letter-spacing: 0.02em; color: var(--prairie); }
+.brand span { display: block; font: 750 0.72rem/1 var(--display); letter-spacing: 0.22em; color: var(--capitol); margin-top: 0.2rem; }
+nav ul { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; font-weight: 600; font-size: 0.95rem; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--capitol); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font: 800 1.02rem/1 var(--display); font-stretch: 95%; text-decoration: none; border-radius: 999px; padding: 0.95rem 1.5rem; border: 0; cursor: pointer; transition: background-color .15s ease, transform .15s ease; }
+.btn.go { background: var(--go); color: var(--go-ink); }
+.btn.go:hover { background: var(--go-hover); }
+.btn.go:active { transform: translateY(1px); }
+.btn.small { padding: 0.7rem 1.15rem; font-size: 0.95rem; }
+.btn.ghost { background: transparent; color: var(--capitol); box-shadow: inset 0 0 0 2px currentColor; }
+@media (max-width: 860px) { nav { display: none; } }
+
+/* hero */
+.hero { position: relative; overflow: hidden; color: var(--on-hero); background: linear-gradient(155deg, var(--hero-a) 0%, var(--hero-b) 48%, var(--hero-c) 100%); padding-block: 4rem 4.5rem; }
+.hero .dome { position: absolute; right: -4rem; bottom: -2rem; width: min(46rem, 90vw); opacity: 0.09; pointer-events: none; }
+.hero .grid { position: relative; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 3rem; align-items: center; }
+@media (max-width: 860px) { .hero .grid { grid-template-columns: 1fr; gap: 2.25rem; } .hero { padding-block: 2.75rem 3rem; } }
+.hero .eyebrow { color: #b9e6b2; }
+.hero h1 { font-size: clamp(2.4rem, 6vw, 4.4rem); font-weight: 900; font-stretch: 72%; line-height: 0.95; letter-spacing: -0.01em; max-width: 15ch; }
+.hero .lede { color: var(--on-hero-muted); font-size: 1.2rem; }
+.hero .lede strong { color: var(--on-hero); }
+.hero .paid { font-size: 0.82rem; color: var(--on-hero-muted); }
+
+.join { background: var(--surface); color: var(--ink); border-radius: 14px; padding: 1.5rem; box-shadow: 0 24px 60px -24px rgba(5, 12, 40, 0.55); display: grid; gap: 1rem; }
+.join h2 { font-size: 1.6rem; font-stretch: 85%; }
+.join .sub { color: var(--muted); font-size: 0.95rem; }
+.amounts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; border: 0; margin: 0; padding: 0; }
+.amounts legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.amt { position: relative; }
+.amt input { position: absolute; opacity: 0; inset: 0; }
+.amt label { display: grid; gap: 0.15rem; padding: 0.8rem 0.9rem; border-radius: 10px; border: 2px solid var(--rule); cursor: pointer; background: var(--surface); transition: border-color .15s ease, background-color .15s ease; }
+.amt label b { font: 900 1.65rem/1 var(--display); font-stretch: 80%; font-variant-numeric: tabular-nums; }
+.amt label b small { font-size: 0.85rem; font-weight: 600; color: var(--muted); font-stretch: 100%; }
+.amt label span { font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+.amt input:checked + label { border-color: var(--go); background: color-mix(in srgb, var(--go) 9%, var(--surface)); }
+.amt input:focus-visible + label { outline: 3px solid var(--capitol); outline-offset: 2px; }
+.amt .tag { position: absolute; top: -0.55rem; right: 0.6rem; background: var(--go); color: var(--go-ink); font: 750 0.66rem/1 var(--body); letter-spacing: 0.05em; text-transform: uppercase; padding: 0.3rem 0.45rem; border-radius: 999px; }
+.amt.wide { grid-column: 1 / -1; }
+.amt.wide label { grid-template-columns: auto 1fr; align-items: center; gap: 0.9rem; }
+.join .btn { width: 100%; font-size: 1.1rem; padding-block: 1.1rem; }
+.join .fine { font-size: 0.8rem; color: var(--muted); text-align: center; }
+
+/* proof strip */
+.proof { background: var(--surface); border-bottom: 1px solid var(--rule); padding-block: 1.75rem; }
+.proof ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem 2rem; }
+@media (max-width: 760px) { .proof ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.proof li { display: grid; gap: 0.25rem; align-content: start; }
+.proof b { font: 900 2.2rem/1 var(--display); font-stretch: 75%; color: var(--capitol); font-variant-numeric: tabular-nums; }
+.proof span { font-size: 0.92rem; color: var(--muted); line-height: 1.35; }
+.proof .asof { margin-top: 0.9rem; font-size: 0.78rem; color: var(--muted); }
+
+/* how it works */
+.how .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; counter-reset: step; }
+@media (max-width: 760px) { .how .steps { grid-template-columns: 1fr; } }
+.how .steps li { counter-increment: step; display: grid; gap: 0.5rem; align-content: start; padding-top: 1.1rem; border-top: 3px solid var(--prairie); }
+.how .steps li::before { content: "Step " counter(step); font: 750 0.78rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--prairie); }
+.how .steps p { color: var(--muted); }
+
+/* action */
+.act { background: var(--tint); }
+.act .cards { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 1.25rem; }
+@media (max-width: 900px) { .act .cards { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 1.4rem; display: grid; gap: 0.75rem; align-content: start; min-width: 0; }
+.card.feature { border: 2px solid var(--capitol); }
+.card p { color: var(--muted); }
+.card .bill { font: 800 0.8rem/1 var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--capitol); }
+.signup { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.signup input { flex: 1 1 12rem; min-width: 0; font: inherit; font-size: 1rem; padding: 0.75rem 0.9rem; border-radius: 999px; border: 2px solid var(--rule); background: var(--paper); color: var(--ink); }
+.signup input:focus { outline: none; border-color: var(--capitol); }
+.note { font-size: 0.82rem; color: var(--muted); }
+
+/* money */
+.money .head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 3rem; align-items: end; }
+@media (max-width: 760px) { .money .head { grid-template-columns: 1fr; } }
+.total { text-align: right; }
+.total b { display: block; font: 900 clamp(3.2rem, 8vw, 4.8rem)/0.9 var(--display); font-stretch: 72%; color: var(--capitol); font-variant-numeric: tabular-nums; }
+.total span { color: var(--muted); font-size: 0.95rem; }
+@media (max-width: 760px) { .total { text-align: left; } }
+.bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; }
+.bars li { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) 4rem; gap: 0.4rem 1.25rem; align-items: center; }
+.bars .who { font-weight: 700; line-height: 1.25; }
+.bars .who small { display: block; font-weight: 400; color: var(--muted); font-size: 0.85rem; }
+.bars .track { height: 14px; background: var(--bar-track); border-radius: 999px; overflow: hidden; }
+.bars .fill { height: 100%; background: var(--bar); border-radius: 999px; }
+.bars .v { font: 800 1.1rem/1 var(--display); text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .bars li { grid-template-columns: minmax(0, 1fr) auto; } .bars .track { grid-column: 1 / -1; grid-row: 2; } }
+.trust { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; color: var(--muted); font-size: 0.92rem; }
+.trust span::before { content: "✓"; color: var(--prairie); font-weight: 800; margin-right: 0.45rem; }
+
+/* voices */
+.voices .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+@media (max-width: 900px) { .voices .cards { grid-template-columns: 1fr; } }
+.quote blockquote { margin: 0; font: 600 1.15rem/1.45 var(--body); color: var(--ink); }
+.person { display: flex; align-items: center; gap: 0.75rem; }
+.avatar { flex: none; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font: 850 1rem/1 var(--display); color: #fff; background: linear-gradient(155deg, var(--hero-a), var(--hero-c)); }
+.person small { display: block; color: var(--muted); font-size: 0.85rem; line-height: 1.3; }
+
+/* closing */
+.close { background: linear-gradient(155deg, var(--hero-a) 0%, var(--hero-b) 60%, var(--hero-c) 100%); color: var(--on-hero); text-align: left; }
+.close .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 3rem; align-items: center; }
+@media (max-width: 760px) { .close .wrap { grid-template-columns: 1fr; } }
+.close p { color: var(--on-hero-muted); max-width: 52ch; }
+
+footer { background: var(--foot); color: var(--foot-ink); padding-block: 2.75rem; font-size: 0.88rem; }
+footer .wrap { display: grid; gap: 1rem; }
+footer strong { color: #fff; font-family: var(--display); font-size: 1.05rem; }
+footer a { color: inherit; }
+footer .notice { max-width: 80ch; line-height: 1.5; }
+
+/* phone: sticky join bar */
+.mobilebar { display: none; }
+@media (max-width: 760px) {
+  .mobilebar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--surface); border-top: 1px solid var(--rule); padding: 0.65rem max(16px, env(safe-area-inset-right, 0px)) calc(0.65rem + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); align-items: center; gap: 0.75rem; }
+  .mobilebar p { font-size: 0.85rem; color: var(--muted); line-height: 1.25; flex: 1; min-width: 0; }
+  .mobilebar p b { color: var(--ink); display: block; font-size: 0.95rem; }
+  body { padding-bottom: 5rem; }
+  header.top .btn { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .amt label { transition: none; } }
+
+.join .notice { font-size: 0.72rem; color: var(--muted); line-height: 1.4; }
+.join .fine a { color: inherit; }
+.decide { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--prairie); border-radius: 10px; padding: 1.1rem 1.25rem; max-width: 62ch; }
+.decide p { color: var(--muted); }
+</style>
 </head>
 <body>
-<div class="draft" role="note"><div class="wrap"><strong>Draft for Jon's review. Not published.</strong> Highlighted items get filled in before launch. Contribution names stay off the live site until after the November 3, 2026 election.</div></div>
+<div class="draft" role="note"><div class="wrap"><strong>Draft for Jon's review. Not the live site.</strong> Items tagged <span class="sample">To do</span> get filled in or confirmed before launch. Legislator names stay off the site until after the November 3, 2026 election.</div></div>
 
 <header class="top">
   <div class="wrap">
-    <a class="mark" href="#top">SEA-PAC <span>Illinois</span></a>
+    <a class="brand" href="#top" aria-label="SEA-PAC Illinois home">
+      <img src="assets/logo.png" alt="" width="46" height="46">
+      <div><b>SEA-PAC</b><span>ILLINOIS</span></div>
+    </a>
     <nav aria-label="Sections">
       <ul>
-        <li><a href="#why">Why SEA-PAC</a></li>
-        <li><a href="#join">Join</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#act">Take action</a></li>
         <li><a href="#money">Where your money goes</a></li>
-        <li><a href="#springfield">Springfield</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <a class="btn primary" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener">Join</a>
+    <a class="btn go small" href="#join-card">Join SEA-PAC</a>
   </div>
 </header>
 
 <main id="top">
-  <section class="hero">
-    <div class="wrap stack" style="gap:1.4rem">
-      <p class="eyebrow">The PAC of Illinois special education administrators</p>
-      <h1>For $20 a year, you help <em>special education leaders</em> build relationships with the legislators who decide how students with disabilities are served and funded.</h1>
-      <p class="lede">SEA-PAC Illinois is affiliated with the Illinois Alliance of Administrators of Special Education (IAASE). Members come from every IAASE region of the state.</p>
-      <div class="actions">
-        <a class="btn primary" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener">Join for $20 a year</a>
-        <a class="btn secondary" href="#join">See all ways to give</a>
+  <section class="hero" aria-labelledby="hero-h">
+    <svg class="dome" viewBox="0 0 400 300" aria-hidden="true" fill="#ffffff">
+      <rect x="196" y="6" width="8" height="26"/>
+      <rect x="186" y="30" width="28" height="20" rx="3"/>
+      <path d="M110 140 C110 80 150 50 200 50 C250 50 290 80 290 140 Z"/>
+      <rect x="100" y="140" width="200" height="12"/>
+      <rect x="112" y="156" width="10" height="56"/><rect x="138" y="156" width="10" height="56"/><rect x="164" y="156" width="10" height="56"/><rect x="190" y="156" width="10" height="56"/><rect x="216" y="156" width="10" height="56"/><rect x="242" y="156" width="10" height="56"/><rect x="268" y="156" width="10" height="56"/>
+      <rect x="90" y="214" width="220" height="12"/>
+      <rect x="20" y="232" width="360" height="12"/>
+      <rect x="40" y="248" width="16" height="40"/><rect x="80" y="248" width="16" height="40"/><rect x="120" y="248" width="16" height="40"/><rect x="160" y="248" width="16" height="40"/><rect x="224" y="248" width="16" height="40"/><rect x="264" y="248" width="16" height="40"/><rect x="304" y="248" width="16" height="40"/><rect x="344" y="248" width="16" height="40"/>
+      <rect x="0" y="290" width="400" height="10"/>
+    </svg>
+    <div class="wrap grid">
+      <div class="stack" style="gap:1.4rem">
+        <p class="eyebrow">The PAC of Illinois special education leaders</p>
+        <h1 id="hero-h">Students with disabilities need champions in Springfield.</h1>
+        <p class="lede">For <strong>$20 a year</strong>, you help SEA-PAC back legislators of either party who stand up for students with disabilities and the people who serve them.</p>
+        <p class="paid">Paid for by SEA-PAC Illinois. Affiliated with IAASE.</p>
       </div>
-      <p class="paid">Paid for by SEA-PAC Illinois.</p>
+
+      <form class="join" id="join-card" aria-labelledby="join-h">
+        <div class="stack" style="gap:0.25rem">
+          <h2 id="join-h">Become a member</h2>
+          <p class="sub">Choose a level. Your membership renews on its own (except Venmo), and you can change or cancel any time from your receipt.</p>
+        </div>
+        <fieldset class="amounts">
+          <legend>Membership level</legend>
+          <div class="amt"><input type="radio" name="lvl" id="lvl-20" value="20" data-freq="yearly" data-label="$20 a year" checked><label for="lvl-20"><b>$20 <small>/yr</small></b><span>Member</span></label><em class="tag">Most choose</em></div>
+          <div class="amt"><input type="radio" name="lvl" id="lvl-50" value="50" data-freq="yearly" data-label="$50 a year"><label for="lvl-50"><b>$50 <small>/yr</small></b><span>Advocate</span></label></div>
+          <div class="amt"><input type="radio" name="lvl" id="lvl-100" value="100" data-freq="yearly" data-label="$100 a year"><label for="lvl-100"><b>$100 <small>/yr</small></b><span>Champion</span></label></div>
+          <div class="amt"><input type="radio" name="lvl" id="lvl-250" value="250" data-freq="yearly" data-label="$250 a year"><label for="lvl-250"><b>$250 <small>/yr</small></b><span>Leadership Circle</span></label></div>
+          <div class="amt wide"><input type="radio" name="lvl" id="lvl-5m" value="5" data-freq="monthly" data-label="$5 a month"><label for="lvl-5m"><b>$5 <small>/mo</small></b><span>Sustainer: steady support all year</span></label></div>
+        </fieldset>
+        <a class="btn go" id="join-go" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website&amp;utm_content=card" target="_blank" rel="noopener">Join for $20 a year</a>
+        <p class="fine">Secure checkout on Givebutter. Givebutter asks for an optional tip to support its free platform. You can set it to $0. Please use personal funds and a personal email address.</p>
+        <p class="notice">Contributions are not tax-deductible. A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.</p>
+      </form>
     </div>
   </section>
 
-  <section id="why">
-    <div class="wrap stack" style="gap:1.75rem">
-      <div class="stack read">
-        <p class="eyebrow">Why SEA-PAC</p>
-        <h2>Special education needs a voice in Springfield.</h2>
-        <p>SEA-PAC works to make sure the voices of special education administrators are heard in the legislative process. We back legislators and policies that improve special education for Illinois students.</p>
+  <div class="proof" aria-label="SEA-PAC at a glance">
+    <div class="wrap">
+      <ul>
+        <li><b>166</b><span>people gave to SEA-PAC through memberships and raffles in the past 12 months</span></li>
+        <li><b>34</b><span>members renew automatically every year</span></li>
+        <li><b>$3,250</b><span>contributed to 7 Illinois legislators, 2025 to 2026</span></li>
+        <li><b>100%</b><span>of contributions reported to the State Board of Elections</span></li>
+      </ul>
+      <p class="asof">As of October 23, 2026, from SEA-PAC's Givebutter and treasurer records. <span class="sample">To do: confirm all 7 are in filed reports</span></p>
+    </div>
+  </div>
+
+  <section class="how" id="how" aria-labelledby="how-h">
+    <div class="wrap stack" style="gap:2.25rem">
+      <div class="stack">
+        <p class="eyebrow">How your $20 works</p>
+        <h2 id="how-h">Small gifts, pooled, add up to a seat at the table.</h2>
       </div>
-      <div class="cols">
-        <div class="stack"><h3>Build relationships</h3><p>We support legislators who champion students with disabilities and the professionals who serve them.</p></div>
-        <div class="stack"><h3>Keep members informed</h3><p>Members get short updates on bills and funding decisions that affect special education.</p></div>
-        <div class="stack"><h3>Answer to members</h3><p>A Board of Trustees governs SEA-PAC. We report on our activities and finances to the IAASE Governing Board and to members.</p></div>
+      <ol class="steps">
+        <li><h3>You join</h3><p>Members give $20 a year or more. Every 25 memberships fund one $500 contribution to a legislator who champions our students.</p></li>
+        <li><h3>Trustees choose champions</h3><p>SEA-PAC's Board of Trustees backs legislators who have stood up for special education funding and services.</p></li>
+        <li><h3>We report every dollar</h3><p>Every contribution is filed with the Illinois State Board of Elections and shared with members and the IAASE Governing Board.</p></li>
+      </ol>
+      <div class="decide stack" style="gap:0.4rem">
+        <h3>How we decide</h3>
+        <p>We support legislators of either party who champion students with disabilities. SEA-PAC's Board of Trustees votes on every contribution.</p>
       </div>
     </div>
   </section>
 
-  <section id="join" class="band">
-    <div class="wrap stack" style="gap:1.5rem">
-      <div class="stack read">
-        <p class="eyebrow">Join or give more</p>
-        <h2>Pick the level that fits.</h2>
-        <p>Pick a level and Givebutter opens with it already chosen. Every level renews automatically (except Venmo, which Givebutter cannot renew), so your support continues without another conference sign-up. You can change or cancel at any time from your receipt.</p>
-        <p>Already a member? If you chose auto-renew, you're set.</p>
+  <section class="act" id="act" aria-labelledby="act-h">
+    <div class="wrap stack" style="gap:2rem">
+      <div class="stack">
+        <p class="eyebrow">Take action</p>
+        <h2 id="act-h">Your voice counts as much as your dollars.</h2>
+        <p class="lede">Legislators listen to the people who run special education in their districts. Here is the one thing we are asking this session.</p>
       </div>
-      <div class="levels">
-        <a class="level lead" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$20 <small>a year</small></div><div class="name">Member</div><p>Every 25 members fund one $500 contribution to a legislator who champions our students.</p><span class="go">Join now</span></a>
-        <a class="level" href="https://givebutter.com/aaHB5w?amount=50&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$50 <small>a year</small></div><div class="name">Advocate</div><p>One tenth of a $500 contribution.</p><span class="go">Join now</span></a>
-        <a class="level" href="https://givebutter.com/aaHB5w?amount=100&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$100 <small>a year</small></div><div class="name">Champion</div><p>One fifth of a $500 contribution.</p><span class="go">Join now</span></a>
-        <a class="level" href="https://givebutter.com/aaHB5w?amount=250&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$250 <small>a year</small></div><div class="name">Leadership Circle</div><p>Half of a $500 contribution. Our highest level.</p><span class="go">Join now</span></a>
+      <div class="cards">
+        <article class="card feature">
+          <p class="bill">Spring 2027 session <span class="sample">To do: IAASE committee confirms</span></p>
+          <h3>Ask your legislator to fully fund special education in the FY2028 state budget.</h3>
+          <p>Tell them how many students your district serves and what the funding pays for. A two-minute email from a local leader carries real weight. Send it from your personal email, on your own time.</p>
+          <div><a class="btn go small" href="https://www.ilga.gov" target="_blank" rel="noopener">Find your legislator</a> <span class="sample">To do: test lookup link</span></div>
+        </article>
+        <article class="card">
+          <h3>Get session alerts</h3>
+          <p>Three or four short emails a year, only when a bill needs you. Please use a personal address, not a school account.</p>
+          <div><a class="btn ghost small" href="mailto:support@seapacil.com?subject=Add%20me%20to%20SEA-PAC%20session%20alerts">Email us to sign up</a></div>
+          <p class="note"><span class="sample">To do</span> A sign-up box will replace this button.</p>
+        </article>
+        <article class="card">
+          <h3>Invite your legislator</h3>
+          <p>Show them a program that works for students. Our one-page guide walks you through the visit.</p>
+          <p class="note">This visit is about your program. Do not mention SEA-PAC, contributions, or campaigns during the visit.</p>
+          <div><a class="btn ghost small" href="#act">Get the guide</a> <span class="sample">To do</span></div>
+        </article>
       </div>
-      <p class="monthly">Prefer monthly? <a href="https://givebutter.com/aaHB5w?amount=5&amp;frequency=monthly&amp;utm_source=website" target="_blank" rel="noopener"><strong>$5 a month as a Sustainer</strong></a> ($60 a year, spread out).</p>
-      <p class="paid">Secure checkout on Givebutter. Givebutter will ask for an optional tip to support its free platform. You can set it to $0. Your full gift goes to SEA-PAC.</p>
-      <p class="paid">Please give from personal funds, on your own time, using a personal email address. Giving is voluntary and never a condition of employment. Contributions are not tax-deductible.</p>
-      <p class="paid">Paid for by SEA-PAC Illinois. A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.</p>
+      <p class="note">Paid for by SEA-PAC Illinois.</p>
     </div>
   </section>
 
-  <section id="money">
-    <div class="wrap stack" style="gap:1.25rem">
-      <div class="stack read">
-        <p class="eyebrow">Where your money goes</p>
-        <h2>$3,250 to seven Illinois legislators, 2025 to 2026.</h2>
-        <p>These are the contributions SEA-PAC's trustees approved. Every one is reported to the Illinois State Board of Elections. <span class="todo">Show only lines already reported in IDIS. Publish names after November 3.</span></p>
+  <section class="money" id="money" aria-labelledby="money-h">
+    <div class="wrap stack" style="gap:2.25rem">
+      <div class="head">
+        <div class="stack">
+          <p class="eyebrow">Where your money goes</p>
+          <h2 id="money-h">Seven legislators who champion special education.</h2>
+          <p class="lede">Every contribution our trustees approved in 2025 and 2026. Names appear here after the November 3, 2026 election.</p>
+        </div>
+        <div class="total"><b>$3,250</b><span>total, 2025 to 2026</span></div>
       </div>
-      <div class="ledger-box">
-        <table class="ledger">
-          <thead><tr><th scope="col">Approved</th><th scope="col">Recipient</th><th scope="col" class="num">Amount</th></tr></thead>
-          <tbody>
-            <tr><td>Sep 2026</td><td>Senate President Don Harmon<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
-            <tr><td>Sep 2026</td><td>Sen. Cristina Castro (Citizens for Castro)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
-            <tr><td>Apr 2026</td><td>Rep. Jay Hoffman<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
-            <tr><td>Apr 2026</td><td>Rep. Lawrence Walsh<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
-            <tr><td>Feb 2026</td><td>Rep. Natalie Manley (Friends of Natalie Manley)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
-            <tr><td>Feb 2026</td><td>Rep. Fran Hurley (Friends of Fran Hurley)<span class="story todo">One line on her special education work</span></td><td class="num">$250</td></tr>
-            <tr><td>2025</td><td>Sen. Meg Loughran Cappel (Committee to Elect Meg Loughran Cappel)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
-          </tbody>
-          <tfoot><tr><td></td><td>Total</td><td class="num">$3,250</td></tr></tfoot>
-        </table>
-      </div>
-      <p class="paid">SEA-PAC's full reports are on the <a href="https://www.elections.il.gov" target="_blank" rel="noopener">State Board of Elections website</a>.</p>
+      <ul class="bars" aria-label="Contributions by recipient, dollars">
+        <li><div class="who">State Senator<small>Approved Sep 2026</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+        <li><div class="who">State Senator<small>Approved Sep 2026</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+        <li><div class="who">State Representative<small>Approved Apr 2026</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+        <li><div class="who">State Representative<small>Approved Apr 2026</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+        <li><div class="who">State Representative<small>Approved Feb 2026</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+        <li><div class="who">State Representative<small>Approved Feb 2026</small></div><div class="track"><div class="fill" style="width:50%"></div></div><div class="v">$250</div></li>
+        <li><div class="who">State Senator<small>Approved 2025</small></div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">$500</div></li>
+      </ul>
+      <div class="trust"><span>Approved by the Board of Trustees</span><span>Filed with the State Board of Elections</span><span><a href="https://www.elections.il.gov" target="_blank" rel="noopener">See our full reports</a></span></div>
     </div>
   </section>
 
-  <section id="springfield">
-    <div class="wrap stack" style="gap:1.5rem">
-      <div class="stack read">
-        <p class="eyebrow">What's happening in Springfield</p>
-        <h2>Spring 2027 session</h2>
-        <p><span class="todo">Two or three short items from the IAASE Advocacy &amp; Public Policy committee: the bill, what it would do for students with disabilities, and where it stands.</span></p>
+  <section class="voices act" aria-labelledby="voices-h">
+    <div class="wrap stack" style="gap:2rem">
+      <div class="stack">
+        <p class="eyebrow">Why members give</p>
+        <h2 id="voices-h">Leaders from every corner of Illinois.</h2>
       </div>
-      <div class="cols">
-        <div class="stack"><h3>One thing you can do</h3><p><span class="todo">One action per session, such as contacting your legislator about a named bill.</span></p></div>
-        <div class="stack"><h3>Invite your legislator</h3><p>Show your legislator a program that works. Our one-page guide walks you through the visit. <span class="todo">Guide link</span></p></div>
+      <div class="cards">
+        <figure class="card quote" style="margin:0"><blockquote><span class="sample">To do</span> A member's own words, collected with permission at the Winter Conference.</blockquote><figcaption class="person"><span class="avatar">N</span><span>Name and role<small>Northern Illinois</small></span></figcaption></figure>
+        <figure class="card quote" style="margin:0"><blockquote><span class="sample">To do</span> A member's own words, collected with permission at the Winter Conference.</blockquote><figcaption class="person"><span class="avatar">C</span><span>Name and role<small>Central Illinois</small></span></figcaption></figure>
+        <figure class="card quote" style="margin:0"><blockquote><span class="sample">To do</span> A member's own words, collected with permission at the Winter Conference.</blockquote><figcaption class="person"><span class="avatar">S</span><span>Name and role<small>Southern Illinois</small></span></figcaption></figure>
       </div>
-      <p class="paid">Paid for by SEA-PAC Illinois.</p>
     </div>
   </section>
 
-  <section class="band" aria-labelledby="give-h">
-    <div class="wrap stack" style="gap:1.25rem">
-      <h2 id="give-h">Why members give</h2>
-      <div class="cols">
-        <div class="quote"><p><span class="todo">Opt-in quote collected at the Winter Conference</span></p><p class="who">Member, Chicago region</p></div>
-        <div class="quote"><p><span class="todo">Opt-in quote</span></p><p class="who">Member, central Illinois</p></div>
-        <div class="quote"><p><span class="todo">Opt-in quote</span></p><p class="who">Member, southern Illinois</p></div>
+  <section class="close" aria-labelledby="close-h">
+    <div class="wrap">
+      <div class="stack">
+        <h2 id="close-h">Add your name to a statewide voice for students.</h2>
+        <p>Membership takes about two minutes and renews on its own.</p>
       </div>
+      <a class="btn go" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website&amp;utm_content=closing" target="_blank" rel="noopener">Join for $20 a year</a>
     </div>
   </section>
 </main>
@@ -250,11 +379,29 @@ html { scroll-behavior: smooth; }
 <footer id="contact">
   <div class="wrap">
     <strong>SEA-PAC Illinois</strong>
-    <p>Chair: Jon Malone. Treasurer: Shannon Miller Bellini. Questions: support@seapacil.com. Affiliated with <a href="https://www.iaase.org" target="_blank" rel="noopener" style="color:inherit">IAASE</a>. <span class="todo">Facebook link carried over from the current site</span></p>
+    <p>Chair: Jon Malone. Treasurer: Shannon Miller Bellini. Questions: <a href="mailto:support@seapacil.com">support@seapacil.com</a>. Affiliated with <a href="https://www.iaase.org" target="_blank" rel="noopener">IAASE</a>. Facebook <span class="sample">To do: link</span></p>
     <p class="notice">Paid for by SEA-PAC Illinois. A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.</p>
-    <p class="notice">Contributions to SEA-PAC, a 527 political organization, are not tax-deductible for federal income tax purposes. Contributions must come from your own funds. We cannot accept anonymous contributions, contributions made in another person's name, or contributions from foreign nationals.</p>
+    <p class="notice">Contributions to SEA-PAC, a 527 political organization, are not tax-deductible for federal income tax purposes. Contributions must come from your own funds. We cannot accept anonymous contributions, contributions made in another person's name, or contributions from foreign nationals. Giving is voluntary and never a condition of employment.</p>
   </div>
 </footer>
 
+<div class="mobilebar">
+  <p><b>Join SEA-PAC</b>$20 a year for students with disabilities</p>
+  <a class="btn go small" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website&amp;utm_content=mobilebar" target="_blank" rel="noopener">Join</a>
+</div>
+
+<script>
+(function () {
+  var go = document.getElementById('join-go');
+  var base = 'https://givebutter.com/aaHB5w';
+  document.querySelectorAll('input[name="lvl"]').forEach(function (r) {
+    r.addEventListener('change', function () {
+      go.href = base + '?amount=' + r.value + '&frequency=' + r.dataset.freq + '&utm_source=website&utm_content=card';
+      go.textContent = 'Join for ' + r.dataset.label;
+    });
+  });
+  document.getElementById('join-card').addEventListener('submit', function (e) { e.preventDefault(); });
+})();
+</script>
 </body>
 </html>
