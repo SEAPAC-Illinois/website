@@ -106,21 +106,28 @@ function parseBill(xml) {
   };
 }
 
+// Returns the bill's tags and the IAASE platform items its matches point to (empty tags = not watched).
 function match(bill, key) {
-  if (config.never.includes(key)) return [];
-  if (/^(H|S)R$/.test(key.replace(/\d+$/, '')) && (config.skipResolutionTitles || []).some(t => bill.title.startsWith(t))) return [];
+  const none = { tags: [], platform: [] };
+  if (config.never.includes(key)) return none;
+  if (/^(H|S)R$/.test(key.replace(/\d+$/, '')) && (config.skipResolutionTitles || []).some(t => bill.title.startsWith(t))) return none;
   const found = new Set();
+  const platform = new Set();
+  const hit = (rule) => { found.add(rule.tag); for (const p of rule.platform || []) platform.add(p); };
   if (config.always.includes(key)) found.add('watch-list');
   const refs = bill.references.join(' | ');
-  for (const s of config.statutes) if (refs.includes(s.pattern)) found.add(s.tag);
+  for (const s of config.statutes) if (refs.includes(s.pattern)) hit(s);
   const text = (bill.title + ' ' + bill.synopsis).toLowerCase();
   const schoolCode = /105 ILCS 5\//.test(refs);
+  const title = bill.title.toLowerCase();
   for (const p of config.phrases) {
     if (p.needsSchoolCode && !schoolCode) continue;
-    if (text.includes(p.text.toLowerCase())) found.add(p.tag);
+    const t = p.text.toLowerCase();
+    if (p.field === 'title' ? new RegExp(p.text, 'i').test(title) : text.includes(t)) hit(p);
   }
-  if (/\bIEPs?\b/.test(bill.synopsis)) found.add('special-ed');
-  return [...found].sort();
+  if (/\bIEPs?\b/.test(bill.synopsis)) hit({ tag: 'special-ed' });
+  const items = config.platformItems || {};
+  return { tags: [...found].sort(), platform: [...platform].sort().map(k => items[k] || k) };
 }
 
 // Walks the actions in order to describe where the bill stands now.
@@ -154,8 +161,8 @@ function stage(actions) {
 // One plain sentence for the website: the first sentence of the synopsis that says what the bill does.
 function summarize(bill) {
   const sentences = bill.synopsis.split(/(?<=\.)\s+(?=[A-Z])/);
-  const pick = sentences.find(x => !/^(Amends|Creates the|Effective|Makes a technical change|Makes technical changes|Contains a)/i.test(x)) || '';
-  return pick.length > 240 ? pick.slice(0, 237).replace(/\s+\S*$/, '') + '...' : pick;
+  const pick = sentences.find(x => !/^(Amends|Creates the|Effective|Makes a technical change|Makes technical changes|Contains a)/i.test(x)) || sentences[0] || '';
+  return pick.length > 600 ? pick.slice(0, 597).replace(/\s+\S*$/, '') + '...' : pick;
 }
 
 const billUrl = (ga, type, num) => `https://www.ilga.gov/Legislation/BillStatus?DocNum=${num}&GAID=${ga - 86}&GA=${ga}&DocTypeID=${type}&SessionID=${2 * ga - 94}`;
@@ -207,12 +214,12 @@ try {
     const f = byPath.get(path);
     const id = `${f.ga}-${f.type}${f.num}`;
     const parsed = parseBill(xml);
-    const tagsFound = match(parsed, `${f.type}${f.num}`);
+    const { tags: tagsFound, platform } = match(parsed, `${f.type}${f.num}`);
     if (!tagsFound.length) { bills.delete(id); continue; }
     const st = stage(parsed.actions);
     const old = prevBills.get(id);
     const bill = {
-      id, ga: f.ga, number: `${f.type} ${f.num}`, title: parsed.title, tags: tagsFound,
+      id, ga: f.ga, number: `${f.type} ${f.num}`, title: parsed.title, tags: tagsFound, platform,
       sponsors: parsed.sponsors.slice(0, 300),
       summary: summarize(parsed),
       synopsis: parsed.synopsis.length > 700 ? parsed.synopsis.slice(0, 697).replace(/\s+\S*$/, '') + '...' : parsed.synopsis,
