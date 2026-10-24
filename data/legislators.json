@@ -1,0 +1,1778 @@
+{
+ "house": {
+  "1": {
+   "district_office": "4374 S. Archer Ave., Chicago, IL 60632",
+   "district_phone": "773-236-0117",
+   "email": "district@repaaronortiz.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D96B0DF9-0E06-487B-825C-AB0BE8C3CA1E}.jpg",
+   "last": "Ortíz",
+   "name": "Aarón Ortíz",
+   "page": "https://www.ilga.gov/House/Members/Details/3358",
+   "springfield_phone": ""
+  },
+  "10": {
+   "district_office": "2532 W. Warren Blvd. Suite A, Chicago, IL 60612",
+   "district_phone": "312-265-1019",
+   "email": "repwilliamsoffice@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{32750D93-496F-42CA-9CCE-93C3451713A1}.jpg",
+   "last": "Williams",
+   "name": "Omar Williams",
+   "page": "https://www.ilga.gov/House/Members/Details/3368",
+   "springfield_phone": ""
+  },
+  "100": {
+   "district_office": "100 S. State St., Jerseyville, IL 62052",
+   "district_phone": "618-639-2071",
+   "email": "davidsmeyer@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E54250D5-EB1C-4CB6-9CF9-CA95CAA2F269}.jpg",
+   "last": "Davidsmeyer",
+   "name": "C.D. Davidsmeyer",
+   "page": "https://www.ilga.gov/House/Members/Details/3304",
+   "springfield_phone": ""
+  },
+  "101": {
+   "district_office": "1113 Lincoln Ave., Charleston, IL 61920",
+   "district_phone": "217-508-4108",
+   "email": "miller@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{2A519012-9070-494B-9FFC-C2646374202E}.jpg",
+   "last": "Miller",
+   "name": "Chris Miller",
+   "page": "https://www.ilga.gov/House/Members/Details/3362",
+   "springfield_phone": ""
+  },
+  "102": {
+   "district_office": "Room 23, 111 Sheriff St., Paris, IL 61944",
+   "district_phone": "217-712-2126",
+   "email": "niemerg@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{EDDABDD8-51A3-413F-B2A0-FA5953D29598}.jpg",
+   "last": "Niemerg",
+   "name": "Adam Niemerg",
+   "page": "https://www.ilga.gov/House/Members/Details/3392",
+   "springfield_phone": ""
+  },
+  "103": {
+   "district_office": "300 S. Broadway Suite154 A, Urbana, IL 61802",
+   "district_phone": "217-531-1660",
+   "email": "assistance@staterepcarolammons.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BD4B7A5C-6D24-4E82-9C18-D5A0F3C42F6C}.jpg",
+   "last": "Ammons",
+   "name": "Carol Ammons",
+   "page": "https://www.ilga.gov/House/Members/Details/3309",
+   "springfield_phone": ""
+  },
+  "104": {
+   "district_office": "3821 N. Vermilion, Suite 5, Danville, IL 61832",
+   "district_phone": "217-477-0104",
+   "email": "repschweizer@district104.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7520D666-0725-4963-B643-C1106551E922}.jpg",
+   "last": "Schweizer",
+   "name": "Brandun Schweizer",
+   "page": "https://www.ilga.gov/House/Members/Details/3446",
+   "springfield_phone": ""
+  },
+  "105": {
+   "district_office": "305 W. Madison St., Pontiac, IL 61764",
+   "district_phone": "815-844-9344",
+   "email": "tipsword@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D8E9F62C-6A73-4CCD-8148-332CD9806264}.jpg",
+   "last": "Tipsword",
+   "name": "Dennis Tipsword",
+   "page": "https://www.ilga.gov/House/Members/Details/3433",
+   "springfield_phone": ""
+  },
+  "106": {
+   "district_office": "342 W. Walnut St. Suite 2, Watseka, IL 60970",
+   "district_phone": "779-218-3070",
+   "email": "bunting@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{5F0F6F55-F573-4F05-B495-878685C2C00A}.jpg",
+   "last": "Bunting",
+   "name": "Jason Bunting",
+   "page": "https://www.ilga.gov/House/Members/Details/3439",
+   "springfield_phone": ""
+  },
+  "107": {
+   "district_office": "304 E. Jefferson Ave. Suite A, Effingham, IL 62401",
+   "district_phone": "217-342-0220",
+   "email": "halbrook@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{3F3C3739-E087-440D-B006-33043A8F5083}.jpg",
+   "last": "Halbrook",
+   "name": "Brad Halbrook",
+   "page": "https://www.ilga.gov/House/Members/Details/3328",
+   "springfield_phone": ""
+  },
+  "108": {
+   "district_office": "",
+   "district_phone": "",
+   "email": "rosenthal@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{43DB5751-834C-4CA0-B8A4-6D1016E3CB28}.jpg",
+   "last": "Rosenthal",
+   "name": "Wayne Rosenthal",
+   "page": "https://www.ilga.gov/House/Members/Details/3434",
+   "springfield_phone": ""
+  },
+  "109": {
+   "district_office": "121 Broadway Suite 1, Highland, IL 62249",
+   "district_phone": "618-651-0405",
+   "email": "repcmeier@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{9D43D019-A58A-47EC-B769-A7050C4B49DB}.jpg",
+   "last": "Meier",
+   "name": "Charlie Meier",
+   "page": "https://www.ilga.gov/House/Members/Details/3305",
+   "springfield_phone": ""
+  },
+  "11": {
+   "district_office": "3505 N. Ashland Ave. Unit B, Chicago, IL 60657",
+   "district_phone": "773-880-9082",
+   "email": "ann@repannwilliams.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C45B418C-4848-4467-ADC2-739B2D1E4418}.jpg",
+   "last": "Williams",
+   "name": "Ann Williams",
+   "page": "https://www.ilga.gov/House/Members/Details/3286",
+   "springfield_phone": ""
+  },
+  "110": {
+   "district_office": "",
+   "district_phone": "",
+   "email": "wilhour@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{66C5580C-A414-41BB-B3AC-638925AC34CD}.jpg",
+   "last": "Wilhour",
+   "name": "Blaine Wilhour",
+   "page": "https://www.ilga.gov/House/Members/Details/3365",
+   "springfield_phone": ""
+  },
+  "111": {
+   "district_office": "192 Alton Square Mall Drive Suite C, Alton, IL 62002",
+   "district_phone": "618-433-8046",
+   "email": "elik@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D070CEE6-55DF-4D51-961B-CCA4A0E49A8C}.jpg",
+   "last": "Elik",
+   "name": "Amy Elik",
+   "page": "https://www.ilga.gov/House/Members/Details/3393",
+   "springfield_phone": ""
+  },
+  "112": {
+   "district_office": "2105 Vandalia St. Unit #16, Collinsville, IL 62234",
+   "district_phone": "618-365-6650",
+   "email": "repkatiestuart@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D6DC8152-9760-4BEA-ACF5-C41785E6F6C4}.jpg",
+   "last": "Stuart",
+   "name": "Katie Stuart",
+   "page": "https://www.ilga.gov/House/Members/Details/3326",
+   "springfield_phone": ""
+  },
+  "113": {
+   "district_office": "2300 W. Main St. Suite M200, Belleville, IL 62226",
+   "district_phone": "618-416-7407",
+   "email": "repjayhoffman@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{FCD7EF06-36D9-46A7-8085-4B5A5ED81A80}.jpg",
+   "last": "Hoffman",
+   "name": "Jay Hoffman",
+   "page": "https://www.ilga.gov/House/Members/Details/3306",
+   "springfield_phone": ""
+  },
+  "114": {
+   "district_office": "4041 Mississippi Ave., Cahokia Heights, IL 62206",
+   "district_phone": "618-215-1050",
+   "email": "schmidt@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{385A4AC4-BA7A-42A3-987F-85EA620B1F2B}.jpg",
+   "last": "Schmidt",
+   "name": "Kevin Schmidt",
+   "page": "https://www.ilga.gov/House/Members/Details/3436",
+   "springfield_phone": ""
+  },
+  "115": {
+   "district_office": "143 S. Main St., Red Bud, IL 62278",
+   "district_phone": "618-282-7284",
+   "email": "friess@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C1F3982E-6DA7-4AE6-96B9-77E9FBC87A2A}.jpg",
+   "last": "Friess",
+   "name": "David Friess",
+   "page": "https://www.ilga.gov/House/Members/Details/3395",
+   "springfield_phone": ""
+  },
+  "116": {
+   "district_office": "805 N. Main St., Benton, IL 62812",
+   "district_phone": "618-440-5090",
+   "email": "severin@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{FC792043-4CE1-4796-BA38-E68B39A9847A}.jpg",
+   "last": "Severin",
+   "name": "Dave Severin",
+   "page": "https://www.ilga.gov/House/Members/Details/3324",
+   "springfield_phone": ""
+  },
+  "117": {
+   "district_office": "3 S. Main St. Suite 2, Harrisburg, IL 62946",
+   "district_phone": "618-294-8703",
+   "email": "windhorst@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{547F9C92-7368-4390-B625-5BB795568D50}.jpg",
+   "last": "Windhorst",
+   "name": "Patrick Windhorst",
+   "page": "https://www.ilga.gov/House/Members/Details/3364",
+   "springfield_phone": ""
+  },
+  "118": {
+   "district_office": "600 Halfway Road Suite 103, Marion, IL 62959",
+   "district_phone": "",
+   "email": "doody@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{781888B6-A82C-4735-AA93-B3A0B03E3047}.jpg",
+   "last": "Doody",
+   "name": "Scott Doody",
+   "page": "https://www.ilga.gov/House/Members/Details/3464",
+   "springfield_phone": ""
+  },
+  "12": {
+   "district_office": "3223 N. Sheffield Ave. Suite A, Chicago, IL 60657",
+   "district_phone": "773-348-8974",
+   "email": "info@repcroke.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1719759C-D601-4575-A753-1244D0FE550A}.jpg",
+   "last": "Croke",
+   "name": "Margaret Croke",
+   "page": "https://www.ilga.gov/House/Members/Details/3384",
+   "springfield_phone": ""
+  },
+  "13": {
+   "district_office": "IL",
+   "district_phone": "773-657-4655",
+   "email": "hello@rephoanhuynh.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A6CE6A23-9F62-4C37-B297-4E48D79A3CE1}.jpg",
+   "last": "Huynh",
+   "name": "Hoan Huynh",
+   "page": "https://www.ilga.gov/House/Members/Details/3418",
+   "springfield_phone": ""
+  },
+  "14": {
+   "district_office": "1507 W. Morse Ave., Chicago, IL 60626",
+   "district_phone": "773-784-2002",
+   "email": "info@repcassidy.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{3EFBDD50-41FF-4677-AA47-FB35B70C4667}.jpg",
+   "last": "Cassidy",
+   "name": "Kelly Cassidy",
+   "page": "https://www.ilga.gov/House/Members/Details/3288",
+   "springfield_phone": ""
+  },
+  "15": {
+   "district_office": "4200 W. Lawrence Ave., Chicago, IL 60630",
+   "district_phone": "773-736-0218",
+   "email": "district@repkelly.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{90B28E06-84A0-47EB-A80B-403DF4CDA607}.jpg",
+   "last": "Kelly",
+   "name": "Michael Kelly",
+   "page": "https://www.ilga.gov/House/Members/Details/3402",
+   "springfield_phone": ""
+  },
+  "16": {
+   "district_office": "3851 W. Devon Ave., Chicago, IL 60659",
+   "district_phone": "847-673-1131",
+   "email": "info@repkevinolickal.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{23C3BBA7-3179-41B5-A3EF-A372F88DD9C9}.jpg",
+   "last": "Olickal",
+   "name": "Kevin Olickal",
+   "page": "https://www.ilga.gov/House/Members/Details/3419",
+   "springfield_phone": ""
+  },
+  "17": {
+   "district_office": "1812 Waukegan Road Suite B, Glenview, IL 60025",
+   "district_phone": "847-486-8810",
+   "email": "info@gonggershowitz.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{395E8140-10ED-4C70-81B9-2673676BF467}.jpg",
+   "last": "Gong-Gershowitz",
+   "name": "Jen Gong-Gershowitz",
+   "page": "https://www.ilga.gov/House/Members/Details/3352",
+   "springfield_phone": ""
+  },
+  "18": {
+   "district_office": "909 Davis St. 2nd Floor, Evanston, IL 60201",
+   "district_phone": "847-424-5401",
+   "email": "contact@robyngabel.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{739CC8F9-E9E4-40A1-AB86-883EF9A5E313}.jpg",
+   "last": "Gabel",
+   "name": "Robyn Gabel",
+   "page": "https://www.ilga.gov/House/Members/Details/3278",
+   "springfield_phone": ""
+  },
+  "19": {
+   "district_office": "4349 N. Milwaukee Ave. Suite 2, Chicago, IL 60641",
+   "district_phone": "773-647-1174",
+   "email": "info@replapointe.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7447C9D9-48D0-457E-BDC9-847FB8D35DB5}.jpg",
+   "last": "LaPointe",
+   "name": "Lindsey LaPointe",
+   "page": "https://www.ilga.gov/House/Members/Details/3371",
+   "springfield_phone": ""
+  },
+  "2": {
+   "district_office": "6117 W. Cermak Road, Cicero, IL 60804",
+   "district_phone": "708-222-5240",
+   "email": "office@repehernandez.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4E4C2A21-FDC2-48CA-9BA8-462A62E7A33B}.jpg",
+   "last": "Hernandez",
+   "name": "Lisa Hernandez",
+   "page": "https://www.ilga.gov/House/Members/Details/3273",
+   "springfield_phone": ""
+  },
+  "20": {
+   "district_office": "8323 W. Lawrence Ave. Suite D, Norridge, IL 60706",
+   "district_phone": "773-444-0611",
+   "email": "stephens@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BD3836AC-CD0C-4E20-AD4C-1F2AEA56A8A2}.jpg",
+   "last": "Stephens",
+   "name": "Brad Stephens",
+   "page": "https://www.ilga.gov/House/Members/Details/3370",
+   "springfield_phone": ""
+  },
+  "21": {
+   "district_office": "6901 W. Cermak Road, Berwyn, IL 60402",
+   "district_phone": "708-956-7563",
+   "email": "office@reprashid.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{48E00B1D-C5BE-4210-A9A8-F68739D935D6}.jpg",
+   "last": "Rashid",
+   "name": "Abdelnasser Rashid",
+   "page": "https://www.ilga.gov/House/Members/Details/3420",
+   "springfield_phone": ""
+  },
+  "22": {
+   "district_office": "6500 S. Pulaski Road, Chicago, IL 60629",
+   "district_phone": "773-581-8000",
+   "email": "angieguerrerocuellar22@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{22FBB36E-8A65-4E83-81F1-A20247A6B8F2}.jpg",
+   "last": "Guerrero-Cuellar",
+   "name": "Angie Guerrero-Cuellar",
+   "page": "https://www.ilga.gov/House/Members/Details/3400",
+   "springfield_phone": ""
+  },
+  "23": {
+   "district_office": "3202 W. 26th St., Chicago, IL 60623",
+   "district_phone": "708-295-9159",
+   "email": "office@repedgargonzalez.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{370B1494-7F8F-48BC-BD66-4756E15442E1}.jpg",
+   "last": "González",
+   "name": "Edgar González",
+   "page": "https://www.ilga.gov/House/Members/Details/3374",
+   "springfield_phone": ""
+  },
+  "24": {
+   "district_office": "2108 W. 35th St., Chicago, IL 60609",
+   "district_phone": "872-281-5775",
+   "email": "office@reptheresamah.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{808BAA30-BB82-437A-9A76-386F9A65A073}.jpg",
+   "last": "Mah",
+   "name": "Theresa Mah",
+   "page": "https://www.ilga.gov/House/Members/Details/3321",
+   "springfield_phone": ""
+  },
+  "25": {
+   "district_office": "1303 E. 53rd St., Chicago, IL 60615",
+   "district_phone": "773-363-8870",
+   "email": "office@repcurtisjtarverii.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E9404756-F108-41DB-A7A8-87C36BBF763D}.jpg",
+   "last": "Tarver",
+   "name": "Curtis Tarver",
+   "page": "https://www.ilga.gov/House/Members/Details/3355",
+   "springfield_phone": ""
+  },
+  "26": {
+   "district_office": "449 E. 35th St., Chicago, IL 60616",
+   "district_phone": "773-924-1755",
+   "email": "buckner@illinois26.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{37E72FD2-6318-45FD-9FF1-C750EB26137D}.jpg",
+   "last": "Buckner",
+   "name": "Kam Buckner",
+   "page": "https://www.ilga.gov/House/Members/Details/3366",
+   "springfield_phone": ""
+  },
+  "27": {
+   "district_office": "1234 W. 95th St., Chicago, IL 60643",
+   "district_phone": "773-445-9700",
+   "email": "justin@repslaughter.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{170C17F3-38A1-42E5-B222-020B43077D53}.jpg",
+   "last": "Slaughter",
+   "name": "Justin Slaughter",
+   "page": "https://www.ilga.gov/House/Members/Details/3320",
+   "springfield_phone": ""
+  },
+  "28": {
+   "district_office": "2355 W. York St. Suite 1, Blue Island, IL 60406",
+   "district_phone": "708-396-2822",
+   "email": "robertbobrita@aol.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{AC16F1E8-0988-4A08-A2E5-EF4D06371A24}.jpg",
+   "last": "Rita",
+   "name": "Bob Rita",
+   "page": "https://www.ilga.gov/House/Members/Details/3267",
+   "springfield_phone": ""
+  },
+  "29": {
+   "district_office": "15525 S. Park Ave. Suite 104, South Holland, IL 60473",
+   "district_phone": "708-825-1174",
+   "email": "repjones.jones@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{6EE82A11-2CC6-48E9-9DE6-61D83EBCAB6B}.jpg",
+   "last": "Jones",
+   "name": "Thaddeus Jones",
+   "page": "https://www.ilga.gov/House/Members/Details/3283",
+   "springfield_phone": ""
+  },
+  "3": {
+   "district_office": "6309 W. Belmont Ave., Chicago, IL 60634",
+   "district_phone": "773-237-4558",
+   "email": "staterepdelgado@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D02A93E7-7D84-4429-92AB-60B61084EBA1}.jpg",
+   "last": "Delgado",
+   "name": "Eva-Dina Delgado",
+   "page": "https://www.ilga.gov/House/Members/Details/3373",
+   "springfield_phone": ""
+  },
+  "30": {
+   "district_office": "1912 W. 174th St., East Hazel Crest, IL 60429",
+   "district_phone": "708-799-7300",
+   "email": "williamd@ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{6012DCA8-7486-49F9-A387-8703A2CF469C}.jpg",
+   "last": "Davis",
+   "name": "Will Davis",
+   "page": "https://www.ilga.gov/House/Members/Details/3266",
+   "springfield_phone": ""
+  },
+  "31": {
+   "district_office": "8620 S. Pulaski Road, Chicago, IL 60652",
+   "district_phone": "872-267-7384",
+   "email": "districtdirector31@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C79CCD19-74A9-494F-BE14-E0D1E0A9D326}.jpg",
+   "last": "Crawford",
+   "name": "Mike Crawford",
+   "page": "https://www.ilga.gov/House/Members/Details/3452",
+   "springfield_phone": ""
+  },
+  "32": {
+   "district_office": "8620 S. Pulaski Road, Chicago, IL 60652",
+   "district_phone": "872-267-7915",
+   "email": "districtdirector32@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A61D2D11-9A19-483B-9C3E-C99CCC4CF5F4}.jpg",
+   "last": "Davis",
+   "name": "Lisa Davis",
+   "page": "https://www.ilga.gov/House/Members/Details/3458",
+   "springfield_phone": ""
+  },
+  "33": {
+   "district_office": "8500 S. Stony Island Ave., Chicago, IL 60617",
+   "district_phone": "773-783-8492",
+   "email": "marcus@repevans.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BFD8B13A-CD65-452C-8F20-9D32C3A013BF}.jpg",
+   "last": "Evans",
+   "name": "Marcus Evans",
+   "page": "https://www.ilga.gov/House/Members/Details/3289",
+   "springfield_phone": ""
+  },
+  "34": {
+   "district_office": "113 E. 95th St. Suite A, Chicago, IL 60619",
+   "district_phone": "773-783-8800",
+   "email": "repsmith34@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4D7D283C-73C8-40F8-A3F0-7FA9301456F5}.jpg",
+   "last": "Smith",
+   "name": "Nick Smith",
+   "page": "https://www.ilga.gov/House/Members/Details/3332",
+   "springfield_phone": ""
+  },
+  "35": {
+   "district_office": "10400 S. Western Ave., Chicago, IL 60643",
+   "district_phone": "773-445-8128",
+   "email": "repmarygill@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{28C54907-9CC9-428D-BD6B-361B91A10441}.jpg",
+   "last": "Gill",
+   "name": "Mary Gill",
+   "page": "https://www.ilga.gov/House/Members/Details/3440",
+   "springfield_phone": ""
+  },
+  "36": {
+   "district_office": "3900 W. 95th St. Unit 7A, Evergreen Park, IL 60805",
+   "district_phone": "708-682-4880",
+   "email": "ryanrep36@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D636B7BF-6A7A-4F82-8429-018FF5E1CE36}.jpg",
+   "last": "Ryan",
+   "name": "Rick Ryan",
+   "page": "https://www.ilga.gov/House/Members/Details/3457",
+   "springfield_phone": ""
+  },
+  "37": {
+   "district_office": "15746 S. Bell Road, Homer Glen, IL 60491",
+   "district_phone": "708-694-2032",
+   "email": "sheehan@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4F33CDD4-F7DD-40AC-B11E-DA5066173803}.jpg",
+   "last": "Sheehan",
+   "name": "Patrick Sheehan",
+   "page": "https://www.ilga.gov/House/Members/Details/3448",
+   "springfield_phone": ""
+  },
+  "38": {
+   "district_office": "813 School Ave., Matteson, IL 60443",
+   "district_phone": "708-833-7010",
+   "email": "staterepdebbiemm@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E3E2099C-AB6A-442B-B191-3A83D6D3A1E2}.jpg",
+   "last": "Meyers-Martin",
+   "name": "Debbie Meyers-Martin",
+   "page": "https://www.ilga.gov/House/Members/Details/3350",
+   "springfield_phone": ""
+  },
+  "39": {
+   "district_office": "3001 N. Central Park Ave., Chicago, IL 60618",
+   "district_phone": "773-853-2570",
+   "email": "will@repguzzardi.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C127AF36-0EAE-48B6-8C31-86AAE3935790}.jpg",
+   "last": "Guzzardi",
+   "name": "Will Guzzardi",
+   "page": "https://www.ilga.gov/House/Members/Details/3311",
+   "springfield_phone": ""
+  },
+  "4": {
+   "district_office": "2511 W. Division St., Chicago, IL 60622",
+   "district_phone": "773-337-9995",
+   "email": "info@replilianjimenez.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{6C475229-0B41-4F93-A2C7-5B1396A1D1FA}.jpg",
+   "last": "Jiménez",
+   "name": "Lilian Jiménez",
+   "page": "https://www.ilga.gov/House/Members/Details/3417",
+   "springfield_phone": ""
+  },
+  "40": {
+   "district_office": "4007 N. Sacramento Ave., Chicago, IL 60618",
+   "district_phone": "773-267-2880",
+   "email": "info@staterep40.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{34A19039-7BF5-44A7-9A06-4EC121E52514}.jpg",
+   "last": "Andrade",
+   "name": "Jaime Andrade",
+   "page": "https://www.ilga.gov/House/Members/Details/3307",
+   "springfield_phone": ""
+  },
+  "41": {
+   "district_office": "475 River Bend Road Suite 500, Naperville, IL 60540",
+   "district_phone": "630-296-4157",
+   "email": "info@repyangrohr.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4B315A2D-F104-4613-BD17-77ECA3955B30}.jpg",
+   "last": "Yang Rohr",
+   "name": "Janet Yang Rohr",
+   "page": "https://www.ilga.gov/House/Members/Details/3387",
+   "springfield_phone": ""
+  },
+  "42": {
+   "district_office": "Room 253-S, Stratton Office Building, Springfield, IL 62706",
+   "district_phone": "217-782-8037",
+   "email": "ilhouse42@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{9E520EC6-A7D1-4749-BCBC-D178535ACB04}.jpg",
+   "last": "DeLaRosa",
+   "name": "Margaret DeLaRosa",
+   "page": "https://www.ilga.gov/House/Members/Details/3461",
+   "springfield_phone": ""
+  },
+  "43": {
+   "district_office": "164 Division St. Suite 103, Elgin, IL 60120",
+   "district_phone": "847-841-7130",
+   "email": "staterepmoeller@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{DCE9D682-0582-49BD-AD67-98C2502D89C2}.jpg",
+   "last": "Moeller",
+   "name": "Anna Moeller",
+   "page": "https://www.ilga.gov/House/Members/Details/3308",
+   "springfield_phone": ""
+  },
+  "44": {
+   "district_office": "1014 E. Schaumburg Road, Streamwood, IL 60107",
+   "district_phone": "630-372-3340",
+   "email": "fred@fredcrespo.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{B92F7A2F-6517-4A3F-87B3-56FAA240285F}.jpg",
+   "last": "Crespo",
+   "name": "Fred Crespo",
+   "page": "https://www.ilga.gov/House/Members/Details/3274",
+   "springfield_phone": ""
+  },
+  "45": {
+   "district_office": "1 S. Cass Ave. Suite 104, Westmont, IL 60559",
+   "district_phone": "630-413-1080",
+   "email": "office@repmartideuter.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{345BE0B5-CE9C-4A36-B292-6190B845C34B}.jpg",
+   "last": "Deuter",
+   "name": "Marti Deuter",
+   "page": "https://www.ilga.gov/House/Members/Details/3455",
+   "springfield_phone": ""
+  },
+  "46": {
+   "district_office": "28 Villa Ave., Villa Park, IL 60148",
+   "district_phone": "630-415-3520",
+   "email": "staterep46@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C9D7B27E-2484-4917-A5CA-F85BA458950A}.jpg",
+   "last": "Blair-Sherlock",
+   "name": "Diane Blair-Sherlock",
+   "page": "https://www.ilga.gov/House/Members/Details/3425",
+   "springfield_phone": ""
+  },
+  "47": {
+   "district_office": "416 E. Roosevelt Road Suite 104, Wheaton, IL 60187",
+   "district_phone": "331-218-4182",
+   "email": "grant@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{41DCC207-977E-45DC-BD10-A8AFDCEB673E}.jpg",
+   "last": "Grant",
+   "name": "Amy Grant",
+   "page": "https://www.ilga.gov/House/Members/Details/3360",
+   "springfield_phone": ""
+  },
+  "48": {
+   "district_office": "994 W. Army Trail Road, Carol Stream, IL 60188",
+   "district_phone": "630-349-0645",
+   "email": "sanalitro@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{07C35999-DEF2-49BA-8A46-7D9D8204BCEA}.jpg",
+   "last": "Sanalitro",
+   "name": "Jennifer Sanalitro",
+   "page": "https://www.ilga.gov/House/Members/Details/3422",
+   "springfield_phone": ""
+  },
+  "49": {
+   "district_office": "946 Neltnor Blvd. #104, West Chicago, IL 60185",
+   "district_phone": "331-465-9661",
+   "email": "office@repmaura49.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F62525B8-2C23-49B7-AAB8-EFA6AE575F68}.jpg",
+   "last": "Hirschauer",
+   "name": "Maura Hirschauer",
+   "page": "https://www.ilga.gov/House/Members/Details/3388",
+   "springfield_phone": ""
+  },
+  "5": {
+   "district_office": "5048 S. Indiana Ave., Chicago, IL 60615",
+   "district_phone": "773-924-4614",
+   "email": "rep5information@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4858CB21-EEE1-409B-9A4C-FA760BB6905E}.jpg",
+   "last": "Du Buclet",
+   "name": "Kimberly Du Buclet",
+   "page": "https://www.ilga.gov/House/Members/Details/3441",
+   "springfield_phone": ""
+  },
+  "50": {
+   "district_office": "1 E. Benton St., Suite 101, Aurora, IL 60505",
+   "district_phone": "630-270-1848",
+   "email": "repbarbarahernandez@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E3518E4F-7AAF-4D93-8985-336197D96094}.jpg",
+   "last": "Hernandez",
+   "name": "Barbara Hernandez",
+   "page": "https://www.ilga.gov/House/Members/Details/3367",
+   "springfield_phone": ""
+  },
+  "51": {
+   "district_office": "1252 W. NW Highway, Palatine, IL 60067",
+   "district_phone": "773-916-6553",
+   "email": "info@repsyed.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1B81D1C2-BEE3-408C-B52D-8B269BC5DA24}.jpg",
+   "last": "Syed",
+   "name": "Nabeela Syed",
+   "page": "https://www.ilga.gov/House/Members/Details/3423",
+   "springfield_phone": ""
+  },
+  "52": {
+   "district_office": "28662 W. NW Highway Suite A, Lake Barrington, IL 60010",
+   "district_phone": "224-634-8300",
+   "email": "mclaughlin@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F90CD638-AB1B-4A73-A003-02D9A911B599}.jpg",
+   "last": "McLaughlin",
+   "name": "Marty McLaughlin",
+   "page": "https://www.ilga.gov/House/Members/Details/3389",
+   "springfield_phone": ""
+  },
+  "53": {
+   "district_office": "171 W. Wing St. Suite 202, Arlington Heights, IL 60005",
+   "district_phone": "847-749-1137",
+   "email": "contact@staterepgrasse.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D2D7C6E1-5147-4488-90CD-D4FC0982A738}.jpg",
+   "last": "Grasse",
+   "name": "Nicolle Grasse",
+   "page": "https://www.ilga.gov/House/Members/Details/3450",
+   "springfield_phone": ""
+  },
+  "54": {
+   "district_office": "12 E. NW Highway, Arlington Heights, IL 60004",
+   "district_phone": "224-248-8187",
+   "email": "info@repmbc.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1A73F23E-9C8D-4392-B6BD-154AB570C66E}.jpg",
+   "last": "Canty",
+   "name": "Mary Beth Canty",
+   "page": "https://www.ilga.gov/House/Members/Details/3424",
+   "springfield_phone": ""
+  },
+  "55": {
+   "district_office": "Room 233-E, Stratton Office Building, Springfield, IL 62706",
+   "district_phone": "217-782-8007",
+   "email": "contact@repjustincochran.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{54FFB767-E6F6-4F20-951A-2CBCD1B06211}.jpg",
+   "last": "Cochran",
+   "name": "Justin Cochran",
+   "page": "https://www.ilga.gov/House/Members/Details/3462",
+   "springfield_phone": ""
+  },
+  "56": {
+   "district_office": "11 N. Roselle Road, Schaumburg, IL 60194",
+   "district_phone": "847-923-9104",
+   "email": "staterepmussman@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{63BBD5DE-333E-4015-8658-4F7B2D45E1B7}.jpg",
+   "last": "Mussman",
+   "name": "Michelle Mussman",
+   "page": "https://www.ilga.gov/House/Members/Details/3284",
+   "springfield_phone": ""
+  },
+  "57": {
+   "district_office": "3153 Dundee Road, Northbrook, IL 60062",
+   "district_phone": "847-715-9055",
+   "email": "info@staterepkatzmuhl.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{31ED8E80-A147-47D1-A4B9-70A51C651C48}.jpg",
+   "last": "Katz Muhl",
+   "name": "Tracy Katz Muhl",
+   "page": "https://www.ilga.gov/House/Members/Details/3447",
+   "springfield_phone": ""
+  },
+  "58": {
+   "district_office": "425 Sheridan Road, Highwood, IL 60040",
+   "district_phone": "847-780-8471",
+   "email": "info@repbobmorgan.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A3460802-617C-4097-B043-6D63A11278AC}.jpg",
+   "last": "Morgan",
+   "name": "Bob Morgan",
+   "page": "https://www.ilga.gov/House/Members/Details/3353",
+   "springfield_phone": ""
+  },
+  "59": {
+   "district_office": "Vernon Township Administrative Building 3050 N. Main St., Buffalo Grove, IL 60089",
+   "district_phone": "847-478-9909",
+   "email": "info@repdidech.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1EA869A9-B93D-4E72-824B-E14992452581}.jpg",
+   "last": "Didech",
+   "name": "Dan Didech",
+   "page": "https://www.ilga.gov/House/Members/Details/3347",
+   "springfield_phone": ""
+  },
+  "6": {
+   "district_office": "2015 W. 63rd St., Chicago, IL 60636",
+   "district_phone": "773-925-6580",
+   "email": "repsonyaharper@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{04C99384-69F8-4ACE-9E43-11E21CC5F820}.jpg",
+   "last": "Harper",
+   "name": "Sonya Harper",
+   "page": "https://www.ilga.gov/House/Members/Details/3314",
+   "springfield_phone": ""
+  },
+  "60": {
+   "district_office": "120 S. Genesee St., Waukegan, IL 60085",
+   "district_phone": "847-599-2800",
+   "email": "60thdistrict@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{3A2DAB8B-B5F8-48EE-85D3-05894ED42A5D}.jpg",
+   "last": "Mayfield",
+   "name": "Rita Mayfield",
+   "page": "https://www.ilga.gov/House/Members/Details/3280",
+   "springfield_phone": ""
+  },
+  "61": {
+   "district_office": "34121 N. U.S. Highway 45 Suite 12, Grayslake, IL 60030",
+   "district_phone": "847-485-9986",
+   "email": "info@repjoycemason.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{26C52E17-9395-4BF8-B6E6-3E1CE6234032}.jpg",
+   "last": "Mason",
+   "name": "Joyce Mason",
+   "page": "https://www.ilga.gov/House/Members/Details/3357",
+   "springfield_phone": ""
+  },
+  "62": {
+   "district_office": "10 N. Lake St. Suite 102, Grayslake, IL 60030",
+   "district_phone": "224-541-4453",
+   "email": "info@repfaverdias.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{B0DFD215-F36D-47A7-B7BE-909CDF14DC07}.jpg",
+   "last": "Faver Dias",
+   "name": "Laura Faver Dias",
+   "page": "https://www.ilga.gov/House/Members/Details/3426",
+   "springfield_phone": ""
+  },
+  "63": {
+   "district_office": "1072 Lake Ave., Woodstock, IL 60098",
+   "district_phone": "815-880-5340",
+   "email": "reick@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D4845B6E-9A2E-4F0E-9F70-503B2E5891CA}.jpg",
+   "last": "Reick",
+   "name": "Steve Reick",
+   "page": "https://www.ilga.gov/House/Members/Details/3323",
+   "springfield_phone": ""
+  },
+  "64": {
+   "district_office": "74 E. Grand Ave. Suite 104, Fox Lake, IL 60020",
+   "district_phone": "847-629-5439",
+   "email": "weber@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4C80DF49-91D2-4C24-981E-BBE946A671D2}.jpg",
+   "last": "Weber",
+   "name": "Tom Weber",
+   "page": "https://www.ilga.gov/House/Members/Details/3361",
+   "springfield_phone": ""
+  },
+  "65": {
+   "district_office": "406 Surrey Woods Drive Unit A, St. Charles, IL 60174",
+   "district_phone": "630-797-5530",
+   "email": "ugaste@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{2552FBE4-D977-4283-B00C-78FC085BD955}.jpg",
+   "last": "Ugaste",
+   "name": "Dan Ugaste",
+   "page": "https://www.ilga.gov/House/Members/Details/3359",
+   "springfield_phone": ""
+  },
+  "66": {
+   "district_office": "611 E. Main St. Unit 124, East Dundee, IL 60118",
+   "district_phone": "224-484-8620",
+   "email": "info@repsnessil66.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{735B1C5A-1929-4EC8-92B4-72E58D74E743}.jpg",
+   "last": "Ness",
+   "name": "Suzanne Ness",
+   "page": "https://www.ilga.gov/House/Members/Details/3396",
+   "springfield_phone": ""
+  },
+  "67": {
+   "district_office": "303 N. Main St. Suite 110, Rockford, IL 61101",
+   "district_phone": "815-987-7433",
+   "email": "assistance@staterepwest.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{AFB160BE-629B-4C70-8541-877D6FCDE529}.jpg",
+   "last": "West",
+   "name": "Maurice West",
+   "page": "https://www.ilga.gov/House/Members/Details/3346",
+   "springfield_phone": ""
+  },
+  "68": {
+   "district_office": "4007 N. Mulford Road, Loves Park, IL 61111",
+   "district_phone": "815-329-6741",
+   "email": "repdavevella@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E0F72B4C-2737-483E-84FE-E596DB8F2DCF}.jpg",
+   "last": "Vella",
+   "name": "Dave Vella",
+   "page": "https://www.ilga.gov/House/Members/Details/3390",
+   "springfield_phone": ""
+  },
+  "69": {
+   "district_office": "1700 Hutchins Road Unit B, Machesney Park, IL 61115",
+   "district_phone": "815-547-3436",
+   "email": "sosnowski@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7DEBF89C-D2BA-4952-94A2-40F564A00144}.jpg",
+   "last": "Sosnowski",
+   "name": "Joe Sosnowski",
+   "page": "https://www.ilga.gov/House/Members/Details/3285",
+   "springfield_phone": ""
+  },
+  "7": {
+   "district_office": "10055 W. Roosevelt Road Suite E, Westchester, IL 60154",
+   "district_phone": "708-450-1000",
+   "email": "repwelch@emanuelchriswelch.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{5D419B94-66B4-4F3B-86F1-BFF37B3FA55C}.jpg",
+   "last": "Welch",
+   "name": "Chris Welch",
+   "page": "https://www.ilga.gov/House/Members/Details/3298",
+   "springfield_phone": ""
+  },
+  "70": {
+   "district_office": "158 W. State St. Suite C, Sycamore, IL 60178",
+   "district_phone": "815-748-3494",
+   "email": "keicher@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{FD009EA6-624D-45C7-A093-BC66B8B3C090}.jpg",
+   "last": "Keicher",
+   "name": "Jeff Keicher",
+   "page": "https://www.ilga.gov/House/Members/Details/3333",
+   "springfield_phone": ""
+  },
+  "71": {
+   "district_office": "",
+   "district_phone": "",
+   "email": "swanson@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F7512D74-4694-4272-9A1E-6935F4AD4F1D}.jpg",
+   "last": "Swanson",
+   "name": "Dan Swanson",
+   "page": "https://www.ilga.gov/House/Members/Details/3327",
+   "springfield_phone": ""
+  },
+  "72": {
+   "district_office": "945 15th Ave., East Moline, IL 61244",
+   "district_phone": "309-203-1668",
+   "email": "support@repgreggjohnson.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{8746A238-F14D-428E-A0AD-E3D3F28F80F5}.jpg",
+   "last": "Johnson",
+   "name": "Gregg Johnson",
+   "page": "https://www.ilga.gov/House/Members/Details/3427",
+   "springfield_phone": ""
+  },
+  "73": {
+   "district_office": "5407 N. University St., Arbor Hall Suite B, Peoria, IL 61614",
+   "district_phone": "309-690-7373",
+   "email": "repryanspain@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{4C25C70B-0E39-406B-9318-A899C2A6D1B0}.jpg",
+   "last": "Spain",
+   "name": "Ryan Spain",
+   "page": "https://www.ilga.gov/House/Members/Details/3325",
+   "springfield_phone": ""
+  },
+  "74": {
+   "district_office": "101 W. 1st St., Suite 501, Dixon, IL 61021",
+   "district_phone": "815-561-3690",
+   "email": "fritts@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{3A924147-7119-4921-BDF6-14B5D5BA4B8D}.jpg",
+   "last": "Fritts",
+   "name": "Brad Fritts",
+   "page": "https://www.ilga.gov/House/Members/Details/3428",
+   "springfield_phone": ""
+  },
+  "75": {
+   "district_office": "1925 S. Bridge St., Yorkville, IL 60560",
+   "district_phone": "331-867-8200",
+   "email": "davisstaff@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{AFBDE3F1-DE4D-419A-A7AB-D27678B015BE}.jpg",
+   "last": "Davis",
+   "name": "Jed Davis",
+   "page": "https://www.ilga.gov/House/Members/Details/3414",
+   "springfield_phone": ""
+  },
+  "76": {
+   "district_office": "628 Columbus St. Suite 408, Ottawa, IL 61350",
+   "district_phone": "815-587-7912",
+   "email": "contact@staterepbriel.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E820664D-DF76-4A22-88DC-736A218A001E}.jpg",
+   "last": "Briel",
+   "name": "Murri Briel",
+   "page": "https://www.ilga.gov/House/Members/Details/3451",
+   "springfield_phone": ""
+  },
+  "77": {
+   "district_office": "125 N. 19th Ave. Suite B, Melrose Park, IL 60160",
+   "district_phone": "708-365-8498",
+   "email": "district@repnormahernandez.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{3E520E2E-5D7A-491B-9744-0F0137816162}.jpg",
+   "last": "Hernandez",
+   "name": "Norma Hernandez",
+   "page": "https://www.ilga.gov/House/Members/Details/3415",
+   "springfield_phone": ""
+  },
+  "78": {
+   "district_office": "6937 W. North Ave., Oak Park, IL 60302",
+   "district_phone": "773-473-7300",
+   "email": "staterepcamilleylilly@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{84D8FB64-9F82-405A-9376-A69ADFB46E53}.jpg",
+   "last": "Lilly",
+   "name": "Camille Lilly",
+   "page": "https://www.ilga.gov/House/Members/Details/3279",
+   "springfield_phone": ""
+  },
+  "79": {
+   "district_office": "Clock Tower Building 187 S. Schuyler Ave., Suite 110, Kankakee, IL 60901",
+   "district_phone": "815-523-7779",
+   "email": "haas@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{9E211C98-BCB9-43CF-8A78-57D295FB9D78}.jpg",
+   "last": "Haas",
+   "name": "Jackie Haas",
+   "page": "https://www.ilga.gov/House/Members/Details/3379",
+   "springfield_phone": ""
+  },
+  "8": {
+   "district_office": "5500 W. Madison St., Chicago, IL 60644",
+   "district_phone": "773-750-0866",
+   "email": "repford@lashawnford.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BCC3C8D6-5728-4A69-8A3B-F203314DD563}.jpg",
+   "last": "Ford",
+   "name": "La Shawn Ford",
+   "page": "https://www.ilga.gov/House/Members/Details/3272",
+   "springfield_phone": ""
+  },
+  "80": {
+   "district_office": "195 W. Joe Orr Road Suite 201, Chicago Heights, IL 60411",
+   "district_phone": "708-754-7900",
+   "email": "repdeluca@sbcglobal.net",
+   "image": "https://cdn.ilga.gov/assets/img/members/{64399002-8B14-4D8E-80A4-54A77F25421C}.jpg",
+   "last": "DeLuca",
+   "name": "Anthony DeLuca",
+   "page": "https://www.ilga.gov/House/Members/Details/3277",
+   "springfield_phone": ""
+  },
+  "81": {
+   "district_office": "633 Rogers St. Suite 110, Downers Grove, IL 60515",
+   "district_phone": "630-605-0595",
+   "email": "office@repstavamurray.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0322F94E-013C-4237-9808-4462138AC595}.jpg",
+   "last": "Stava",
+   "name": "Anne Stava",
+   "page": "https://www.ilga.gov/House/Members/Details/3349",
+   "springfield_phone": ""
+  },
+  "82": {
+   "district_office": "12271 Walker Road, Lemont, IL 60439",
+   "district_phone": "630-755-4296",
+   "email": "repnicolelaha@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{08891F3D-4342-4F2E-A5E5-6CCBCD415423}.jpg",
+   "last": "La Ha",
+   "name": "Nicole La Ha",
+   "page": "https://www.ilga.gov/House/Members/Details/3445",
+   "springfield_phone": ""
+  },
+  "83": {
+   "district_office": "1605 W. Wilson, Suite 112, Batavia, IL 60510",
+   "district_phone": "630-425-3965",
+   "email": "info@repmatthanson.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{457B8F0B-1DF6-4107-A5FC-9B2BFAAE1008}.jpg",
+   "last": "Hanson",
+   "name": "Matt Hanson",
+   "page": "https://www.ilga.gov/House/Members/Details/3416",
+   "springfield_phone": ""
+  },
+  "84": {
+   "district_office": "1677 Montgomery Road Suite 116, Aurora, IL 60504",
+   "district_phone": "630-585-1308",
+   "email": "stephanie.kifowit@att.net",
+   "image": "https://cdn.ilga.gov/assets/img/members/{96E18070-8D3D-4EEC-8432-8A30FEC19E5C}.jpg",
+   "last": "Kifowit",
+   "name": "Stephanie Kifowit",
+   "page": "https://www.ilga.gov/House/Members/Details/3301",
+   "springfield_phone": ""
+  },
+  "85": {
+   "district_office": "1050 W. Romeo Road, Romeoville, IL 60446",
+   "district_phone": "815-372-0085",
+   "email": "info@repdagmara.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{EFDA6EE7-57E6-4ACA-BE60-02A042FF5D5D}.jpg",
+   "last": "Avelar",
+   "name": "Dee Avelar",
+   "page": "https://www.ilga.gov/House/Members/Details/3391",
+   "springfield_phone": ""
+  },
+  "86": {
+   "district_office": "3141 W. Jefferson St., Joliet, IL 60435",
+   "district_phone": "815-730-8600",
+   "email": "statereplarrywalshjr@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F11DA3BE-D8FF-48F0-8450-43231B4DD28F}.jpg",
+   "last": "Walsh",
+   "name": "Larry Walsh",
+   "page": "https://www.ilga.gov/House/Members/Details/3290",
+   "springfield_phone": ""
+  },
+  "87": {
+   "district_office": "133 S. Main St. Suite A, Morton, IL 61550",
+   "district_phone": "309-819-8701",
+   "email": "hauter@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{999C86E0-F35D-4F02-81BE-F4FEBF930114}.jpg",
+   "last": "Hauter",
+   "name": "Bill Hauter",
+   "page": "https://www.ilga.gov/House/Members/Details/3429",
+   "springfield_phone": ""
+  },
+  "88": {
+   "district_office": "419 E. Ash Ave., Decatur, IL 62526",
+   "district_phone": "217-876-1968",
+   "email": "deering@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{57C9E73B-E152-4B7D-B42B-6EA67289504E}.jpg",
+   "last": "Deering",
+   "name": "Regan Deering",
+   "page": "https://www.ilga.gov/House/Members/Details/3454",
+   "springfield_phone": ""
+  },
+  "89": {
+   "district_office": "9317B Illinois Route 84, Savanna, IL 61074",
+   "district_phone": "815-291-8989",
+   "email": "mccombie@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0766A6E9-981F-491B-B3A1-12DF91F1DBDA}.jpg",
+   "last": "McCombie",
+   "name": "Tony McCombie",
+   "page": "https://www.ilga.gov/House/Members/Details/3322",
+   "springfield_phone": ""
+  },
+  "9": {
+   "district_office": "3849 W. Ogden Ave., Chicago, IL 60623",
+   "district_phone": "773-565-4005",
+   "email": "9thdistrictinfo@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{2EDE65F3-F463-4E44-B703-6B06D2ECB787}.jpg",
+   "last": "Morris",
+   "name": "Yolonda Morris",
+   "page": "https://www.ilga.gov/House/Members/Details/3444",
+   "springfield_phone": ""
+  },
+  "90": {
+   "district_office": "1700 Hutchins Road Unit B, Machesney Park, IL 61115",
+   "district_phone": "815-974-0090",
+   "email": "cabello@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{9E64DAD4-4264-42B1-AFDA-AB8F652472A3}.jpg",
+   "last": "Cabello",
+   "name": "John Cabello",
+   "page": "https://www.ilga.gov/House/Members/Details/3430",
+   "springfield_phone": ""
+  },
+  "91": {
+   "district_office": "216 N. Center St., Bloomington, IL 61701",
+   "district_phone": "309-808-2351",
+   "email": "info@repchung.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0555ECBC-C0A4-4E09-ABA2-F8D6E8E03246}.jpg",
+   "last": "Chung",
+   "name": "Sharon Chung",
+   "page": "https://www.ilga.gov/House/Members/Details/3431",
+   "springfield_phone": ""
+  },
+  "92": {
+   "district_office": "300 E. War Memorial Drive Suite 303, Peoria, IL 61614",
+   "district_phone": "309-681-1992",
+   "email": "repjgordon@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A81D0C01-0A50-446D-B796-3A5A6D046EB1}.jpg",
+   "last": "Gordon-Booth",
+   "name": "Jehan Gordon-Booth",
+   "page": "https://www.ilga.gov/House/Members/Details/3275",
+   "springfield_phone": ""
+  },
+  "93": {
+   "district_office": "337 Court St., Pekin, IL 61554",
+   "district_phone": "309-204-6514",
+   "email": "weaver@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0A077509-6D57-4C96-8525-0480C8338827}.jpg",
+   "last": "Weaver",
+   "name": "Travis Weaver",
+   "page": "https://www.ilga.gov/House/Members/Details/3435",
+   "springfield_phone": ""
+  },
+  "94": {
+   "district_office": "325 E. Washington St., Macomb, IL 61455",
+   "district_phone": "309-836-2707",
+   "email": "rephammond@macomb.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{07D3914D-440A-4891-99AE-256F657BBFFF}.jpg",
+   "last": "Hammond",
+   "name": "Norine Hammond",
+   "page": "https://www.ilga.gov/House/Members/Details/3287",
+   "springfield_phone": ""
+  },
+  "95": {
+   "district_office": "",
+   "district_phone": "",
+   "email": "coffey@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{EA682659-0B02-4A60-8244-1D5D2ABCD620}.jpg",
+   "last": "Coffey",
+   "name": "Mike Coffey",
+   "page": "https://www.ilga.gov/House/Members/Details/3437",
+   "springfield_phone": ""
+  },
+  "96": {
+   "district_office": "1353 E. Mound Road Suite 203, Decatur, IL 62526",
+   "district_phone": "217-877-9636",
+   "email": "staterepsue@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A0B92E66-B4F7-4B85-A7F2-14C0153B426F}.jpg",
+   "last": "Scherer",
+   "name": "Sue Scherer",
+   "page": "https://www.ilga.gov/House/Members/Details/3303",
+   "springfield_phone": ""
+  },
+  "97": {
+   "district_office": "24047 Lockport St., Plainfield, IL 60544",
+   "district_phone": "815-254-0000",
+   "email": "repdixonheitman@repjdh.com",
+   "image": "https://www.chicagotribune.com/wp-content/uploads/2026/07/ctc-l-Dixon-Heitman_264932049_246515.jpg?w=1392",
+   "last": "Dixon Heitman",
+   "name": "Jessica Dixon Heitman",
+   "page": "https://www.ilga.gov/House/Members/Details/3465",
+   "springfield_phone": ""
+  },
+  "98": {
+   "district_office": "1050 W. Romeo Road Suite 101, Romeoville, IL 60446",
+   "district_phone": "815-725-2741",
+   "email": "repmanley@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F3781CCA-4285-44C3-8E60-811B9229EA1B}.jpg",
+   "last": "Manley",
+   "name": "Natalie Manley",
+   "page": "https://www.ilga.gov/House/Members/Details/3302",
+   "springfield_phone": ""
+  },
+  "99": {
+   "district_office": "3601 E. Lake Centre Drive Suite 200, Quincy, IL 62305",
+   "district_phone": "217-223-0833",
+   "email": "moore@ilhousegop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/%7BBB70A39A-DE8F-4EF5-A923-0EE51834A45F%7D.jpg",
+   "last": "Moore",
+   "name": "Kyle Moore",
+   "page": "https://www.ilga.gov/House/Members/Details/3456",
+   "springfield_phone": ""
+  }
+ },
+ "senate": {
+  "1": {
+   "district_office": "6729 Stanley Ave. 1st Floor, Suite A, Berwyn, IL 60609",
+   "district_phone": "773-869-9050",
+   "email": "senator.jcervantes@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C05FD6B2-E0A9-4446-AAE5-D67396FCE7D5}.jpg",
+   "last": "Cervantes",
+   "name": "Javier Cervantes",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3403",
+   "springfield_phone": ""
+  },
+  "10": {
+   "district_office": "4349 N. Milwaukee Ave., Chicago, IL 60641",
+   "district_phone": "773-286-1115",
+   "email": "info@senatormartwick.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{8FA2A22C-6775-4098-905C-0C7D8BBD7AEE}.jpg",
+   "last": "Martwick",
+   "name": "Rob Martwick",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3369",
+   "springfield_phone": ""
+  },
+  "11": {
+   "district_office": "6215 W. 79th St. Suite 1A, Burbank, IL 60459",
+   "district_phone": "708-430-2510",
+   "email": "info@senatorporfirio.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0824C110-5C93-4CBA-92E2-C330BBD6FE02}.jpg",
+   "last": "Porfirio",
+   "name": "Mike Porfirio",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3404",
+   "springfield_phone": ""
+  },
+  "12": {
+   "district_office": "2501 S. Central Park Ave. Front Suite, Chicago, IL 60623",
+   "district_phone": "773-565-4661",
+   "email": "district@senatorvillanueva.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F8A21A81-5453-4E94-AC51-E644E1B0C00B}.jpg",
+   "last": "Villanueva",
+   "name": "Celina Villanueva",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3375",
+   "springfield_phone": ""
+  },
+  "13": {
+   "district_office": "1304 E. 47th St. Suite 205, Chicago, IL 60615",
+   "district_phone": "773-363-1996",
+   "email": "info@senatorrobertpeters.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{05AD9CBA-EA20-489D-9C33-3F39DC1F9B0C}.jpg",
+   "last": "Peters",
+   "name": "Robert Peters",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3343",
+   "springfield_phone": ""
+  },
+  "14": {
+   "district_office": "845 W. 115th St., Chicago, IL 60643",
+   "district_phone": "773-995-7748",
+   "email": "ejones3@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{2C0EE719-E9D8-4625-990D-69FCE146BC0F}.jpg",
+   "last": "Jones",
+   "name": "Emil Jones",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3276",
+   "springfield_phone": ""
+  },
+  "15": {
+   "district_office": "930 W. 175th St. Suite 3W, Homewood, IL 60430",
+   "district_phone": "708-893-0552",
+   "email": "nharris@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{87402198-6E85-4CFE-BDD2-B9DC58948869}.jpg",
+   "last": "Harris",
+   "name": "Napoleon Harris",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3292",
+   "springfield_phone": ""
+  },
+  "16": {
+   "district_office": "8500 S. Pulaski Road, Chicago, IL 60652",
+   "district_phone": "773-912-6255",
+   "email": "",
+   "image": "https://cdn.ilga.gov/assets/img/members/{CFF4C1DD-FC97-428B-9D19-A520A543F4AC}.jpg",
+   "last": "Preston",
+   "name": "Willie Preston",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3405",
+   "springfield_phone": ""
+  },
+  "17": {
+   "district_office": "8233 S. Princeton Ave., Chicago, IL 60620",
+   "district_phone": "773-933-7715",
+   "email": "info@senatorelgiesims.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1EAF7721-A189-4CD1-B31D-CD39F79DBD04}.jpg",
+   "last": "Sims",
+   "name": "Elgie Sims",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3331",
+   "springfield_phone": ""
+  },
+  "18": {
+   "district_office": "10400 S. Western Ave., Chicago, IL 60643",
+   "district_phone": "773-445-8128",
+   "email": "cunningham@senatedem.illinois.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{402F0454-4EAF-4721-993D-53C7459BA35B}.jpg",
+   "last": "Cunningham",
+   "name": "Bill Cunningham",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3291",
+   "springfield_phone": ""
+  },
+  "19": {
+   "district_office": "813 School Road, Matteson, IL 60443",
+   "district_phone": "",
+   "email": "mhastings@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C6E534EB-7243-4687-8A65-04BD4DA5DF72}.jpg",
+   "last": "Hastings",
+   "name": "Mike Hastings",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3293",
+   "springfield_phone": ""
+  },
+  "2": {
+   "district_office": "4053 W. Armitage Ave., Chicago, IL 60639",
+   "district_phone": "773-292-0202",
+   "email": "aquino.senate2il@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{79A5CDE2-DD9F-423E-83F0-4643FDB13ABB}.jpg",
+   "last": "Aquino",
+   "name": "Omar Aquino",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3316",
+   "springfield_phone": ""
+  },
+  "20": {
+   "district_office": "3140 W. Montrose Ave., Chicago, IL 60618",
+   "district_phone": "773-278-2020",
+   "email": "info@senatorguzman.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{5790FB4D-5540-4784-A354-6172684368C9}.jpg",
+   "last": "Guzmán",
+   "name": "Graciela Guzmán",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3442",
+   "springfield_phone": ""
+  },
+  "21": {
+   "district_office": "24 W. 500 Maple Ave. Suite 215, Naperville, IL 60540",
+   "district_phone": "630-601-9961",
+   "email": "info@senatorlauraellman.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{423E6DDE-1AFB-4F10-A767-C869B0E51483}.jpg",
+   "last": "Ellman",
+   "name": "Laura Ellman",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3339",
+   "springfield_phone": ""
+  },
+  "22": {
+   "district_office": "164 E. Chicago St. Suite 201, Elgin, IL 60120",
+   "district_phone": "847-214-8864",
+   "email": "senatorcastro@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F09EB558-EB8D-48B1-91F0-EF47A07632F5}.jpg",
+   "last": "Castro",
+   "name": "Cristina Castro",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3317",
+   "springfield_phone": ""
+  },
+  "23": {
+   "district_office": "1 S. Cass Ave. Suite 203, Westmont, IL 60181",
+   "district_phone": "630-785-3177",
+   "email": "suzy@suzyforsenate.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{8DE2D7E5-9F3D-43FD-B0EC-0010BDA8849A}.jpg",
+   "last": "Glowiak Hilton",
+   "name": "Suzy Glowiak Hilton",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3341",
+   "springfield_phone": ""
+  },
+  "24": {
+   "district_office": "994 W. Army Trail Road, Carol Stream, IL 60188",
+   "district_phone": "630-349-0645",
+   "email": "lewis@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E714499E-C9C6-4A01-AE84-6CB703AFB9B7}.jpg",
+   "last": "Lewis",
+   "name": "Seth Lewis",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3406",
+   "springfield_phone": ""
+  },
+  "25": {
+   "district_office": "946 N. Neltnor Blvd. Suite 104, West Chicago, IL 60185",
+   "district_phone": "630-326-9319",
+   "email": "info@senatorvilla.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C8126F4D-472E-4738-85B5-87A229F8174A}.jpg",
+   "last": "Villa",
+   "name": "Karina Villa",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3385",
+   "springfield_phone": ""
+  },
+  "26": {
+   "district_office": "795 Ela Road, Suite 208, Lake Zurich, IL 60047",
+   "district_phone": "224-662-4544",
+   "email": "",
+   "image": "https://cdn.ilga.gov/assets/img/members/{16AC56CC-B697-41D8-8E62-F9DEE3CE75C1}.jpg",
+   "last": "Hills",
+   "name": "Darby Hills",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3460",
+   "springfield_phone": ""
+  },
+  "27": {
+   "district_office": "171 W. Wing St. Suite 202, Arlington Heights, IL 60005",
+   "district_phone": "847-749-1880",
+   "email": "contact@staterepwalker53.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BC2AF76D-FAE4-44C4-8632-AA4E629A9678}.jpg",
+   "last": "Walker",
+   "name": "Mark Walker",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3449",
+   "springfield_phone": ""
+  },
+  "28": {
+   "district_office": "1645 S. River Road, Suite 7, Des Plaines, IL 60018",
+   "district_phone": "847-718-1110",
+   "email": "lmurphy@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E8C6FBF1-611C-4DD5-A81D-F0FF8917556D}.jpg",
+   "last": "Murphy",
+   "name": "Laura Murphy",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3313",
+   "springfield_phone": ""
+  },
+  "29": {
+   "district_office": "400 Lake Cook Road Suite 100B, Deerfield, IL 60015",
+   "district_phone": "847-945-5200",
+   "email": "morrison@senatedem.illinois.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0E6BF8A6-C5C8-4F54-977B-D5FD11707FA5}.jpg",
+   "last": "Morrison",
+   "name": "Julie Morrison",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3294",
+   "springfield_phone": ""
+  },
+  "3": {
+   "district_office": "2929 S. Wabash Ave. Suite 102, Chicago, IL 60616",
+   "district_phone": "312-949-1908",
+   "email": "senator03district@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F4630DDB-11F0-417E-8C0A-B4ED6426116F}.jpg",
+   "last": "Hunter",
+   "name": "Mattie Hunter",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3269",
+   "springfield_phone": ""
+  },
+  "30": {
+   "district_office": "149 S. Genesee St., Waukegan, IL 60085",
+   "district_phone": "847-672-6201",
+   "email": "info@senatoradrianejohnson.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{991EBDF6-BC13-4260-A2B8-E10751629780}.jpg",
+   "last": "Johnson",
+   "name": "Adriane Johnson",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3378",
+   "springfield_phone": ""
+  },
+  "31": {
+   "district_office": "10 N. Lake St. Suite 112, Grayslake, IL 60030",
+   "district_phone": "847-548-5631",
+   "email": "info@senatoredlyallen.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{5E1DAFA0-4C11-43FF-9231-8D4EB3A1CFFE}.jpg",
+   "last": "Edly-Allen",
+   "name": "Mary Edly-Allen",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3407",
+   "springfield_phone": ""
+  },
+  "32": {
+   "district_office": "209 N. Benton St., Woodstock, IL 60098",
+   "district_phone": "815-455-6330",
+   "email": "senatorwilcox@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E397F861-68AA-4CC2-9A23-50B9A8E13031}.jpg",
+   "last": "Wilcox",
+   "name": "Craig Wilcox",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3336",
+   "springfield_phone": ""
+  },
+  "33": {
+   "district_office": "641 S. 8th St., West Dundee, IL 60118",
+   "district_phone": "847-214-8245",
+   "email": "dewitte@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{21A3B029-3423-410E-818A-84512CD0D231}.jpg",
+   "last": "DeWitte",
+   "name": "Don DeWitte",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3334",
+   "springfield_phone": ""
+  },
+  "34": {
+   "district_office": "Zeke Giorgi Center 200 S. Wyman St., Suite 301, Rockford, IL 61101",
+   "district_phone": "815-987-7557",
+   "email": "stadelman@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{47906765-AB0A-48BF-8C14-B5443B8F27C4}.jpg",
+   "last": "Stadelman",
+   "name": "Steve Stadelman",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3296",
+   "springfield_phone": ""
+  },
+  "35": {
+   "district_office": "527 Colman Center Drive, Cherry Valley, IL 61108",
+   "district_phone": "815-987-7555",
+   "email": "info@senatordavesyverson.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{6FD168B8-C34B-4399-8E39-7373F7600882}.jpg",
+   "last": "Syverson",
+   "name": "Dave Syverson",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3265",
+   "springfield_phone": ""
+  },
+  "36": {
+   "district_office": "County Office Building 1504 3rd Ave., 2nd Floor, Rock Island, IL 61201",
+   "district_phone": "309-558-3612",
+   "email": "senatormikehalpin@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{35F1D456-C798-4A8B-9180-4608CB0FDB78}.jpg",
+   "last": "Halpin",
+   "name": "Mike Halpin",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3408",
+   "springfield_phone": ""
+  },
+  "37": {
+   "district_office": "86 S. Galena Ave. Suite 2, Dixon, IL 61021",
+   "district_phone": "779-251-5003",
+   "email": "liandroarellano@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{90648554-4D16-4FEE-AC7E-4A8A7872B885}.jpg",
+   "last": "Arellano",
+   "name": "Li Arellano",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3383",
+   "springfield_phone": ""
+  },
+  "38": {
+   "district_office": "350 5th St., Peru, IL 61354",
+   "district_phone": "815-220-8720",
+   "email": "senatorrezin@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{45666230-B77D-4162-A45E-6AC5587C4E56}.jpg",
+   "last": "Rezin",
+   "name": "Sue Rezin",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3281",
+   "springfield_phone": ""
+  },
+  "39": {
+   "district_office": "6941 W. North Ave., Oak Park, IL 60302",
+   "district_phone": "708-848-2002",
+   "email": "dharmon@senatedem.ilga.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{CF3F6473-4E6D-4E84-A0A4-4FF7335132E2}.jpg",
+   "last": "Harmon",
+   "name": "Don Harmon",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3268",
+   "springfield_phone": ""
+  },
+  "4": {
+   "district_office": "High Point Plaza 4415 W. Harrison St., Suite 550, Hillside, IL 60162",
+   "district_phone": "708-632-4500",
+   "email": "majorityleader@senatorlightford.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7FBA8DB0-281E-406F-BF9F-ABEB75B7B38E}.jpg",
+   "last": "Lightford",
+   "name": "Kimberly Lightford",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3264",
+   "springfield_phone": ""
+  },
+  "40": {
+   "district_office": "195 W. Joe Orr Road Suite 201, Chicago Heights, IL 60411",
+   "district_phone": "708-756-0882",
+   "email": "pjoyce2133@yahoo.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{39D6F100-DAEC-4C4B-A4F5-F20299B79152}.jpg",
+   "last": "Joyce",
+   "name": "Patrick Joyce",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3372",
+   "springfield_phone": ""
+  },
+  "41": {
+   "district_office": "6900 Main St. Suite 200, Downers Grove, IL 60516",
+   "district_phone": "630-297-8058",
+   "email": "senatorcurran@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7FC724D0-C297-4D20-AC25-3D879DE286B8}.jpg",
+   "last": "Curran",
+   "name": "John Curran",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3329",
+   "springfield_phone": ""
+  },
+  "42": {
+   "district_office": "4255 Westbrook Drive Suite 216, Aurora, IL 60504",
+   "district_phone": "630-820-8650",
+   "email": "holmes42@senatedem.illinois.gov",
+   "image": "https://cdn.ilga.gov/assets/img/members/{9A39C8B9-4B06-4BF7-85CE-4C6F4FD07769}.jpg",
+   "last": "Holmes",
+   "name": "Linda Holmes",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3270",
+   "springfield_phone": ""
+  },
+  "43": {
+   "district_office": "221 Springfield Ave. Unit 3, Joliet, IL 60435",
+   "district_phone": "331-290-0443",
+   "email": "info@senatorventura.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{F4164483-CA9E-423B-ADF4-FA52EE9A3F08}.jpg",
+   "last": "Ventura",
+   "name": "Rachel Ventura",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3409",
+   "springfield_phone": ""
+  },
+  "44": {
+   "district_office": "120 S. McLean St. Suite E, Lincoln, IL 62656",
+   "district_phone": "217-651-8291",
+   "email": "turner@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{C47C199A-2C77-4A73-BAE5-AB139ED85CAC}.jpg",
+   "last": "Turner",
+   "name": "Sally Turner",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3397",
+   "springfield_phone": ""
+  },
+  "45": {
+   "district_office": "Stewart Centre 50 W. Douglas St., Suite 1001, Freeport, IL 61032",
+   "district_phone": "815-232-0774",
+   "email": "chesney@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D79AFB6D-F47C-47F7-988D-A3E99A0100E5}.jpg",
+   "last": "Chesney",
+   "name": "Andrew Chesney",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3410",
+   "springfield_phone": ""
+  },
+  "46": {
+   "district_office": "216 N. Center St., Bloomington, IL 61701",
+   "district_phone": "309-808-2345",
+   "email": "46illinois@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{2C57E551-D82A-4C7D-8746-3F83913F0D7D}.jpg",
+   "last": "Koehler",
+   "name": "Dave Koehler",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3271",
+   "springfield_phone": ""
+  },
+  "47": {
+   "district_office": "103 N. College Ave., #201, Aledo, IL 61231",
+   "district_phone": "309-230-7584",
+   "email": "senatorneilanderson@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{90CDA259-1DEA-4D18-AE97-30051E03D154}.jpg",
+   "last": "Anderson",
+   "name": "Neil Anderson",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3312",
+   "springfield_phone": ""
+  },
+  "48": {
+   "district_office": "725 N. Grand Ave. East, Springfield, IL 62702",
+   "district_phone": "217-670-1828",
+   "email": "senatorturnermac@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{D114C73A-2295-431C-8250-38AC3353A20E}.jpg",
+   "last": "Turner",
+   "name": "Doris Turner",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3399",
+   "springfield_phone": ""
+  },
+  "49": {
+   "district_office": "20660 Caton Farm Road Unit D, Crest Hill, IL 60403",
+   "district_phone": "815-267-6119",
+   "email": "info@senatorloughrancappel.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{344F07C5-9853-49B6-902A-89D5F81637BF}.jpg",
+   "last": "Loughran Cappel",
+   "name": "Meg Loughran Cappel",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3380",
+   "springfield_phone": ""
+  },
+  "5": {
+   "district_office": "2165 S. Millard Ave., Chicago, IL 60623",
+   "district_phone": "312-298-9181",
+   "email": "office@lakesiacollins.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{07674912-6AF6-4045-B60C-094B530D9FDB}.jpg",
+   "last": "Collins",
+   "name": "Lakesia Collins",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3443",
+   "springfield_phone": ""
+  },
+  "50": {
+   "district_office": "3601 E. Lake Centre Drive Suite 200, Quincy, IL 62305",
+   "district_phone": "217-223-0833",
+   "email": "tracy@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{21C0F860-E9DD-4215-A3AA-703E275C8526}.jpg",
+   "last": "Tracy",
+   "name": "Jil Tracy",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3319",
+   "springfield_phone": ""
+  },
+  "51": {
+   "district_office": "88 Broadway Ave. Suite 1, Mattoon, IL 61938",
+   "district_phone": "217-607-1853",
+   "email": "senatorchapinrose@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{BA95E1D1-0570-4492-B739-D1F593F183FD}.jpg",
+   "last": "Rose",
+   "name": "Chapin Rose",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3295",
+   "springfield_phone": ""
+  },
+  "52": {
+   "district_office": "45 E. University Ave. Suite 206, Champaign, IL 61820",
+   "district_phone": "217-355-5252",
+   "email": "",
+   "image": "https://cdn.ilga.gov/assets/img/members/{1A24C379-4D87-4EA7-B9DA-BA65568F1408}.jpg",
+   "last": "Faraci",
+   "name": "Paul Faraci",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3412",
+   "springfield_phone": ""
+  },
+  "53": {
+   "district_office": "305 W. Madison St., Pontiac, IL 61764",
+   "district_phone": "815-844-9179",
+   "email": "balkema@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{29C38AB6-DBAB-4E53-A4B1-9DA8D64AD699}.jpg",
+   "last": "Balkema",
+   "name": "Chris Balkema",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3413",
+   "springfield_phone": ""
+  },
+  "54": {
+   "district_office": "410 N. Monroe St. Suite 200, Litchfield, IL 62056",
+   "district_phone": "217-960-0788",
+   "email": "senatormcclure@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{EB86B3C4-3F25-4D5C-8944-7B4CBCA7CACE}.jpg",
+   "last": "McClure",
+   "name": "Steve McClure",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3342",
+   "springfield_phone": ""
+  },
+  "55": {
+   "district_office": "310 W. Gallatin St., Vandalia, IL 62471",
+   "district_phone": "618-283-3000",
+   "email": "senator@senatorjasonplummer.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{CE75DC7E-2CD4-4D01-B697-C2866F828E25}.jpg",
+   "last": "Plummer",
+   "name": "Jason Plummer",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3344",
+   "springfield_phone": ""
+  },
+  "56": {
+   "district_office": "120 N. Main St. Suite 1B, Edwardsville, IL 62025",
+   "district_phone": "618-307-5789",
+   "email": "harriss@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{7762DCAD-269B-472B-BDD4-5F5A28D47817}.jpg",
+   "last": "Harriss",
+   "name": "Erica Harriss",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3411",
+   "springfield_phone": ""
+  },
+  "57": {
+   "district_office": "Kenneth Hall Regional Office Building, 10 Collinsville Ave. Suite 201A, East St. Louis, IL 62201",
+   "district_phone": "618-875-1212",
+   "email": "christophbeltforilsenate@yahoo.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{EFE7513C-260C-46DE-BAB3-A12F250B2937}.jpg",
+   "last": "Belt",
+   "name": "Christopher Belt",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3337",
+   "springfield_phone": ""
+  },
+  "58": {
+   "district_office": "2929 Broadway St. Suite 3, Mount Vernon, IL 62864",
+   "district_phone": "618-472-8158",
+   "email": "senterribryant58@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{58FBFE5F-39EE-4F3C-853A-0DB98E83E893}.jpg",
+   "last": "Bryant",
+   "name": "Terri Bryant",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3386",
+   "springfield_phone": ""
+  },
+  "59": {
+   "district_office": "600 Halfway Road Suite 103, Marion, IL 62959",
+   "district_phone": "618-559-7018",
+   "email": "jacobs@ilsenategop.org",
+   "image": "https://cdn.ilga.gov/assets/img/members/{0E151A06-57C8-4261-9577-278F5DD4B717}.jpg",
+   "last": "Jacobs",
+   "name": "Paul Jacobs",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3463",
+   "springfield_phone": ""
+  },
+  "6": {
+   "district_office": "3223 N. Sheffield Ave. Suite A, Chicago, IL 60657",
+   "district_phone": "773-296-4141",
+   "email": "sara@senatorsara.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{E77394AE-D896-4FEB-A325-B33A553554EB}.jpg",
+   "last": "Feigenholtz",
+   "name": "Sara Feigenholtz",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3376",
+   "springfield_phone": ""
+  },
+  "7": {
+   "district_office": "1040 W. Bryn Mawr Ave., Chicago, IL 60660",
+   "district_phone": "773-769-1717",
+   "email": "senatormikesimmons@gmail.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{6EDEB1E8-2566-4659-ABF5-A9107C2912F0}.jpg",
+   "last": "Simmons-Gessesse",
+   "name": "Mike Simmons-Gessesse",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3398",
+   "springfield_phone": ""
+  },
+  "8": {
+   "district_office": "3851 W. Devon Ave., Chicago, IL 60659",
+   "district_phone": "872-208-5188",
+   "email": "info@senatorram.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{DBF0BBF0-0E16-4C5F-894A-16C4A14CAF51}.jpg",
+   "last": "Villivalam",
+   "name": "Ram Villivalam",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3345",
+   "springfield_phone": ""
+  },
+  "9": {
+   "district_office": "1812 Waukegan Road Suite A, Glenview, IL 60026",
+   "district_phone": "847-998-1717",
+   "email": "info@senatorfine.com",
+   "image": "https://cdn.ilga.gov/assets/img/members/{A4F70929-881C-4003-B10A-D1A775D3D94B}.jpg",
+   "last": "Fine",
+   "name": "Laura Fine",
+   "page": "https://www.ilga.gov/Senate/Members/Details/3338",
+   "springfield_phone": ""
+  }
+ },
+ "source": "https://data.openstates.org/people/current/il.csv",
+ "updated": "2026-10-24"
+}
