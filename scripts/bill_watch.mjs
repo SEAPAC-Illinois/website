@@ -15,6 +15,7 @@ import { join } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = process.env.BILLS_OUT || join(ROOT, 'data/bills.json');
+const PUBLIC_OUT = process.env.BILLS_PUBLIC_OUT || join(ROOT, 'data/bills-public.json');
 const CONFIG = join(ROOT, 'data/bill-watch-config.json');
 const BILL_TYPES = new Set(['HB', 'SB', 'HR', 'SR', 'HJR', 'SJR', 'HJRCA', 'SJRCA']);
 const KEEP_CHANGES_DAYS = 60;
@@ -107,6 +108,7 @@ function parseBill(xml) {
 
 function match(bill, key) {
   if (config.never.includes(key)) return [];
+  if (/^(H|S)R$/.test(key.replace(/\d+$/, '')) && (config.skipResolutionTitles || []).some(t => bill.title.startsWith(t))) return [];
   const found = new Set();
   if (config.always.includes(key)) found.add('watch-list');
   const refs = bill.references.join(' | ');
@@ -134,7 +136,8 @@ function stage(actions) {
     else if (/Sent to the Governor/i.test(a)) s = { label: 'On the Governor\'s desk', committee: null, active: true };
     else if (/Passed Both Houses/i.test(a)) s = { label: 'Passed both houses', committee: null, active: true };
     else if (/Session Sine Die/i.test(a)) s = { label: 'Died when the session ended', committee: null, active: false };
-    else if ((m = a.match(/^(?:Re-)?(?:Assigned|Referred|Re-referred|Re-assigned) to (?:the )?(.+?)(?: Committee)?$/i))) {
+    // Covers "Rule 19(a) / Re-referred to Rules Committee" too, which is how a bill that missed a deadline goes back to Rules.
+    else if ((m = a.match(/(?:^|\/ )(?:Assigned|Referred|Re-referred|Re-assigned) to (?:the )?(.+?)(?: Committee)?$/i))) {
       const c = m[1].trim();
       s = /^(Rules|Assignments)$/i.test(c)
         ? { label: /Rules/i.test(c) ? 'Waiting in the House Rules Committee' : 'Waiting in Senate Assignments', committee: null, active: true }
@@ -148,6 +151,13 @@ function stage(actions) {
 }
 
 // GAID and SessionID follow the General Assembly number (103rd: 17 and 112; 104th: 18 and 114).
+// One plain sentence for the website: the first sentence of the synopsis that says what the bill does.
+function summarize(bill) {
+  const sentences = bill.synopsis.split(/(?<=\.)\s+(?=[A-Z])/);
+  const pick = sentences.find(x => !/^(Amends|Creates the|Effective|Makes a technical change|Makes technical changes|Contains a)/i.test(x)) || '';
+  return pick.length > 240 ? pick.slice(0, 237).replace(/\s+\S*$/, '') + '...' : pick;
+}
+
 const billUrl = (ga, type, num) => `https://www.ilga.gov/Legislation/BillStatus?DocNum=${num}&GAID=${ga - 86}&GA=${ga}&DocTypeID=${type}&SessionID=${2 * ga - 94}`;
 
 // ---------- run ----------
@@ -204,6 +214,7 @@ try {
     const bill = {
       id, ga: f.ga, number: `${f.type} ${f.num}`, title: parsed.title, tags: tagsFound,
       sponsors: parsed.sponsors.slice(0, 300),
+      summary: summarize(parsed),
       synopsis: parsed.synopsis.length > 700 ? parsed.synopsis.slice(0, 697).replace(/\s+\S*$/, '') + '...' : parsed.synopsis,
       references: parsed.references.slice(0, 12),
       status: st.label, committee: st.committee, active: st.active,
@@ -238,7 +249,15 @@ try {
   // Only rewrite the file when the watched bills change, so quiet days make no commit.
   const same = prev && prev.config === configHash && JSON.stringify(prev.bills) === JSON.stringify(out.bills)
     && JSON.stringify(prev.changes) === JSON.stringify(out.changes) && String(prev.general_assemblies) === String(gas);
-  if (!same) writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
+  if (!same) {
+    writeFileSync(OUT, JSON.stringify(out, null, 1) + '\n');
+    // A small file for the website: bills still in play, most recent movement first.
+    const pub = list.filter(b => b.active && b.ga === gas[0]).slice(0, 40).map(b => ({
+      number: b.number, url: b.url, title: b.title, summary: b.summary, status: b.status,
+      date: b.last_action?.date || '', action: b.last_action?.action || '',
+    }));
+    writeFileSync(PUBLIC_OUT, JSON.stringify({ updated: seen, watched: list.length, bills: pub }, null, 1) + '\n');
+  }
   console.log(same ? 'No changes to watched bills. ' : '', `GA ${gas.join(', ')}: read ${toFetch.length} files (${out.scan}), watching ${list.length} bills, ${changes.length} changes kept.`);
 } finally {
   await source.close();

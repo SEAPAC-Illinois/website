@@ -37,4 +37,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bills.json && git commit -m "Test run of the bill watcher" && git push
+          git add data/bills.json data/bills-public.json && git commit -m "Test run of the bill watcher" && git push

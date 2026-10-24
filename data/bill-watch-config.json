@@ -20,6 +20,7 @@
     { "tag": "workforce", "text": "school support personnel", "needsSchoolCode": true },
     { "tag": "workforce", "text": "paraprofessional", "needsSchoolCode": true }
   ],
+  "skipResolutionTitles": ["CONGRATS", "MOURNS", "MEMORIAL", "IN MEMORY"],
   "always": [],
   "never": []
 }
