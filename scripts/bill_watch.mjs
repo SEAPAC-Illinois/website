@@ -31,6 +31,12 @@ const full = args.includes('--full') || !prev || prev.config !== configHash || n
 
 // ---------- fetching ----------
 
+// Same rule as the in-page decoder below: follow the XML declaration, default UTF-8.
+function decodeBytes(buf) {
+  const enc = (buf.subarray(0, 200).toString('latin1').match(/encoding=['"]([^'"]+)['"]/i) || [, 'utf-8'])[1];
+  return new TextDecoder(/8859|1252|latin/i.test(enc) ? 'windows-1252' : 'utf-8').decode(buf);
+}
+
 async function openSource() {
   if (fixtures) {
     return {
@@ -38,7 +44,7 @@ async function openSource() {
         const name = path.endsWith('/') ? 'listing-' + (path.match(/\/(\d+)\//) || [])[1] + '.html' : path.split('/').pop();
         if (path === '/Legislation/') return readdirSync(fixtures).filter(f => f.startsWith('listing-')).map(f => `<A HREF="/Legislation/${f.slice(8, -5)}/">`).join('\n');
         const p = join(fixtures, name);
-        return existsSync(p) ? readFileSync(p, 'latin1') : null;
+        return existsSync(p) ? decodeBytes(readFileSync(p)) : null;
       },
       async many(paths) { return Promise.all(paths.map(async p => [p, await this.text(p)])); },
       async close() {},
@@ -48,13 +54,18 @@ async function openSource() {
   const browser = await chromium.launch({ channel: 'chrome' });
   const page = await browser.newPage();
   await page.goto('https://ftp.ilga.gov/', { timeout: 90000 });
-  // Files are ISO-8859-1, so decode bytes as windows-1252 rather than trusting .text().
+  // Decode by the XML declaration (current files say UTF-8, some older ones ISO-8859-1) rather than trusting .text().
   const getMany = (paths) => page.evaluate(async (paths) => Promise.all(paths.map(async (p) => {
     for (let attempt = 0; attempt < 3; attempt++) {
       try {
         const r = await fetch(p);
         if (r.status === 404) return [p, null];
-        if (r.ok) return [p, new TextDecoder('windows-1252').decode(await r.arrayBuffer())];
+        if (r.ok) {
+          const bytes = new Uint8Array(await r.arrayBuffer());
+          const head = new TextDecoder('windows-1252').decode(bytes.slice(0, 200));
+          const enc = (head.match(/encoding=['"]([^'"]+)['"]/i) || [, 'utf-8'])[1];
+          return [p, new TextDecoder(/8859|1252|latin/i.test(enc) ? 'windows-1252' : 'utf-8').decode(bytes)];
+        }
       } catch (e) { /* retry */ }
       await new Promise(res => setTimeout(res, 1500 * (attempt + 1)));
     }
@@ -100,6 +111,7 @@ function parseBill(xml) {
   return {
     title: tag(xml, 'shortdesc'),
     sponsors: tags(xml, 'sponsors').join('; '),
+    altsponsors: tags(xml, 'altsponsors').join('; ').replace(/^\((.*)\)$/, '$1'),
     references: tags(xml, 'reference'),
     synopsis: tags(xml, 'SynopsisText').join(' '),
     actions,
@@ -221,6 +233,7 @@ try {
     const bill = {
       id, ga: f.ga, number: `${f.type} ${f.num}`, title: parsed.title, tags: tagsFound, platform,
       sponsors: parsed.sponsors.slice(0, 300),
+      altsponsors: parsed.altsponsors.slice(0, 300),
       summary: summarize(parsed),
       synopsis: parsed.synopsis.length > 700 ? parsed.synopsis.slice(0, 697).replace(/\s+\S*$/, '') + '...' : parsed.synopsis,
       references: parsed.references.slice(0, 12),
