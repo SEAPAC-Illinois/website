@@ -123,7 +123,7 @@ function match(bill, key) {
   for (const p of config.phrases) {
     if (p.needsSchoolCode && !schoolCode) continue;
     const t = p.text.toLowerCase();
-    if (p.field === 'title' ? new RegExp('\\b' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(title) : text.includes(t)) hit(p);
+    if (p.field === 'title' ? new RegExp(p.text, 'i').test(title) : text.includes(t)) hit(p);
   }
   if (/\bIEPs?\b/.test(bill.synopsis)) hit({ tag: 'special-ed' });
   const items = config.platformItems || {};

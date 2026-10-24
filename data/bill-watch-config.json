@@ -1,5 +1,5 @@
 {
-  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. 'platform' links a match to the 2026-2027 IAASE Legislative Platform (adopted Oct 21, 2026) or to an item on the IAASE Advocacy & Public Policy Committee's Oct 7, 2026 agenda. A link is context for the committee, not a position. A rule with 'field': 'title' checks only the short title ILGA gives the bill. Edit freely; the next daily run applies the change.",
+  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. 'platform' links a match to the 2026-2027 IAASE Legislative Platform (adopted Oct 21, 2026) or to an item on the IAASE Advocacy & Public Policy Committee's Oct 7, 2026 agenda. A link is context for the committee, not a position. A rule with 'field': 'title' is a regular expression checked against the short title ILGA gives the bill. Edit freely; the next daily run applies the change.",
   "platformItems": {
     "P1": "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)",
     "P2": "IAASE Priority 2: Fully fund services for students with the most significant needs (Fund Code X)",
@@ -20,7 +20,7 @@
     { "tag": "special-ed", "text": "student with a disability" },
     { "tag": "special-ed", "text": "children with disabilities" },
     { "tag": "special-ed", "text": "individualized education program" },
-    { "tag": "special-ed", "text": "iep", "field": "title", "platform": ["P3"] },
+    { "tag": "special-ed", "text": "\\biep\\b", "field": "title", "platform": ["P3"] },
     { "tag": "special-ed", "text": "notices-forms", "field": "title", "platform": ["P3"] },
     { "tag": "special-ed", "text": "therapeutic day school", "platform": ["P1"] },
     { "tag": "special-ed", "text": "separate day school", "platform": ["P1"] },
@@ -31,9 +31,8 @@
     { "tag": "special-ed", "text": "joint agreement" },
     { "tag": "special-ed", "text": "Section 504" },
     { "tag": "special-ed", "text": "504 plan" },
-    { "tag": "special-ed", "text": "504", "field": "title", "platform": ["C504"] },
-    { "tag": "special-ed", "text": "accomodation", "field": "title", "needsSchoolCode": true, "platform": ["C504"] },
-    { "tag": "special-ed", "text": "accommodation", "field": "title", "needsSchoolCode": true, "platform": ["C504"] },
+    { "tag": "special-ed", "text": "\\b504\\b", "field": "title", "platform": ["C504"] },
+    { "tag": "special-ed", "text": "\\baccomm?odation", "field": "title", "needsSchoolCode": true, "platform": ["C504"] },
     { "tag": "special-ed", "text": "special education advocate", "platform": ["CADV"] },
     { "tag": "special-ed", "text": "educational advocate", "platform": ["CADV"] },
     { "tag": "workforce", "text": "school psychologist", "needsSchoolCode": true, "platform": ["P4"] },
