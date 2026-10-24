@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEA-PAC Illinois</title>
+<meta name="description" content="SEA-PAC Illinois is the political action committee of Illinois special education administrators, affiliated with IAASE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: a civic one-pager. Full-width bands, a 68ch reading column, and a ledger-style "where your money goes" table. */
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --ink: #141b2e;
+  --muted: #4a5670;
+  --rule: #d5dae6;
+  --blue: #0e27b5;
+  --blue-ink: #ffffff;
+  --slate: #304254;
+  --band: #e8ebf6;
+  --draft: #8a5a00;
+  --draft-bg: #fff4dc;
+  --display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --body: "Public Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1220; --surface: #151c2f; --ink: #e8ecf6; --muted: #a6b0c8; --rule: #2a3450;
+    --blue: #8ea0ff; --blue-ink: #0d1220; --slate: #c3cde0; --band: #182241;
+    --draft: #ffcf73; --draft-bg: #2e2410; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d1220; --surface: #151c2f; --ink: #e8ecf6; --muted: #a6b0c8; --rule: #2a3450;
+  --blue: #8ea0ff; --blue-ink: #0d1220; --slate: #c3cde0; --band: #182241;
+  --draft: #ffcf73; --draft-bg: #2e2410; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.65 var(--body); }
+a { color: var(--blue); }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.wrap { max-width: 68rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.read { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.12; text-wrap: balance; margin: 0; }
+h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); font-weight: 750; font-stretch: 90%; }
+h3 { font-size: 1.15rem; font-weight: 700; }
+p { margin: 0; }
+.eyebrow { font: 700 0.78rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.stack { display: grid; gap: 1rem; }
+section { padding-block: 3.5rem; border-top: 1px solid var(--rule); }
+
+.draft { background: var(--draft-bg); color: var(--draft); font-size: 0.92rem; }
+.draft .wrap { padding-block: 0.7rem; }
+.todo { background: var(--draft-bg); color: var(--draft); padding: 0.05em 0.35em; border-radius: 3px; font-size: 0.92em; }
+
+header.top { padding-block: 1rem; }
+header.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; }
+.mark { font: 800 1.35rem/1 var(--display); font-stretch: 85%; letter-spacing: 0.02em; color: var(--ink); text-decoration: none; }
+.mark span { color: var(--blue); }
+nav ul { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; list-style: none; margin: 0; padding: 0; font-weight: 600; font-size: 0.95rem; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--blue); }
+
+.hero { padding-block: 3rem 3.5rem; border-top: 0; }
+.hero h1 { font-size: clamp(2.1rem, 5.4vw, 3.6rem); font-weight: 800; font-stretch: 82%; max-width: 20ch; }
+.hero h1 em { font-style: normal; color: var(--blue); }
+.hero .lede { font-size: 1.2rem; color: var(--muted); max-width: 58ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.btn { display: inline-block; padding: 0.8rem 1.3rem; border-radius: 6px; font: 700 1rem/1 var(--display); text-decoration: none; border: 2px solid var(--blue); }
+.btn.primary { background: var(--blue); color: var(--blue-ink); }
+.btn.secondary { color: var(--blue); background: transparent; }
+.paid { font-size: 0.85rem; color: var(--muted); }
+
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.75rem; }
+.cols > * { min-width: 0; }
+
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr)); gap: 1rem; }
+.level { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem; display: grid; gap: 0.35rem; align-content: start; }
+.level.lead { border: 2px solid var(--blue); }
+.amt { font: 800 1.9rem/1 var(--display); font-stretch: 85%; font-variant-numeric: tabular-nums; }
+.amt small { font-size: 0.95rem; font-weight: 600; color: var(--muted); }
+.level .name { font-weight: 600; }
+.level p { color: var(--muted); font-size: 0.95rem; }
+
+.ledger-box { overflow-x: auto; }
+table.ledger { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 34rem; }
+.ledger th, .ledger td { text-align: left; padding: 0.7rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.ledger th { font: 700 0.78rem/1.2 var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.ledger td.num, .ledger th.num { text-align: right; white-space: nowrap; }
+.ledger tfoot td { font-weight: 700; border-bottom: 0; }
+.ledger .story { display: block; color: var(--muted); font-size: 0.92rem; }
+
+.band { background: var(--band); }
+.quote { background: var(--surface); border-radius: 8px; padding: 1.1rem 1.2rem; border: 1px solid var(--rule); }
+.quote p { font-style: italic; }
+.quote .who { font-style: normal; font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; }
+
+footer { background: var(--slate); color: var(--bg); padding-block: 2.5rem; }
+footer .wrap { display: grid; gap: 1rem; font-size: 0.92rem; }
+footer strong { font-family: var(--display); }
+footer .notice { max-width: 72ch; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) footer { background: #070b16; color: var(--muted); } }
+:root[data-theme="dark"] footer { background: #070b16; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+html { scroll-behavior: smooth; }
+</style>
+
+</head>
+<body>
+<div class="draft" role="note"><div class="wrap"><strong>Draft for Jon's review. Not published.</strong> Highlighted items get filled in before launch. Contribution names stay off the live site until after the November 3, 2026 election.</div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top">SEA-PAC <span>Illinois</span></a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#why">Why SEA-PAC</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#money">Where your money goes</a></li>
+        <li><a href="#springfield">Springfield</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap stack" style="gap:1.4rem">
+      <p class="eyebrow">The PAC of Illinois special education administrators</p>
+      <h1>For $20 a year, you help <em>special education leaders</em> build relationships with the legislators who decide how students with disabilities are served and funded.</h1>
+      <p class="lede">SEA-PAC Illinois is affiliated with the Illinois Alliance of Administrators of Special Education (IAASE). Members come from every IAASE region of the state.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://givebutter.com/aaHB5w" target="_blank" rel="noopener">Join for $20 a year</a>
+        <a class="btn secondary" href="#join">See all ways to give</a>
+      </div>
+      <p class="paid">Paid for by SEA-PAC Illinois.</p>
+    </div>
+  </section>
+
+  <section id="why">
+    <div class="wrap stack" style="gap:1.75rem">
+      <div class="stack read">
+        <p class="eyebrow">Why SEA-PAC</p>
+        <h2>Special education needs a voice in Springfield.</h2>
+        <p>SEA-PAC works to make sure the voices of special education administrators are heard in the legislative process. We back legislators and policies that improve special education for Illinois students.</p>
+      </div>
+      <div class="cols">
+        <div class="stack"><h3>Build relationships</h3><p>We support legislators who champion students with disabilities and the professionals who serve them.</p></div>
+        <div class="stack"><h3>Keep members informed</h3><p>Members get short updates on bills and funding decisions that affect special education.</p></div>
+        <div class="stack"><h3>Answer to members</h3><p>A Board of Trustees governs SEA-PAC. We report on our activities and finances to the IAASE Governing Board and to members.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="band">
+    <div class="wrap stack" style="gap:1.5rem">
+      <div class="stack read">
+        <p class="eyebrow">Join or give more</p>
+        <h2>Pick the level that fits.</h2>
+        <p>Every level renews automatically, so your support continues without another conference sign-up. You can cancel at any time. <span class="todo">The Givebutter form goes right here once the widget is set up.</span></p>
+      </div>
+      <div class="levels">
+        <div class="level lead"><div class="amt">$20 <small>a year</small></div><div class="name">Member</div><p>The standard SEA-PAC membership.</p></div>
+        <div class="level"><div class="amt">$5 <small>a month</small></div><div class="name">Sustainer</div><p>Steady support all year.</p></div>
+        <div class="level"><div class="amt">$50 <small>a year</small></div><div class="name">Advocate</div><p>More support for the legislators we back.</p></div>
+        <div class="level"><div class="amt">$100 <small>a year</small></div><div class="name">Champion</div><p>For leaders who want to do more.</p></div>
+        <div class="level"><div class="amt">$250 <small>a year</small></div><div class="name">Leadership Circle</div><p>Our highest level of support.</p></div>
+      </div>
+      <div class="actions"><a class="btn primary" href="https://givebutter.com/aaHB5w" target="_blank" rel="noopener">Give through Givebutter</a></div>
+      <p class="paid">Please give from personal funds, on your own time, using a personal email address. Giving is voluntary and never a condition of employment.</p>
+    </div>
+  </section>
+
+  <section id="money">
+    <div class="wrap stack" style="gap:1.25rem">
+      <div class="stack read">
+        <p class="eyebrow">Where your money goes</p>
+        <h2>$3,250 to seven Illinois legislators, 2025 to 2026.</h2>
+        <p>These are the contributions SEA-PAC's trustees approved. Every one is reported to the Illinois State Board of Elections. <span class="todo">Show only lines already reported in IDIS. Publish names after November 3.</span></p>
+      </div>
+      <div class="ledger-box">
+        <table class="ledger">
+          <thead><tr><th scope="col">Approved</th><th scope="col">Recipient</th><th scope="col" class="num">Amount</th></tr></thead>
+          <tbody>
+            <tr><td>Sep 2026</td><td>Senate President Don Harmon<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
+            <tr><td>Sep 2026</td><td>Sen. Cristina Castro (Citizens for Castro)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
+            <tr><td>Apr 2026</td><td>Rep. Jay Hoffman<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
+            <tr><td>Apr 2026</td><td>Rep. Lawrence Walsh<span class="story todo">One line on his special education work</span></td><td class="num">$500</td></tr>
+            <tr><td>Feb 2026</td><td>Rep. Natalie Manley (Friends of Natalie Manley)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
+            <tr><td>Feb 2026</td><td>Rep. Fran Hurley (Friends of Fran Hurley)<span class="story todo">One line on her special education work</span></td><td class="num">$250</td></tr>
+            <tr><td>2025</td><td>Sen. Meg Loughran Cappel (Committee to Elect Meg Loughran Cappel)<span class="story todo">One line on her special education work</span></td><td class="num">$500</td></tr>
+          </tbody>
+          <tfoot><tr><td></td><td>Total</td><td class="num">$3,250</td></tr></tfoot>
+        </table>
+      </div>
+      <p class="paid">SEA-PAC's full reports are on the <a href="https://www.elections.il.gov" target="_blank" rel="noopener">State Board of Elections website</a>.</p>
+    </div>
+  </section>
+
+  <section id="springfield">
+    <div class="wrap stack" style="gap:1.5rem">
+      <div class="stack read">
+        <p class="eyebrow">What's happening in Springfield</p>
+        <h2>Spring 2027 session</h2>
+        <p><span class="todo">Two or three short items from the IAASE Advocacy &amp; Public Policy committee: the bill, what it would do for students with disabilities, and where it stands.</span></p>
+      </div>
+      <div class="cols">
+        <div class="stack"><h3>One thing you can do</h3><p><span class="todo">One action per session, such as contacting your legislator about a named bill.</span></p></div>
+        <div class="stack"><h3>Invite your legislator</h3><p>Show your legislator a program that works. Our one-page guide walks you through the visit. <span class="todo">Guide link</span></p></div>
+      </div>
+      <p class="paid">Paid for by SEA-PAC Illinois.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="give-h">
+    <div class="wrap stack" style="gap:1.25rem">
+      <h2 id="give-h">Why members give</h2>
+      <div class="cols">
+        <div class="quote"><p><span class="todo">Opt-in quote collected at the Winter Conference</span></p><p class="who">Member, Chicago region</p></div>
+        <div class="quote"><p><span class="todo">Opt-in quote</span></p><p class="who">Member, central Illinois</p></div>
+        <div class="quote"><p><span class="todo">Opt-in quote</span></p><p class="who">Member, southern Illinois</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <strong>SEA-PAC Illinois</strong>
+    <p>Chair: Jon Malone. Treasurer: Shannon Miller Bellini. Questions: support@seapacil.com. Affiliated with <a href="https://www.iaase.org" target="_blank" rel="noopener" style="color:inherit">IAASE</a>. <span class="todo">Facebook link carried over from the current site</span></p>
+    <p class="notice">Paid for by SEA-PAC Illinois. A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.</p>
+    <p class="notice">Contributions to SEA-PAC, a 527 political organization, are not tax-deductible for federal income tax purposes. Contributions must come from your own funds. We cannot accept anonymous contributions, contributions made in another person's name, or contributions from foreign nationals.</p>
+  </div>
+</footer>
+
+</body>
+</html>
