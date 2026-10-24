@@ -171,6 +171,13 @@ nav a:hover { color: var(--capitol); }
 .rep h4 { font: 750 1.15rem/1.15 var(--display); margin: 0.25rem 0 0; }
 .rep ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; font-size: 0.92rem; }
 .rep .btn { justify-self: start; }
+.rep.sample { border-style: dashed; background: transparent; }
+.rep .ph { width: 64px; height: 80px; border-radius: 8px; flex: none; background: var(--tint); color: var(--rule); display: grid; place-items: end center; overflow: hidden; }
+.rep .lines { display: grid; gap: 0.45rem; }
+.rep .lines span { display: block; height: 0.6rem; border-radius: 99px; background: var(--rule); opacity: 0.6; }
+.rep .lines span:nth-child(2) { width: 75%; }
+.rep .lines span:nth-child(3) { width: 55%; }
+.rep.sample p { font-size: 0.88rem; margin: 0; }
 
 /* money */
 .money .head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 3rem; align-items: end; }
@@ -333,6 +340,7 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
             <p class="note">Your address goes only to the U.S. Census Bureau to look up your districts. SEA-PAC does not see or keep it.</p>
           </form>
           <p class="note" id="find-status" role="status" aria-live="polite"></p>
+          <div class="reps" id="find-sample"><div class="rep sample"><div class="who"><span class="ph"><svg width="52" height="62" viewBox="0 0 52 62" fill="currentColor" aria-hidden="true"><circle cx="26" cy="20" r="12"/><path d="M2 62c0-15 11-24 24-24s24 9 24 24z"/></svg></span><div><p class="role">Illinois Senate</p><h4>Your state senator</h4></div></div><div class="lines" aria-hidden="true"><span></span><span></span><span></span></div><p>Name, office phones, and a ready-to-send introduction appear here.</p></div><div class="rep sample"><div class="who"><span class="ph"><svg width="52" height="62" viewBox="0 0 52 62" fill="currentColor" aria-hidden="true"><circle cx="26" cy="20" r="12"/><path d="M2 62c0-15 11-24 24-24s24 9 24 24z"/></svg></span><div><p class="role">Illinois House</p><h4>Your state representative</h4></div></div><div class="lines" aria-hidden="true"><span></span><span></span><span></span></div><p>Name, office phones, and a ready-to-send introduction appear here.</p></div></div>
           <div class="reps" id="find-results" hidden></div>
           <p class="note">Prefer the state's tool? <a href="https://www.ilga.gov/members/FindMyLegislator" target="_blank" rel="noopener">Use the General Assembly's lookup<span class="sr-only"> (opens in a new tab)</span></a>.</p>
         </article>
@@ -565,6 +573,7 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
       findStatus.textContent = 'Your legislators, for ' + matches[0].matchedAddress + ':';
       if (sen) findResults.appendChild(repCard(sen, 'Senator', 'Senate', sd));
       if (rep) findResults.appendChild(repCard(rep, 'Representative', 'House', hd));
+      document.getElementById('find-sample').hidden = true;
       findResults.hidden = false;
     }).catch(function () {
       findStatus.textContent = "The lookup isn't responding right now. Please try again, or use the General Assembly's lookup below.";
