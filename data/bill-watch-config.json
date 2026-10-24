@@ -1,0 +1,26 @@
+{
+  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. Edit freely; the next daily run applies the change.",
+  "statutes": [
+    { "tag": "special-ed", "pattern": "105 ILCS 5/14-", "label": "School Code Article 14 (special education)" },
+    { "tag": "special-ed", "pattern": "105 ILCS 5/14-7.02", "label": "Private special education tuition" },
+    { "tag": "funding", "pattern": "105 ILCS 5/18-8.15", "label": "Evidence-Based Funding" },
+    { "tag": "special-ed", "pattern": "105 ILCS 5/10-22.31", "label": "Special education joint agreements" }
+  ],
+  "phrases": [
+    { "tag": "special-ed", "text": "special education" },
+    { "tag": "special-ed", "text": "students with disabilities" },
+    { "tag": "special-ed", "text": "student with a disability" },
+    { "tag": "special-ed", "text": "children with disabilities" },
+    { "tag": "special-ed", "text": "individualized education program" },
+    { "tag": "special-ed", "text": "therapeutic day school" },
+    { "tag": "special-ed", "text": "joint agreement" },
+    { "tag": "workforce", "text": "school psychologist", "needsSchoolCode": true },
+    { "tag": "workforce", "text": "school social worker", "needsSchoolCode": true },
+    { "tag": "workforce", "text": "speech-language pathologist", "needsSchoolCode": true },
+    { "tag": "workforce", "text": "school support personnel", "needsSchoolCode": true },
+    { "tag": "workforce", "text": "paraprofessional", "needsSchoolCode": true }
+  ],
+  "skipResolutionTitles": ["CONGRATS", "MOURNS", "MEMORIAL", "IN MEMORY"],
+  "always": [],
+  "never": []
+}

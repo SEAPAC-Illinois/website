@@ -162,7 +162,7 @@ nav a:hover { color: var(--capitol); }
 .card .done { font-weight: 650; color: var(--prairie); }
 @media (max-width: 420px) { .signup .pair { grid-template-columns: 1fr; } }
 .reps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
-.reps[hidden] { display: none; }
+.reps[hidden], .card[hidden] { display: none; }
 @media (max-width: 560px) { .reps { grid-template-columns: 1fr; } }
 .rep { border: 1px solid var(--rule); border-radius: 12px; padding: 1rem; display: grid; gap: 0.6rem; align-content: start; background: var(--paper); }
 .rep .who { display: flex; gap: 0.8rem; align-items: center; }
@@ -171,6 +171,14 @@ nav a:hover { color: var(--capitol); }
 .rep h4 { font: 750 1.15rem/1.15 var(--display); margin: 0.25rem 0 0; }
 .rep ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; font-size: 0.92rem; }
 .rep .btn { justify-self: start; }
+.card.watch { grid-column: 1 / -1; }
+.bills { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+@media (max-width: 760px) { .bills { grid-template-columns: 1fr; } }
+.bills li { border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem 1rem; display: grid; gap: 0.35rem; align-content: start; }
+.bills .num { font: 750 0.75rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--prairie); }
+.bills .num a { color: inherit; }
+.bills .sum { color: var(--ink); margin: 0; }
+.bills .stage { font-size: 0.88rem; color: var(--muted); }
 .rep.sample { border-style: dashed; background: transparent; }
 .rep .ph { width: 64px; height: 80px; border-radius: 8px; flex: none; background: var(--tint); color: var(--rule); display: grid; place-items: end center; overflow: hidden; }
 .rep .lines { display: grid; gap: 0.45rem; }
@@ -365,6 +373,12 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
             <p class="note">Act on your own time, from a personal device. You can unsubscribe at any time.</p>
           </form>
           <p class="done" id="alerts-done" role="status" hidden>You're on the list. Watch your inbox when session starts in January.</p>
+        </article>
+        <article class="card watch" id="watch" aria-labelledby="watch-h" hidden>
+          <h3 id="watch-h">Bills we're watching</h3>
+          <p>Illinois bills that touch special education, checked every morning against the General Assembly's records. Being on this list means we follow a bill. It does not mean we support or oppose it.</p>
+          <ul class="bills" id="bill-list"></ul>
+          <p class="note" id="bill-meta"></p>
         </article>
       </div>
       <p class="note">Paid for by Special Education Administrators' PAC (SEAPAC).</p>
@@ -579,6 +593,27 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
       findStatus.textContent = "The lookup isn't responding right now. Please try again, or use the General Assembly's lookup below.";
     }).then(function () { btn.disabled = false; });
   });
+
+  // Bills we're watching: data/bills-public.json is rebuilt each morning by scripts/bill_watch.mjs.
+  if (window.fetch) fetch('data/bills-public.json').then(function (r) { return r.json(); }).then(function (d) {
+    if (!d.bills || !d.bills.length) return;
+    var list = document.getElementById('bill-list');
+    var nice = function (iso) { var p = iso.split('-'); return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); };
+    d.bills.slice(0, 6).forEach(function (b) {
+      var li = el('li');
+      var num = el('p', { 'class': 'num' });
+      var a = el('a', { href: b.url, target: '_blank', rel: 'noopener' }, b.number);
+      a.appendChild(el('span', { 'class': 'sr-only' }, ' at the General Assembly (opens in a new tab)'));
+      num.appendChild(a);
+      li.appendChild(num);
+      var sum = b.summary || b.title;
+      li.appendChild(el('p', { 'class': 'sum' }, sum.length > 170 ? sum.slice(0, 167).replace(/\s+\S*$/, '') + '...' : sum));
+      li.appendChild(el('p', { 'class': 'stage' }, b.status + '. Last action ' + nice(b.date) + '.'));
+      list.appendChild(li);
+    });
+    document.getElementById('bill-meta').textContent = 'Showing the ' + Math.min(6, d.bills.length) + ' bills that moved most recently, out of ' + d.watched + ' we follow this session. Checked ' + nice(d.updated.slice(0, 10)) + '. Source: Illinois General Assembly.';
+    document.getElementById('watch').hidden = false;
+  }).catch(function () {});
 
   // Alerts sign-up posts to the Google Form in the background, then thanks the visitor in place.
   var alerts = document.getElementById('alerts-form');
