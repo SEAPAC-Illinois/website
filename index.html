@@ -161,6 +161,16 @@ nav a:hover { color: var(--capitol); }
 .signup[hidden] { display: none; }
 .card .done { font-weight: 650; color: var(--prairie); }
 @media (max-width: 420px) { .signup .pair { grid-template-columns: 1fr; } }
+.reps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+.reps[hidden] { display: none; }
+@media (max-width: 560px) { .reps { grid-template-columns: 1fr; } }
+.rep { border: 1px solid var(--rule); border-radius: 12px; padding: 1rem; display: grid; gap: 0.6rem; align-content: start; background: var(--paper); }
+.rep .who { display: flex; gap: 0.8rem; align-items: center; }
+.rep img { width: 64px; height: 80px; object-fit: cover; border-radius: 8px; flex: none; background: var(--tint); }
+.rep .role { font: 750 0.75rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--prairie); }
+.rep h4 { font: 750 1.15rem/1.15 var(--display); margin: 0.25rem 0 0; }
+.rep ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; font-size: 0.92rem; }
+.rep .btn { justify-self: start; }
 
 /* money */
 .money .head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 3rem; align-items: end; }
@@ -317,7 +327,14 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
         <article class="card feature">
           <h3>Introduce yourself to your legislators.</h3>
           <p>A short note from a local leader carries real weight. Tell them how many students your district serves and what special education funding pays for. Send it from your personal email, on your own time. When a bill needs you, our session alerts carry the one ask that matters most.</p>
-          <div><a class="btn go small" href="https://www.ilga.gov/members/FindMyLegislator" target="_blank" rel="noopener">Find your legislators<span class="sr-only"> (opens in a new tab)</span></a></div>
+          <form class="signup" id="find-form" aria-label="Find your legislators">
+            <label>Your home address <small>(street, city, and ZIP code)</small><input type="text" id="find-address" autocomplete="street-address" placeholder="123 Main St, Rockford, IL 61107" required></label>
+            <div><button class="btn go small" type="submit">Find your legislators</button></div>
+            <p class="note">Your address goes only to the U.S. Census Bureau to look up your districts. SEA-PAC does not see or keep it.</p>
+          </form>
+          <p class="note" id="find-status" role="status" aria-live="polite"></p>
+          <div class="reps" id="find-results" hidden></div>
+          <p class="note">Prefer the state's tool? <a href="https://www.ilga.gov/members/FindMyLegislator" target="_blank" rel="noopener">Use the General Assembly's lookup<span class="sr-only"> (opens in a new tab)</span></a>.</p>
         </article>
         <article class="card">
           <h3 id="alerts-h">Get session alerts</h3>
@@ -461,6 +478,99 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
     });
   });
   document.getElementById('join-card').addEventListener('submit', function (e) { e.preventDefault(); });
+  // Legislator lookup: the Census geocoder (JSONP, no key) turns an address into districts,
+  // and data/legislators.json (refreshed weekly) turns districts into people.
+  var findForm = document.getElementById('find-form');
+  var findStatus = document.getElementById('find-status');
+  var findResults = document.getElementById('find-results');
+  var roster = null;
+  function geocode(address) {
+    return new Promise(function (resolve, reject) {
+      var cb = 'seapacGeo' + Date.now();
+      var s = document.createElement('script');
+      var timer = setTimeout(function () { cleanup(); reject(new Error('timeout')); }, 20000);
+      function cleanup() { clearTimeout(timer); delete window[cb]; s.remove(); }
+      window[cb] = function (data) { cleanup(); resolve(data); };
+      s.onerror = function () { cleanup(); reject(new Error('network')); };
+      s.src = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=jsonp&callback=' + cb + '&address=' + encodeURIComponent(address);
+      document.head.appendChild(s);
+    });
+  }
+  function district(geos, chamber) {
+    for (var k in geos) {
+      if (k.indexOf('State Legislative Districts - ' + chamber) !== -1 && geos[k][0]) return String(Number(geos[k][0].BASENAME));
+    }
+    return null;
+  }
+  function el(tag, attrs, text) {
+    var n = document.createElement(tag);
+    for (var a in attrs) n.setAttribute(a, attrs[a]);
+    if (text) n.textContent = text;
+    return n;
+  }
+  function repCard(rep, title, chamberName, num) {
+    var card = el('div', { 'class': 'rep' });
+    var who = el('div', { 'class': 'who' });
+    if (rep.image) {
+      var img = el('img', { src: rep.image, alt: '', loading: 'lazy' });
+      img.onerror = function () { img.remove(); };
+      who.appendChild(img);
+    }
+    var head = el('div');
+    head.appendChild(el('p', { 'class': 'role' }, chamberName + ' District ' + num));
+    head.appendChild(el('h4', {}, title + ' ' + rep.name));
+    who.appendChild(head);
+    card.appendChild(who);
+    var list = el('ul');
+    [['District office', rep.district_phone], ['Springfield office', rep.springfield_phone]].forEach(function (p) {
+      if (!p[1]) return;
+      var li = el('li', {}, p[0] + ': ');
+      li.appendChild(el('a', { href: 'tel:' + p[1].replace(/[^0-9]/g, '') }, p[1]));
+      list.appendChild(li);
+    });
+    if (rep.page) {
+      var li = el('li');
+      var a = el('a', { href: rep.page, target: '_blank', rel: 'noopener' }, 'Official page');
+      a.appendChild(el('span', { 'class': 'sr-only' }, ' (opens in a new tab)'));
+      li.appendChild(a);
+      list.appendChild(li);
+    }
+    card.appendChild(list);
+    if (rep.email) {
+      var greet = title + ' ' + rep.last;
+      var body = 'Dear ' + greet + ',\n\nI live in your district and I work in special education. I would like to introduce myself as a resource on students with disabilities in our community.\n\n[One or two sentences: how many students your district serves, or what special education funding pays for.]\n\nThank you for your service. Please reach out anytime a bill affects students with disabilities.\n\n[Your name]\n[Your home address]';
+      card.appendChild(el('a', { 'class': 'btn go small', href: 'mailto:' + rep.email + '?subject=' + encodeURIComponent('Introduction from a constituent in District ' + num) + '&body=' + encodeURIComponent(body) }, 'Email a short introduction'));
+    }
+    return card;
+  }
+  findForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var address = document.getElementById('find-address').value.trim();
+    var btn = findForm.querySelector('button');
+    btn.disabled = true;
+    findResults.hidden = true;
+    findResults.textContent = '';
+    findStatus.textContent = 'Looking up your districts...';
+    var rosterReady = roster ? Promise.resolve(roster) : fetch('data/legislators.json').then(function (r) { return r.json(); }).then(function (d) { roster = d; return d; });
+    Promise.all([geocode(address), rosterReady]).then(function (res) {
+      var matches = (res[0].result && res[0].result.addressMatches) || [];
+      var geos = matches.length ? matches[0].geographies : {};
+      var sd = district(geos, 'Upper'), hd = district(geos, 'Lower');
+      var sen = sd && res[1].senate[sd], rep = hd && res[1].house[hd];
+      if (!matches.length || matches[0].addressComponents.state !== 'IL') {
+        findStatus.textContent = "We couldn't find that Illinois address. Try your full street address with city and ZIP code (P.O. boxes won't work).";
+        return;
+      }
+      if (!sen && !rep) { findStatus.textContent = "We found your address but not your legislators. Please try the General Assembly's lookup below."; return; }
+      findStatus.textContent = 'Your legislators, for ' + matches[0].matchedAddress + ':';
+      if (sen) findResults.appendChild(repCard(sen, 'Senator', 'Senate', sd));
+      if (rep) findResults.appendChild(repCard(rep, 'Representative', 'House', hd));
+      findResults.hidden = false;
+    }).catch(function () {
+      findStatus.textContent = "The lookup isn't responding right now. Please try again, or use the General Assembly's lookup below.";
+    }).then(function () { btn.disabled = false; });
+  });
+
   // Alerts sign-up posts to the Google Form in the background, then thanks the visitor in place.
   var alerts = document.getElementById('alerts-form');
   alerts.addEventListener('submit', function (e) {
