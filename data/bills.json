@@ -1,18 +1,18 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-10-24T20:34:00.500Z",
+ "updated": "2026-10-24T20:37:58.422Z",
  "general_assemblies": [
   104
  ],
  "scan": "full",
  "files_read": 11964,
- "config": "11e8feaa37b6",
+ "config": "5e6395f16264",
  "listing_newest": {
   "104": "2026-10-23T23:20"
  },
  "counts": {
-  "watched": 110,
-  "active": 75
+  "watched": 109,
+  "active": 74
  },
  "bills": [
   {
@@ -6729,55 +6729,6 @@
    ],
    "action_count": 5,
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=70&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "id": "104-SB2522",
-   "ga": 104,
-   "number": "SB 2522",
-   "title": "$IEPA-CITY OF MORRIS LANDFILL",
-   "tags": [
-    "special-ed"
-   ],
-   "platform": [
-    "IAASE Priority 3: Make IEPs clearer and more useful"
-   ],
-   "sponsors": "Sen. Chris Balkema and Sue Rezin",
-   "summary": "Makes appropriations from the General Revenue Fund to the Illinois Environmental Protection Agency for grants to the City of Morris for costs associated with landfill closures and landfill well monitoring.",
-   "synopsis": "Makes appropriations from the General Revenue Fund to the Illinois Environmental Protection Agency for grants to the City of Morris for costs associated with landfill closures and landfill well monitoring. Effective July 1, 2025.",
-   "references": [],
-   "status": "Waiting in Senate Assignments",
-   "committee": null,
-   "active": true,
-   "last_action": {
-    "date": "2025-03-05",
-    "chamber": "Senate",
-    "action": "Added as Co-Sponsor Sen. Sue Rezin"
-   },
-   "recent_actions": [
-    {
-     "date": "2025-03-05",
-     "chamber": "Senate",
-     "action": "Added as Co-Sponsor Sen. Sue Rezin"
-    },
-    {
-     "date": "2025-02-18",
-     "chamber": "Senate",
-     "action": "Referred to Assignments"
-    },
-    {
-     "date": "2025-02-18",
-     "chamber": "Senate",
-     "action": "First Reading"
-    },
-    {
-     "date": "2025-02-18",
-     "chamber": "Senate",
-     "action": "Filed with Secretary by Sen. Chris Balkema"
-    }
-   ],
-   "action_count": 4,
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2522&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
    "first_seen": "2026-10-24"
   },
   {
