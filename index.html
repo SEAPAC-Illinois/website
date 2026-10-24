@@ -38,7 +38,7 @@
   --draft: #ffcf73; --draft-bg: #2e2410; color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.65 var(--body); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.65 var(--body); }
 a { color: var(--blue); }
 a:focus-visible, .btn:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
 .wrap { max-width: 68rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
@@ -49,13 +49,15 @@ h3 { font-size: 1.15rem; font-weight: 700; }
 p { margin: 0; }
 .eyebrow { font: 700 0.78rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .stack { display: grid; gap: 1rem; }
-section { padding-block: 3.5rem; border-top: 1px solid var(--rule); }
+section { padding-block: 3.5rem; border-top: 1px solid var(--rule); scroll-margin-top: 4.5rem; }
 
 .draft { background: var(--draft-bg); color: var(--draft); font-size: 0.92rem; }
 .draft .wrap { padding-block: 0.7rem; }
 .todo { background: var(--draft-bg); color: var(--draft); padding: 0.05em 0.35em; border-radius: 3px; font-size: 0.92em; }
 
-header.top { padding-block: 1rem; }
+header.top { padding-block: 0.75rem; position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--rule); }
+header.top .btn { padding: 0.6rem 1rem; }
+@media (max-width: 44rem) { header.top nav { display: none; } }
 header.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; }
 .mark { font: 800 1.35rem/1 var(--display); font-stretch: 85%; letter-spacing: 0.02em; color: var(--ink); text-decoration: none; }
 .mark span { color: var(--blue); }
@@ -76,8 +78,11 @@ nav a:hover { color: var(--blue); }
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.75rem; }
 .cols > * { min-width: 0; }
 
-.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr)); gap: 1rem; }
-.level { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem; display: grid; gap: 0.35rem; align-content: start; }
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
+.level { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem; display: grid; gap: 0.35rem; align-content: start; color: inherit; text-decoration: none; }
+a.level:hover { border-color: var(--blue); }
+.level .go { font: 700 0.95rem/1 var(--display); color: var(--blue); margin-top: 0.35rem; }
+.monthly { font-size: 1rem; }
 .level.lead { border: 2px solid var(--blue); }
 .amt { font: 800 1.9rem/1 var(--display); font-stretch: 85%; font-variant-numeric: tabular-nums; }
 .amt small { font-size: 0.95rem; font-weight: 600; color: var(--muted); }
@@ -85,12 +90,24 @@ nav a:hover { color: var(--blue); }
 .level p { color: var(--muted); font-size: 0.95rem; }
 
 .ledger-box { overflow-x: auto; }
-table.ledger { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 34rem; }
+table.ledger { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
 .ledger th, .ledger td { text-align: left; padding: 0.7rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
 .ledger th { font: 700 0.78rem/1.2 var(--display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .ledger td.num, .ledger th.num { text-align: right; white-space: nowrap; }
 .ledger tfoot td { font-weight: 700; border-bottom: 0; }
 .ledger .story { display: block; color: var(--muted); font-size: 0.92rem; }
+@media (max-width: 36rem) {
+  .ledger thead { display: none; }
+  .ledger tr { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--rule); }
+  .ledger td { padding: 0; border: 0; }
+  .ledger td:nth-child(2) { grid-column: 1 / -1; grid-row: 1; font-weight: 600; }
+  .ledger td:first-child { grid-row: 2; color: var(--muted); }
+  .ledger td.num { grid-row: 2; }
+  .ledger tfoot tr { border-bottom: 0; }
+  .ledger tfoot td:first-child { display: none; }
+  .ledger tfoot td:nth-child(2) { grid-column: 1; grid-row: 1; }
+  .ledger tfoot td.num { grid-row: 1; }
+}
 
 .band { background: var(--band); }
 .quote { background: var(--surface); border-radius: 8px; padding: 1.1rem 1.2rem; border: 1px solid var(--rule); }
@@ -123,6 +140,7 @@ html { scroll-behavior: smooth; }
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <a class="btn primary" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener">Join</a>
   </div>
 </header>
 
@@ -133,7 +151,7 @@ html { scroll-behavior: smooth; }
       <h1>For $20 a year, you help <em>special education leaders</em> build relationships with the legislators who decide how students with disabilities are served and funded.</h1>
       <p class="lede">SEA-PAC Illinois is affiliated with the Illinois Alliance of Administrators of Special Education (IAASE). Members come from every IAASE region of the state.</p>
       <div class="actions">
-        <a class="btn primary" href="https://givebutter.com/aaHB5w" target="_blank" rel="noopener">Join for $20 a year</a>
+        <a class="btn primary" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener">Join for $20 a year</a>
         <a class="btn secondary" href="#join">See all ways to give</a>
       </div>
       <p class="paid">Paid for by SEA-PAC Illinois.</p>
@@ -160,17 +178,19 @@ html { scroll-behavior: smooth; }
       <div class="stack read">
         <p class="eyebrow">Join or give more</p>
         <h2>Pick the level that fits.</h2>
-        <p>Every level renews automatically, so your support continues without another conference sign-up. You can cancel at any time. <span class="todo">The Givebutter form goes right here once the widget is set up.</span></p>
+        <p>Pick a level and Givebutter opens with it already chosen. Every level renews automatically (except Venmo, which Givebutter cannot renew), so your support continues without another conference sign-up. You can change or cancel at any time from your receipt.</p>
+        <p>Already a member? If you chose auto-renew, you're set.</p>
       </div>
       <div class="levels">
-        <div class="level lead"><div class="amt">$20 <small>a year</small></div><div class="name">Member</div><p>The standard SEA-PAC membership.</p></div>
-        <div class="level"><div class="amt">$5 <small>a month</small></div><div class="name">Sustainer</div><p>Steady support all year.</p></div>
-        <div class="level"><div class="amt">$50 <small>a year</small></div><div class="name">Advocate</div><p>More support for the legislators we back.</p></div>
-        <div class="level"><div class="amt">$100 <small>a year</small></div><div class="name">Champion</div><p>For leaders who want to do more.</p></div>
-        <div class="level"><div class="amt">$250 <small>a year</small></div><div class="name">Leadership Circle</div><p>Our highest level of support.</p></div>
+        <a class="level lead" href="https://givebutter.com/aaHB5w?amount=20&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$20 <small>a year</small></div><div class="name">Member</div><p>Every 25 members fund one $500 contribution to a legislator who champions our students.</p><span class="go">Join now</span></a>
+        <a class="level" href="https://givebutter.com/aaHB5w?amount=50&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$50 <small>a year</small></div><div class="name">Advocate</div><p>One tenth of a $500 contribution.</p><span class="go">Join now</span></a>
+        <a class="level" href="https://givebutter.com/aaHB5w?amount=100&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$100 <small>a year</small></div><div class="name">Champion</div><p>One fifth of a $500 contribution.</p><span class="go">Join now</span></a>
+        <a class="level" href="https://givebutter.com/aaHB5w?amount=250&amp;frequency=yearly&amp;utm_source=website" target="_blank" rel="noopener"><div class="amt">$250 <small>a year</small></div><div class="name">Leadership Circle</div><p>Half of a $500 contribution. Our highest level.</p><span class="go">Join now</span></a>
       </div>
-      <div class="actions"><a class="btn primary" href="https://givebutter.com/aaHB5w" target="_blank" rel="noopener">Give through Givebutter</a></div>
-      <p class="paid">Please give from personal funds, on your own time, using a personal email address. Giving is voluntary and never a condition of employment.</p>
+      <p class="monthly">Prefer monthly? <a href="https://givebutter.com/aaHB5w?amount=5&amp;frequency=monthly&amp;utm_source=website" target="_blank" rel="noopener"><strong>$5 a month as a Sustainer</strong></a> ($60 a year, spread out).</p>
+      <p class="paid">Secure checkout on Givebutter. Givebutter will ask for an optional tip to support its free platform. You can set it to $0. Your full gift goes to SEA-PAC.</p>
+      <p class="paid">Please give from personal funds, on your own time, using a personal email address. Giving is voluntary and never a condition of employment. Contributions are not tax-deductible.</p>
+      <p class="paid">Paid for by SEA-PAC Illinois. A copy of our report filed with the State Board of Elections is (or will be) available on the Board's official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.</p>
     </div>
   </section>
 
