@@ -149,6 +149,18 @@ nav a:hover { color: var(--capitol); }
 .card.feature { border: 2px solid var(--capitol); }
 .card p { color: var(--muted); }
 .note { font-size: 0.82rem; color: var(--muted); }
+.signup { display: grid; gap: 0.75rem; }
+.signup .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+.signup label { display: grid; gap: 0.3rem; font-weight: 650; font-size: 0.9rem; }
+.signup label small { font-weight: 400; color: var(--muted); }
+.signup input[type="text"], .signup input[type="email"] { font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--rule); border-radius: 10px; padding: 0.6rem 0.75rem; min-width: 0; }
+.signup input:focus-visible { outline: 3px solid var(--capitol); outline-offset: 2px; }
+.signup fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
+.signup legend { font-weight: 650; font-size: 0.9rem; margin-bottom: 0.2rem; }
+.signup .check { display: flex; align-items: center; gap: 0.5rem; font-weight: 400; }
+.signup[hidden] { display: none; }
+.card .done { font-weight: 650; color: var(--prairie); }
+@media (max-width: 420px) { .signup .pair { grid-template-columns: 1fr; } }
 
 /* money */
 .money .head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 3rem; align-items: end; }
@@ -308,9 +320,26 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
           <div><a class="btn go small" href="https://www.ilga.gov/members/FindMyLegislator" target="_blank" rel="noopener">Find your legislators<span class="sr-only"> (opens in a new tab)</span></a></div>
         </article>
         <article class="card">
-          <h3>Get session alerts</h3>
-          <p>About four short emails a year: session alerts when a bill needs you, plus SEA-PAC news. Please use a personal address, not a school account.</p>
-          <div><a class="btn ghost small" href="mailto:support@seapacil.com?subject=Add%20me%20to%20SEA-PAC%20session%20alerts">Email us to sign up</a></div>
+          <h3 id="alerts-h">Get session alerts</h3>
+          <p>A short email when a bill that affects students with disabilities needs your voice. Most ask for a witness slip, which takes about two minutes. Alerts come mostly from January to May, usually no more than one a week. Anyone can sign up, and it's free.</p>
+          <form class="signup" id="alerts-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdqnUBMqeiia9JZ2AC2cGuqf4tH_bgz8iJP5Sr-8G_X_pzqfQ/formResponse" method="post" target="_blank" aria-labelledby="alerts-h">
+            <div class="pair">
+              <label>First name<input type="text" name="entry.1065306141" autocomplete="given-name" required></label>
+              <label>Last name<input type="text" name="entry.2106092286" autocomplete="family-name" required></label>
+            </div>
+            <label>Personal email <small>(not a school or work email)</small><input type="email" name="entry.1722219361" autocomplete="email" required></label>
+            <label>Home ZIP code <small>(so we can tell legislators how many of you live in their district)</small><input type="text" name="entry.1522544571" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" required></label>
+            <fieldset>
+              <legend>Which describes you? <small>(optional)</small></legend>
+              <label class="check"><input type="checkbox" name="entry.1019290349" value="Special education administrator">Special education administrator</label>
+              <label class="check"><input type="checkbox" name="entry.1019290349" value="Teacher or related service provider">Teacher or related service provider</label>
+              <label class="check"><input type="checkbox" name="entry.1019290349" value="Paraprofessional or support staff">Paraprofessional or support staff</label>
+              <label class="check"><input type="checkbox" name="entry.1019290349" value="Parent or family member">Parent or family member</label>
+            </fieldset>
+            <div><button class="btn go small" type="submit">Sign me up</button></div>
+            <p class="note">Act on your own time, from a personal device. You can unsubscribe at any time.</p>
+          </form>
+          <p class="done" id="alerts-done" role="status" hidden>You're on the list. Watch your inbox when session starts in January.</p>
         </article>
       </div>
       <p class="note">Paid for by Special Education Administrators' PAC (SEAPAC).</p>
@@ -432,6 +461,20 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
     });
   });
   document.getElementById('join-card').addEventListener('submit', function (e) { e.preventDefault(); });
+  // Alerts sign-up posts to the Google Form in the background, then thanks the visitor in place.
+  var alerts = document.getElementById('alerts-form');
+  alerts.addEventListener('submit', function (e) {
+    if (!window.fetch) return;
+    e.preventDefault();
+    var btn = alerts.querySelector('button');
+    btn.disabled = true;
+    fetch(alerts.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(alerts)) })
+      .then(function () {
+        alerts.hidden = true;
+        document.getElementById('alerts-done').hidden = false;
+      })
+      .catch(function () { btn.disabled = false; alerts.submit(); });
+  });
 })();
 </script>
 </body>
