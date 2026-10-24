@@ -607,7 +607,7 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
       num.appendChild(a);
       li.appendChild(num);
       var sum = b.summary || b.title;
-      li.appendChild(el('p', { 'class': 'sum' }, sum.length > 170 ? sum.slice(0, 167).replace(/\s+\S*$/, '') + '...' : sum));
+      li.appendChild(el('p', { 'class': 'sum' }, sum));
       li.appendChild(el('p', { 'class': 'stage' }, b.status + '. Last action ' + nice(b.date) + '.'));
       list.appendChild(li);
     });

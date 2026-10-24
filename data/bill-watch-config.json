@@ -1,9 +1,17 @@
 {
-  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. Edit freely; the next daily run applies the change.",
+  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. 'platform' links a match to the 2026-2027 IAASE Legislative Platform (adopted Oct 21, 2026) or to an item on the IAASE Advocacy & Public Policy Committee's Oct 7, 2026 agenda. A link is context for the committee, not a position. Edit freely; the next daily run applies the change.",
+  "platformItems": {
+    "P1": "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)",
+    "P2": "IAASE Priority 2: Fully fund services for students with the most significant needs (Fund Code X)",
+    "P3": "IAASE Priority 3: Make IEPs clearer and more useful",
+    "P4": "IAASE Priority 4: Build and sustain the special education workforce",
+    "C504": "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "CADV": "Committee watch item: standards for special education advocates (committee wants IAASE to pursue)"
+  },
   "statutes": [
     { "tag": "special-ed", "pattern": "105 ILCS 5/14-", "label": "School Code Article 14 (special education)" },
-    { "tag": "special-ed", "pattern": "105 ILCS 5/14-7.02", "label": "Private special education tuition" },
-    { "tag": "funding", "pattern": "105 ILCS 5/18-8.15", "label": "Evidence-Based Funding" },
+    { "tag": "special-ed", "pattern": "105 ILCS 5/14-7.02", "label": "Private special education tuition", "platform": ["P1"] },
+    { "tag": "funding", "pattern": "105 ILCS 5/18-8.15", "label": "Evidence-Based Funding", "platform": ["P1"] },
     { "tag": "special-ed", "pattern": "105 ILCS 5/10-22.31", "label": "Special education joint agreements" }
   ],
   "phrases": [
@@ -11,14 +19,24 @@
     { "tag": "special-ed", "text": "students with disabilities" },
     { "tag": "special-ed", "text": "student with a disability" },
     { "tag": "special-ed", "text": "children with disabilities" },
-    { "tag": "special-ed", "text": "individualized education program" },
-    { "tag": "special-ed", "text": "therapeutic day school" },
+    { "tag": "special-ed", "text": "individualized education program", "platform": ["P3"] },
+    { "tag": "special-ed", "text": "therapeutic day school", "platform": ["P1"] },
+    { "tag": "special-ed", "text": "separate day school", "platform": ["P1"] },
+    { "tag": "special-ed", "text": "private special education facilit", "platform": ["P1"] },
+    { "tag": "special-ed", "text": "placement-neutral", "platform": ["P1"] },
+    { "tag": "funding", "text": "excess cost", "needsSchoolCode": true, "platform": ["P2"] },
+    { "tag": "funding", "text": "extraordinary special education", "platform": ["P2"] },
     { "tag": "special-ed", "text": "joint agreement" },
-    { "tag": "workforce", "text": "school psychologist", "needsSchoolCode": true },
-    { "tag": "workforce", "text": "school social worker", "needsSchoolCode": true },
-    { "tag": "workforce", "text": "speech-language pathologist", "needsSchoolCode": true },
-    { "tag": "workforce", "text": "school support personnel", "needsSchoolCode": true },
-    { "tag": "workforce", "text": "paraprofessional", "needsSchoolCode": true }
+    { "tag": "special-ed", "text": "Section 504", "platform": ["C504"] },
+    { "tag": "special-ed", "text": "504 plan", "platform": ["C504"] },
+    { "tag": "special-ed", "text": "special education advocate", "platform": ["CADV"] },
+    { "tag": "special-ed", "text": "educational advocate", "platform": ["CADV"] },
+    { "tag": "workforce", "text": "school psychologist", "needsSchoolCode": true, "platform": ["P4"] },
+    { "tag": "workforce", "text": "school social worker", "needsSchoolCode": true, "platform": ["P4"] },
+    { "tag": "workforce", "text": "speech-language patholog", "needsSchoolCode": true, "platform": ["P4"] },
+    { "tag": "workforce", "text": "school support personnel", "needsSchoolCode": true, "platform": ["P4"] },
+    { "tag": "workforce", "text": "paraprofessional", "needsSchoolCode": true, "platform": ["P4"] },
+    { "tag": "workforce", "text": "Grow Your Own", "platform": ["P4"] }
   ],
   "skipResolutionTitles": ["CONGRATS", "MOURNS", "MEMORIAL", "IN MEMORY"],
   "always": [],
