@@ -9,14 +9,6 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Plain curl
-        run: |
-          for u in https://ftp.ilga.gov/ https://ftp.ilga.gov/Legislation/104/BillStatus/XML/ ; do
-            echo "== $u"; curl -sS -m 60 -o out.html -w '%{http_code} %{size_download}\n' "$u" && head -c 3000 out.html; echo
-          done
-          echo | openssl s_client -connect ftp.ilga.gov:443 -servername ftp.ilga.gov -showcerts 2>/dev/null | grep -E 's:|i:' | head
-      - name: Python
-        run: python3 -c "import urllib.request;print(urllib.request.urlopen('https://ftp.ilga.gov/',timeout=60).status)" || true
       - name: Chrome
         run: |
           npm i --no-save playwright@1.47.2 >/dev/null 2>&1
@@ -25,10 +17,22 @@ jobs:
           (async () => {
             const b = await chromium.launch({ channel: 'chrome' });
             const p = await b.newPage();
-            for (const u of ['https://ftp.ilga.gov/', 'https://ftp.ilga.gov/Legislation/', 'https://ftp.ilga.gov/Legislation/104/', 'https://ftp.ilga.gov/Legislation/104/BillStatus/']) {
-              try { const r = await p.goto(u, { timeout: 60000 }); const t = await p.evaluate(() => document.body.innerText); console.log('==', u, r.status()); console.log(t.slice(0, 4000)); }
-              catch (e) { console.log('ERR', u, e.message.split('\n')[0]); }
+            await p.goto('https://ftp.ilga.gov/', { timeout: 60000 });
+            const text = (u) => p.evaluate(async (u) => { const r = await fetch(u); return r.status + '\n' + await r.text(); }, u);
+            for (const u of ['/Repository%20Information/', '/Committees/', '/Members/']) { const t = await text(u); console.log('==', u); console.log(t.replace(/<[^>]+>/g, ' ').replace(/\s+\n/g, '\n').slice(0, 2500)); }
+            const listing = await text('/Legislation/104/BillStatus/XML/');
+            const files = [...listing.matchAll(/href="([^"]+\.xml)"/gi)].map(m => m[1]);
+            console.log('XML files', files.length, files.slice(0, 5), files.slice(-5));
+            console.log(listing.slice(0, 1500));
+            const one = files.find(f => /HB0040\.xml/i.test(f)) || files[0];
+            console.log('== sample', one); console.log((await text(one)).slice(0, 12000));
+            const t0 = Date.now(); const hits = []; let done = 0;
+            for (let i = 0; i < files.length; i += 40) {
+              const batch = files.slice(i, i + 40);
+              const res = await p.evaluate(async (fs) => Promise.all(fs.map(async f => { try { const r = await fetch(f); return [f, await r.text()]; } catch (e) { return [f, '']; } })), batch);
+              for (const [f, x] of res) { done++; if (/105 ILCS 5\/14/.test(x) || /special education/i.test(x)) hits.push(f.split('/').pop()); }
             }
+            console.log('fetched', done, 'in', (Date.now() - t0) / 1000, 's; hits', hits.length); console.log(hits.join(' '));
             await b.close();
           })();
           JS
