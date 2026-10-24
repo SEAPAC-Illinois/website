@@ -1,39 +1,40 @@
-# Temporary: explores the ILGA public data repository from a GitHub runner.
-# Removed before the bill watcher PR is opened.
+# Temporary: test run of the bill watcher on this branch. Removed before the PR.
 name: ILGA probe
 on:
   push:
     branches: [claude/project-thread-7wsh73]
-    paths: [.github/workflows/ilga-probe.yml]
+    paths: [.github/workflows/ilga-probe.yml, scripts/bill_watch.mjs]
+permissions:
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Chrome
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-save --no-package-lock playwright@1.47.2
+      - run: node scripts/bill_watch.mjs --full
+      - name: Check a bill page link
         run: |
-          npm i --no-save playwright@1.47.2 >/dev/null 2>&1
-          cat > p.js <<'JS'
+          cat > u.js <<'JS'
           const { chromium } = require('playwright');
+          const d = require('./data/bills.json');
           (async () => {
-            const b = await chromium.launch({ channel: 'chrome' });
-            const p = await b.newPage();
-            await p.goto('https://ftp.ilga.gov/', { timeout: 60000 });
-            const text = (u) => p.evaluate(async (u) => { const r = await fetch(u); return r.status + '\n' + await r.text(); }, u);
-            for (const u of ['/Repository%20Information/', '/Committees/', '/Members/']) { const t = await text(u); console.log('==', u); console.log(t.replace(/<[^>]+>/g, ' ').replace(/\s+\n/g, '\n').slice(0, 2500)); }
-            const listing = await text('/Legislation/104/BillStatus/XML/');
-            const files = [...listing.matchAll(/href="([^"]+\.xml)"/gi)].map(m => m[1]);
-            console.log('XML files', files.length, files.slice(0, 5), files.slice(-5));
-            console.log(listing.slice(0, 1500));
-            const one = files.find(f => /HB0040\.xml/i.test(f)) || files[0];
-            console.log('== sample', one); console.log((await text(one)).slice(0, 12000));
-            const t0 = Date.now(); const hits = []; let done = 0;
-            for (let i = 0; i < files.length; i += 40) {
-              const batch = files.slice(i, i + 40);
-              const res = await p.evaluate(async (fs) => Promise.all(fs.map(async f => { try { const r = await fetch(f); return [f, await r.text()]; } catch (e) { return [f, '']; } })), batch);
-              for (const [f, x] of res) { done++; if (/105 ILCS 5\/14/.test(x) || /special education/i.test(x)) hits.push(f.split('/').pop()); }
-            }
-            console.log('fetched', done, 'in', (Date.now() - t0) / 1000, 's; hits', hits.length); console.log(hits.join(' '));
+            const b = await chromium.launch({ channel: 'chrome' }); const p = await b.newPage();
+            const u = d.bills[0].url; const r = await p.goto(u, { timeout: 60000 }).catch(e => null);
+            console.log('URL', u, r && r.status(), await p.title().catch(() => ''));
+            console.log((await p.evaluate(() => document.body.innerText).catch(() => '')).slice(0, 600));
             await b.close();
           })();
           JS
-          node p.js
+          node u.js || true
+      - name: Summary
+        run: |
+          node -e "const d=require('./data/bills.json');console.log(d.counts, d.general_assemblies, d.files_read);const s={};for(const b of d.bills){s[b.status.replace(/: .*/,'')]=(s[b.status.replace(/: .*/,'')]||0)+1};console.log(s);for(const b of d.bills.slice(0,40))console.log(b.number,b.tags.join(','),'|',b.title,'|',b.status,'|',b.last_action&&b.last_action.date)"
+      - name: Save result to the branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bills.json && git commit -m "Test run of the bill watcher" && git push
