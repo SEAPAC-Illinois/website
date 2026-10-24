@@ -1,18 +1,18 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-10-24T19:43:06.039Z",
+ "updated": "2026-10-24T20:29:50.339Z",
  "general_assemblies": [
   104
  ],
  "scan": "full",
  "files_read": 11964,
- "config": "562d7d5387b4",
+ "config": "264d1f084546",
  "listing_newest": {
   "104": "2026-10-23T23:20"
  },
  "counts": {
-  "watched": 103,
-  "active": 68
+  "watched": 108,
+  "active": 73
  },
  "bills": [
   {
@@ -23,8 +23,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Tracy Katz Muhl-Jeff Keicher",
-   "summary": "Requires the regional superintendent of schools to, beginning on August 7, 2028, exercise and perform all rights, powers, duties, and responsibilities that were vested in or required by law to be exercised and performed by former...",
+   "summary": "Requires the regional superintendent of schools to, beginning on August 7, 2028, exercise and perform all rights, powers, duties, and responsibilities that were vested in or required by law to be exercised and performed by former regional boards of school trustees and appoint a nonpartisan citizens committee consisting of 5 members to conduct the duties of the former regional board of school trustees.",
    "synopsis": "Amends the Regional Superintendent of Schools Article of the School Code. Requires the regional superintendent of schools to, beginning on August 7, 2028, exercise and perform all rights, powers, duties, and responsibilities that were vested in or required by law to be exercised and performed by former regional boards of school trustees and appoint a nonpartisan citizens committee consisting of 5 members to conduct the duties of the former regional board of school trustees. Provides that the expiring terms of members of each regional board of school trustees shall be extended so as to terminate on the August 7, 2028. Provides that all books, records, maps, papers, documents, equipment,...",
    "references": [
     "10 ILCS 5/1-3",
@@ -92,8 +93,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Sue Rezin and Chris Balkema",
-   "summary": "Provides that a school board shall, upon passage of a referendum after submission of a petition signed by no less than 8% of the school district's voters in the last consolidated election, or may, by resolution, enter into a joint...",
+   "summary": "Provides that a school board shall, upon passage of a referendum after submission of a petition signed by no less than 8% of the school district's voters in the last consolidated election, or may, by resolution, enter into a joint agreement with other school boards to share the services of a superintendent or other administrator.",
    "synopsis": "Amends the School Code. Provides that a school board shall, upon passage of a referendum after submission of a petition signed by no less than 8% of the school district's voters in the last consolidated election, or may, by resolution, enter into a joint agreement with other school boards to share the services of a superintendent or other administrator. Provides that any savings realized by sharing services must be divided equally between classroom needs and property tax relief. Provides that a school district wishing to withdraw from the joint agreement shall obtain from its school board a written resolution approving the withdrawal and shall present a petition for withdrawal to the...",
    "references": [
     "105 ILCS 5/10-21.4"
@@ -153,6 +155,40 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HR1026",
+   "ga": 104,
+   "number": "HR 1026",
+   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
+   "tags": [
+    "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
+   "sponsors": "Rep. Tony M. McCombie",
+   "summary": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
+   "synopsis": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
+   "references": [],
+   "status": "Filed",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2026-09-09",
+    "chamber": "House",
+    "action": "Filed with the Clerk by Rep. Tony M. McCombie"
+   },
+   "recent_actions": [
+    {
+     "date": "2026-09-09",
+     "chamber": "House",
+     "action": "Filed with the Clerk by Rep. Tony M. McCombie"
+    }
+   ],
+   "action_count": 1,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-SB3731",
    "ga": 104,
    "number": "SB 3731",
@@ -160,6 +196,9 @@
    "tags": [
     "funding",
     "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Sen. Bill Cunningham",
    "summary": "Combines multiple versions of Sections amended by more than one Public Act.",
@@ -240,8 +279,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Katie Stuart-Sharon Chung and Emanuel \"Chris\" Welch",
-   "summary": "Provides that a student attending a postsecondary education institution in the State is entitled to the following rights: the right to an inclusive and safe learning environment; the right to equal access; the right to safety and...",
+   "summary": "Provides that a student attending a postsecondary education institution in the State is entitled to the following rights: the right to an inclusive and safe learning environment; the right to equal access; the right to safety and respect; the right to accessibility; the right to free expression; the right to organize; the right to peaceful protest; the right to academic transparency; the right to fair evaluation; the right to educational records; the right to educational programs safeguarded from political interference; the right to career preparation; the right to educational quality; the...",
    "synopsis": "Creates the Higher Education Student Bill of Rights Act. Provides that a student attending a postsecondary education institution in the State is entitled to the following rights: the right to an inclusive and safe learning environment; the right to equal access; the right to safety and respect; the right to accessibility; the right to free expression; the right to organize; the right to peaceful protest; the right to academic transparency; the right to fair evaluation; the right to educational records; the right to educational programs safeguarded from political interference; the right to career preparation; the right to educational quality; the right to due process; the right to...",
    "references": [
     "New Act"
@@ -308,8 +348,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Katie Stuart-Carol Ammons",
-   "summary": "Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education...",
+   "summary": "Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education coursework for purposes of salary advancement or lane changes only if the continuing education coursework meets specified requirements.",
    "synopsis": "Amends the Employment of Teachers Article of the School Code. Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education coursework for purposes of salary advancement or lane changes only if the continuing education coursework meets specified requirements. Provides that nothing in the provisions impairs the ability of the parties to a collective bargaining agreement to negotiate salary schedules or compensation structures, as long as any graduate-level continuing education coursework recognized for salary...",
    "references": [
     "105 ILCS 5/24-8.2 new"
@@ -377,8 +418,11 @@
     "funding",
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Laura Faver Dias",
-   "summary": "Makes changes to provisions regarding departments and functions of the State Board of Education, the teacher supply and demand report, waivers and modifications of mandates and administrative rules, audits of a school district's...",
+   "summary": "Makes changes to provisions regarding departments and functions of the State Board of Education, the teacher supply and demand report, waivers and modifications of mandates and administrative rules, audits of a school district's accounts, statements of affairs, the Illinois Purchased Care Review Board, evidence-based funding, the State Educator Preparation and Licensure Board, qualifications of educators, provisional educator endorsements on Educator Licenses with Stipulations, educator testing exemptions, the Teacher Performance Assessment Advisory Committee, teacher and principal model...",
    "synopsis": "Amends the School Code. Makes changes to provisions regarding departments and functions of the State Board of Education, the teacher supply and demand report, waivers and modifications of mandates and administrative rules, audits of a school district's accounts, statements of affairs, the Illinois Purchased Care Review Board, evidence-based funding, the State Educator Preparation and Licensure Board, qualifications of educators, provisional educator endorsements on Educator Licenses with Stipulations, educator testing exemptions, the Teacher Performance Assessment Advisory Committee, teacher and principal model evaluation templates, children and students who are parents, expectant...",
    "references": [
     "30 ILCS 105/5.375",
@@ -456,6 +500,10 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Adriane Johnson-David Koehler and Kimberly A. Lightford",
    "summary": "In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\".",
    "synopsis": "Amends the School Code. In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\". Provides that in the development of an individualized education program (IEP) or federal Section 504 plan for a twice-exceptional student, if the student's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be recognized and addressed in the student's IEP or Section 504 plan and be reflected in the individualized services, goals, accommodations, and objectives for the student, while continuing to provide appropriate services and...",
@@ -524,6 +572,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Doris Turner-Jil Tracy and Javier L. Cervantes",
    "summary": "Changes the name of the Illinois School for the Visually Impaired to the Illinois School for the Blind.",
    "synopsis": "Amends the Rehabilitation of Persons with Disabilities Act. Changes the name of the Illinois School for the Visually Impaired to the Illinois School for the Blind. Makes conforming changes to the Personnel Code, the School Code, the School Safety Drill Act, the Illinois Educational Labor Relations Act, and the MRSA Prevention, Control, and Reporting Act.",
@@ -600,8 +649,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Cristina Castro-Meg Loughran Cappel-David Koehler-Kimberly A. Lightford-Mary Edly-Allen, Christopher Belt, Ram Villivalam, Adriane Johnson, Li Arellano, Jr., Jason Plummer, Willie Preston, Suzy Glowiak Hilton, Laura M. Murphy, Julie A. Morrison, Michael W. Halpin, Mike Simmons, Mark L. Walker, ",
-   "summary": "Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional...",
+   "summary": "Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time.",
    "synopsis": "Amends the School Code. Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time. Provides that the policy may not prohibit a student from using a wireless communication device during instructional time: (1) when a teacher or instructor has authorized the student to use a wireless communication device for educational purposes; (2) in an emergency or in response to an imminent...",
    "references": [
     "105 ILCS 5/10-20.88 new",
@@ -676,8 +729,11 @@
     "special-ed",
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Michael Crawford-Lisa Davis-Yolonda Morris-Kimberly Du Buclet and Maurice A. West, II",
-   "summary": "Provides that \"school psychologist\" means a psychologist who, along with other qualifications, has graduated with a specialist degree, an equivalent degree with the completion of a minimum of 60 graduate semester hours, or a higher...",
+   "summary": "Provides that \"school psychologist\" means a psychologist who, along with other qualifications, has graduated with a specialist degree, an equivalent degree with the completion of a minimum of 60 graduate semester hours, or a higher degree in school psychology (rather than a master's degree or higher degree in psychology or educational psychology) from an institution of higher learning and has had at least 1,200 clock hours of supervised experience (rather than one school year of full-time supervised experience) in the delivery of school psychological services.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that \"school psychologist\" means a psychologist who, along with other qualifications, has graduated with a specialist degree, an equivalent degree with the completion of a minimum of 60 graduate semester hours, or a higher degree in school psychology (rather than a master's degree or higher degree in psychology or educational psychology) from an institution of higher learning and has had at least 1,200 clock hours of supervised experience (rather than one school year of full-time supervised experience) in the delivery of school psychological services. Makes changes to provide that school psychological services...",
    "references": [
     "105 ILCS 5/14-1.09",
@@ -745,8 +801,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Diane Blair-Sherlock-Michelle Mussman-Janet Yang Rohr",
-   "summary": "Provides that, by January 1, 2027, the State Board of Education, in consultation with the State's Work Incentives Planning and Assistance program, shall establish an efficient process by which information about the Work Incentives...",
+   "summary": "Provides that, by January 1, 2027, the State Board of Education, in consultation with the State's Work Incentives Planning and Assistance program, shall establish an efficient process by which information about the Work Incentives Planning and Assistance program is disseminated through the State Board to students, parents and guardians, transition planning and services coordinators at school districts, special education joint agreements, and other relevant educational agencies.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that, by January 1, 2027, the State Board of Education, in consultation with the State's Work Incentives Planning and Assistance program, shall establish an efficient process by which information about the Work Incentives Planning and Assistance program is disseminated through the State Board to students, parents and guardians, transition planning and services coordinators at school districts, special education joint agreements, and other relevant educational agencies. Effective immediately. Replaces everything after the enacting clause with the provisions of the introduced bill, and makes the following changes....",
    "references": [
     "105 ILCS 5/14-8.03"
@@ -813,8 +870,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. Doris Turner, Rachel Ventura and Cristina Castro",
-   "summary": "In provisions concerning in-service training programs for teachers, administrators, and school support personnel, provides that the training regarding health conditions of students shall include the proper handling of service animals in...",
+   "summary": "In provisions concerning in-service training programs for teachers, administrators, and school support personnel, provides that the training regarding health conditions of students shall include the proper handling of service animals in the school setting and the instruction on the federal Americans with Disabilities Act, as it pertains to the school environment, shall include the proper handling of service animals, the rights of students who use service animals, and appropriate interactions with service animals.",
    "synopsis": "Amends the School Code. In provisions concerning in-service training programs for teachers, administrators, and school support personnel, provides that the training regarding health conditions of students shall include the proper handling of service animals in the school setting and the instruction on the federal Americans with Disabilities Act, as it pertains to the school environment, shall include the proper handling of service animals, the rights of students who use service animals, and appropriate interactions with service animals. Replaces everything after the enacting clause. Amends the School Boards Article of the School Code. In provisions concerning in-service training...",
    "references": [
     "105 ILCS 5/10-22.39"
@@ -881,8 +941,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. Meg Loughran Cappel-Dale Fowler, Mattie Hunter, Adriane Johnson, Sara Feigenholtz, Jil Tracy, Chris Balkema, Lakesia Collins, Steve Stadelman and Mary Edly-Allen",
-   "summary": "Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a...",
+   "summary": "Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a paraprofessional educator endorsement.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a paraprofessional educator endorsement. Provides that the short-term approval authorizes an individual to serve as a paraprofessional educator in a school district, including a charter school, or a State-operated program, with the short-term approval expiring on June 30 immediately following the third full fiscal year after the approval was issued without renewal. Provides that upon expiration of the...",
    "references": [
     "105 ILCS 5/21B-20"
@@ -949,8 +1012,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Julie A. Morrison-Meg Loughran Cappel and Cristina Castro",
-   "summary": "Allows a school district, public school, charter school, or nonpublic school to authorize a school nurse or trained personnel to: (1) provide undesignated ready-to-use glucagon to authorized personnel to administer ready-to-use glucagon...",
+   "summary": "Allows a school district, public school, charter school, or nonpublic school to authorize a school nurse or trained personnel to: (1) provide undesignated ready-to-use glucagon to authorized personnel to administer ready-to-use glucagon to a student that meets the student's prescription on file; (2) administer undesignated ready-to-use glucagon that meets the prescription on file to any student who has a plan that authorizes the use of ready-to-use glucagon; and (3) administer undesignated ready-to-use glucagon to any person that the school nurse or trained personnel believes in good faith...",
    "synopsis": "Amends the School Code. Allows a school district, public school, charter school, or nonpublic school to authorize a school nurse or trained personnel to: (1) provide undesignated ready-to-use glucagon to authorized personnel to administer ready-to-use glucagon to a student that meets the student's prescription on file; (2) administer undesignated ready-to-use glucagon that meets the prescription on file to any student who has a plan that authorizes the use of ready-to-use glucagon; and (3) administer undesignated ready-to-use glucagon to any person that the school nurse or trained personnel believes in good faith is having a severe hypoglycemia emergency. Makes conforming changes...",
    "references": [
     "105 ILCS 5/22-30"
@@ -1017,6 +1084,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Doris Turner, Javier L. Cervantes, Mike Porfirio, Mattie Hunter, Mike Simmons, Sara Feigenholtz and Mary Edly-Allen",
    "summary": "Recognizes and affirms the profound importance of service animals in supporting the safety, health, independence, and academic success of students with disabilities across Illinois.",
    "synopsis": "Recognizes and affirms the profound importance of service animals in supporting the safety, health, independence, and academic success of students with disabilities across Illinois. Encourages all Illinois school districts to continue fostering respect for individuals who use service animals and to promote awareness of the rights and responsibilities established under federal and state law. Urges state agencies, including the Illinois State Board of Education, to review existing policies, administrative rules, oversight practices, and enforcement mechanisms to ensure that all Illinois schools fully comply with disability rights laws governing service-animal access, including appropriate...",
@@ -1083,6 +1151,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Diane Blair-Sherlock-Michael Crawford, Katie Stuart and Lisa Davis",
    "summary": "Provides that certain provisions concerning the recomputation and adjustment of a school district claim for general State aid or evidence-based funding shall end with Fiscal Year 2026.",
    "synopsis": "Amends the School Code. Provides that certain provisions concerning the recomputation and adjustment of a school district claim for general State aid or evidence-based funding shall end with Fiscal Year 2026. Provides that when a child from an orphanage, foster family home, other State agency, children's home, or State residential unit eligible for special education services is placed in a separate public day school, that school shall meet the programmatic requirements and regulations for separate public day schools. Provides that any funds appropriated for the Illinois Teaching Excellence Program must be used, among other purposes, for indirect costs necessary for Program operation....",
@@ -1153,6 +1222,9 @@
    "title": "FY27 BUDGET IMPLEMENTATION",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Rep. Will Guzzardi",
    "summary": "Designates September of each year as National Scarring Alopecia Awareness Month.",
@@ -1233,6 +1305,9 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. John F. Curran",
    "summary": "Provides that short-term approval of a paraprofessional educator endorsement on an Educator License with Stipulations shall be given to an individual who meets the requirements in the Illinois Administrative Code.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Provides that short-term approval of a paraprofessional educator endorsement on an Educator License with Stipulations shall be given to an individual who meets the requirements in the Illinois Administrative Code. Provides that the short-term approval expires on June 30 immediately following 5 full fiscal years after the approval was given. Effective July 1, 2026.",
@@ -1292,8 +1367,11 @@
     "special-ed",
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Maura Hirschauer-Norine K. Hammond",
-   "summary": "Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2027-2028 school year, (ii) $21 for the 2028-2029...",
+   "summary": "Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2027-2028 school year, (ii) $21 for the 2028-2029 school year, and (iii) $22 for the 2029-2030 school year.",
    "synopsis": "Amends the Employment of Teachers Article of the School Code. Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2027-2028 school year, (ii) $21 for the 2028-2029 school year, and (iii) $22 for the 2029-2030 school year. Provides that the minimum hourly rate for each school year thereafter shall equal the minimum salary rate for the previous school year increased by a percentage equal to the percentage increase, if any, in the Consumer Price Index for All Urban Consumers for all items published by the United States Department of Labor for the previous school...",
    "references": [
     "105 ILCS 5/24-8.2 new"
@@ -1340,8 +1418,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Mike Porfirio and David Koehler",
-   "summary": "Provides that the allowable direct cost of transporting pupils for regular, vocational, and special education pupil transportation shall be limited to, among other costs, expenditures to electrification-as-a-service contractors that...",
+   "summary": "Provides that the allowable direct cost of transporting pupils for regular, vocational, and special education pupil transportation shall be limited to, among other costs, expenditures to electrification-as-a-service contractors that provide electric school buses or a combination of electric vehicle charging infrastructure, equipment, or daily charge management services, plus a depreciation allowance of 8.33% for 12 years for electric school buses and vehicles approved for transporting pupils to and from school.",
    "synopsis": "Amends the Transportation Article of the School Code. Provides that the allowable direct cost of transporting pupils for regular, vocational, and special education pupil transportation shall be limited to, among other costs, expenditures to electrification-as-a-service contractors that provide electric school buses or a combination of electric vehicle charging infrastructure, equipment, or daily charge management services, plus a depreciation allowance of 8.33% for 12 years for electric school buses and vehicles approved for transporting pupils to and from school.",
    "references": [
     "105 ILCS 5/29-5"
@@ -1408,6 +1487,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Karina Villa-Javier L. Cervantes, Rachel Ventura and Paul Faraci",
    "summary": "Sets forth the members.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Creates the Special Education Workload Task Force to develop guidance on the calculation of workload limits for special educators. Sets forth the members. Provides for meetings and administrative support. Requires the Task Force to submit its guidance to the State Board of Education and the General Assembly on or before June 30, 2027. Dissolves the Task Force upon submission of the guidance. Repeals these provisions on June 30, 2028.",
@@ -1475,6 +1555,9 @@
    "title": "SCH CD-FULL FUNDING LEVELS",
    "tags": [
     "funding"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Sen. Graciela GuzmÃ¡n-Paul Faraci-Chris Balkema, Karina Villa, Laura M. Murphy and Sara Feigenholtz",
    "summary": "Provides that all mandated categorical programs under the Code and the School Breakfast and Lunch Program Act shall be funded at 100% of their required levels as calculated by the State Board of Education, without proration.",
@@ -1545,8 +1628,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. Chris Balkema, Neil Anderson and Terri Bryant",
-   "summary": "Provides that an applicant for a Substitute Teaching License who holds a valid paraprofessional educator endorsement on an Educator License with Stipulations and who has been working in the capacity of a paraprofessional in this State...",
+   "summary": "Provides that an applicant for a Substitute Teaching License who holds a valid paraprofessional educator endorsement on an Educator License with Stipulations and who has been working in the capacity of a paraprofessional in this State for a minimum of 5 school years does not need to hold a bachelor's degree or higher from a regionally accredited institution of higher education or be enrolled in an approved educator preparation program in this State and have earned at least 90 credit hours to be issued a Substitute Teaching License.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Provides that an applicant for a Substitute Teaching License who holds a valid paraprofessional educator endorsement on an Educator License with Stipulations and who has been working in the capacity of a paraprofessional in this State for a minimum of 5 school years does not need to hold a bachelor's degree or higher from a regionally accredited institution of higher education or be enrolled in an approved educator preparation program in this State and have earned at least 90 credit hours to be issued a Substitute Teaching License.",
    "references": [
     "105 ILCS 5/21B-20"
@@ -1598,8 +1684,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Adriane Johnson",
-   "summary": "In the Courses of Study Article, provides that each school district and its schools shall create, maintain, and implement a policy for providing academic, social-emotional, and behavioral intervention within a framework of a...",
+   "summary": "In the Courses of Study Article, provides that each school district and its schools shall create, maintain, and implement a policy for providing academic, social-emotional, and behavioral intervention within a framework of a multi-tiered system of support.",
    "synopsis": "Amends the School Code. In the Courses of Study Article, provides that each school district and its schools shall create, maintain, and implement a policy for providing academic, social-emotional, and behavioral intervention within a framework of a multi-tiered system of support. Provides that the multi-tiered system of support process should use a collaborative team approach and include the engagement of and regular communication with the child's parent or guardian. Requires the parent or guardian of a child identified for additional support to be provided with written notice of the school district's use of scientific, research-based intervention within a multi-tiered system of support...",
    "references": [
     "105 ILCS 5/27-1",
@@ -1667,6 +1754,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. David Koehler, Doris Turner and Laura M. Murphy",
    "summary": "In a provision regarding endorsements on Professional Educator Licenses, provides for a special education endorsement in the area of deaf-hard of hearing with sign proficiency.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. In a provision regarding endorsements on Professional Educator Licenses, provides for a special education endorsement in the area of deaf-hard of hearing with sign proficiency.",
@@ -1728,15 +1816,91 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HB4967",
+   "ga": 104,
+   "number": "HB 4967",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
+   ],
+   "sponsors": "Rep. Kevin John Olickal, Michelle Mussman and Janet Yang Rohr",
+   "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
+   "synopsis": "Amends the Illinois Civil Rights Act of 2003. Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal financial assistance; or (iv) any program or activity...",
+   "references": [
+    "740 ILCS 23/5"
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2026-04-28",
+    "chamber": "House",
+    "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
+   },
+   "recent_actions": [
+    {
+     "date": "2026-04-28",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
+    },
+    {
+     "date": "2026-04-17",
+     "chamber": "House",
+     "action": "Rule 19(a) / Re-referred to Rules Committee"
+    },
+    {
+     "date": "2026-04-10",
+     "chamber": "House",
+     "action": "Held on Calendar Order of Second Reading - Short Debate"
+    },
+    {
+     "date": "2026-04-10",
+     "chamber": "House",
+     "action": "Second Reading - Short Debate"
+    },
+    {
+     "date": "2026-03-27",
+     "chamber": "House",
+     "action": "Placed on Calendar 2nd Reading - Short Debate"
+    },
+    {
+     "date": "2026-03-26",
+     "chamber": "House",
+     "action": "Do Pass as Amended / Short Debate Judiciary - Civil Committee; 013-007-000"
+    },
+    {
+     "date": "2026-03-26",
+     "chamber": "House",
+     "action": "House Committee Amendment No. 1 Adopted in Judiciary - Civil Committee; by Voice Vote"
+    },
+    {
+     "date": "2026-03-24",
+     "chamber": "House",
+     "action": "House Committee Amendment No. 1 Rules Refers to Judiciary - Civil Committee"
+    }
+   ],
+   "action_count": 15,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-SB3112",
    "ga": 104,
    "number": "SB 3112",
    "title": "SCH CD-SPECIAL ED-SPEECH-LANG",
    "tags": [
-    "special-ed"
+    "special-ed",
+    "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful",
+    "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Sen. Adriane Johnson",
-   "summary": "Provides that, with respect to any State statute or administrative rule that defines a general education classroom to be composed of a certain percentage of students with individualized education programs, such percentage shall exclude...",
+   "summary": "Provides that, with respect to any State statute or administrative rule that defines a general education classroom to be composed of a certain percentage of students with individualized education programs, such percentage shall exclude students with individualized education programs receiving only speech-language pathology services outside of the general education classroom for a mild speech disorder, provided that the instruction the students receive in the general education classroom does not require modification or accommodation (rather than providing that students with individualized...",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that, with respect to any State statute or administrative rule that defines a general education classroom to be composed of a certain percentage of students with individualized education programs, such percentage shall exclude students with individualized education programs receiving only speech-language pathology services outside of the general education classroom for a mild speech disorder, provided that the instruction the students receive in the general education classroom does not require modification or accommodation (rather than providing that students with individualized education programs shall exclude...",
    "references": [
     "105 ILCS 5/14-2"
@@ -1798,8 +1962,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
+   ],
    "sponsors": "Rep. Michael Crawford-Nicole La Ha",
-   "summary": "Provides that within 14 school days after receiving a written request for a federal Section 504 plan from a child's parent or guardian, a school district shall determine whether the clinical information provided by the parent or...",
+   "summary": "Provides that within 14 school days after receiving a written request for a federal Section 504 plan from a child's parent or guardian, a school district shall determine whether the clinical information provided by the parent or guardian is sufficient to support the need for a Section 504 plan, whether further evaluation is warranted to make that determination, or whether there is no basis for an evaluation or plan based on available information.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that within 14 school days after receiving a written request for a federal Section 504 plan from a child's parent or guardian, a school district shall determine whether the clinical information provided by the parent or guardian is sufficient to support the need for a Section 504 plan, whether further evaluation is warranted to make that determination, or whether there is no basis for an evaluation or plan based on available information. Provides that if the district decides not to confer eligibility based on existing information or to conduct an evaluation, the district shall provide written notice to the parent...",
    "references": [
     "105 ILCS 5/14-8.02j new"
@@ -1866,6 +2033,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Sharon Chung",
    "summary": "In a provision regarding endorsements on Professional Educator Licenses, provides for a special education endorsement in the area of deaf-hard of hearing with sign proficiency.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. In a provision regarding endorsements on Professional Educator Licenses, provides for a special education endorsement in the area of deaf-hard of hearing with sign proficiency.",
@@ -1934,8 +2102,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Natalie A. Manley",
-   "summary": "Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a...",
+   "summary": "Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a paraprofessional educator endorsement.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Allows the State Superintendent of Education to issue a short-term approval for a paraprofessional educator to an individual who does not meet the requirements necessary for issuance of an Educator License with Stipulations with a paraprofessional educator endorsement. Provides that the short-term approval authorizes an individual to serve as a paraprofessional educator in a school district, including a charter school, or a State-operated program, with the short-term approval expiring on June 30 immediately following the third full fiscal year after the approval was issued without renewal. Provides that upon expiration of the...",
    "references": [
     "105 ILCS 5/21B-20"
@@ -2001,6 +2172,10 @@
    "title": "SCHCD-TWICE-EXCEPTIONAL STUDNT",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
    ],
    "sponsors": "Rep. Nicole La Ha and Elizabeth \"Lisa\" Hernandez",
    "summary": "In a provision concerning twice-exceptional children, changes references from \"children\" to \"students\" and defines \"twice-exceptional student\".",
@@ -2070,6 +2245,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Michelle Mussman-Christopher \"C.D.\" Davidsmeyer-Norine K. Hammond-Amy Briel-Nicolle Grasse, Diane Blair-Sherlock, Anna Moeller, Katie Stuart, Ann M. Williams, Kyle Moore, Nicole La Ha, Lindsey LaPointe and Maurice A. West, II",
    "summary": "Changes the name of the Illinois School for the Visually Impaired to the Illinois School for the Blind.",
    "synopsis": "Amends the Rehabilitation of Persons with Disabilities Act. Changes the name of the Illinois School for the Visually Impaired to the Illinois School for the Blind. Makes conforming changes to the Personnel Code, the School Code, the School Safety Drill Act, the Illinois Educational Labor Relations Act, and the MRSA Prevention, Control, and Reporting Act.",
@@ -2146,6 +2322,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Amy Elik, Michael J. Coffey, Jr. and Dan Swanson",
    "summary": "Provides that qualified expenses related to special needs services include elementary and secondary school expenses incurred as a result of a recognized disability or an individualized education program.",
    "synopsis": "Amends the State Treasurer Act. Provides that qualified expenses related to special needs services include elementary and secondary school expenses incurred as a result of a recognized disability or an individualized education program. Makes conforming changes to the definition of \"eligible educational institution\". Defines \"recognized disability\" as a physical, developmental, or learning disability recognized by the State Board of Education.",
@@ -2213,6 +2392,9 @@
    "title": "SCH CD-504 IMPARTIAL HEARINGS",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
    ],
    "sponsors": "Rep. Laura Faver Dias",
    "summary": "Allows the parent or guardian of a student or a student if the student is at least 18 years of age or emancipated to request an impartial, federal Section 504 due-process hearing.",
@@ -2282,8 +2464,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Sen. Robert F. Martwick and Graciela GuzmÃ¡n",
-   "summary": "Provides that beginning in State fiscal year 2027, the State (instead of the Chicago Board of Education) shall contribute for each of fiscal years 2027 through 2059, a minimum contribution to the Fund in an amount determined by the Fund...",
+   "summary": "Provides that beginning in State fiscal year 2027, the State (instead of the Chicago Board of Education) shall contribute for each of fiscal years 2027 through 2059, a minimum contribution to the Fund in an amount determined by the Fund to be sufficient to bring the total assets of the Fund up to 90% of the total actuarial liabilities of the Fund by the end of fiscal year 2059.",
    "synopsis": "Amends the Chicago Teacher Article of the Illinois Pension Code. Provides that beginning in State fiscal year 2027, the State (instead of the Chicago Board of Education) shall contribute for each of fiscal years 2027 through 2059, a minimum contribution to the Fund in an amount determined by the Fund to be sufficient to bring the total assets of the Fund up to 90% of the total actuarial liabilities of the Fund by the end of fiscal year 2059. Provides that, in making these determinations, the required contribution shall be calculated each year as a level percentage of the applicable employee payrolls over the years remaining to and including fiscal year 2059 and shall be determined under...",
    "references": [
     "40 ILCS 5/17-127",
@@ -2331,6 +2516,9 @@
    "title": "SMART START WORKFORCE GRANT",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
    ],
    "sponsors": "Rep. Maura Hirschauer",
    "summary": "Sets forth eligibility requirements for Smart Start Workforce Grants.",
@@ -2395,8 +2583,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Michelle Mussman",
-   "summary": "With respect to the identification, evaluation, and placement of children, requires the State Superintendent of Education to send a copy of certain revised uniform notices by July 1 of every even-numbered year to each school district...",
+   "summary": "With respect to the identification, evaluation, and placement of children, requires the State Superintendent of Education to send a copy of certain revised uniform notices by July 1 of every even-numbered year to each school district and statewide organization representing those school professions involved with individualized education programs.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. With respect to the identification, evaluation, and placement of children, requires the State Superintendent of Education to send a copy of certain revised uniform notices by July 1 of every even-numbered year to each school district and statewide organization representing those school professions involved with individualized education programs. Requires the copy of the revised uniform notices to include an updated instruction guide and access to remote training materials. Provides that a third-party software provider that creates a platform for an individualized educational assessment form shall include a footnote that...",
    "references": [
     "105 ILCS 5/14-8.02"
@@ -2448,6 +2639,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Sharon Chung-Jay Hoffman",
    "summary": "Provides that beginning July 1, 2026, funds for the special education teacher scholarship program shall be continuously appropriated from the General Revenue Fund to the Illinois Student Assistance Commission.",
    "synopsis": "Amends the Higher Education Student Assistance Act. Provides that beginning July 1, 2026, funds for the special education teacher scholarship program shall be continuously appropriated from the General Revenue Fund to the Illinois Student Assistance Commission. Provides that this requirement constitutes an irrevocable and continuing appropriation of all amounts necessary for the purpose specified by the requirement to the fullest extent such appropriation is required. Effective July 1, 2026.",
@@ -2516,8 +2708,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Carol Ammons",
-   "summary": "Provides that the State Board of Education, in consultation with the State Educator Preparation and Licensure Board, shall create an introductory content area endorsement for computer science that allows individuals with a Professional...",
+   "summary": "Provides that the State Board of Education, in consultation with the State Educator Preparation and Licensure Board, shall create an introductory content area endorsement for computer science that allows individuals with a Professional Educator License to teach introductory computer science courses in grades 5 through 12.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Provides that the State Board of Education, in consultation with the State Educator Preparation and Licensure Board, shall create an introductory content area endorsement for computer science that allows individuals with a Professional Educator License to teach introductory computer science courses in grades 5 through 12. Provides that the endorsement shall require no more than 8 credit hours of graduate-level preparation that includes instruction in introductory computer science concepts and computer science pedagogy. Allows an individual with a Professional Educator License seeking the endorsement to substitute a State...",
    "references": [
     "105 ILCS 5/21B-25"
@@ -2568,6 +2763,9 @@
    "title": "SCH CD-FULL FUNDING LEVELS",
    "tags": [
     "funding"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Rep. William \"Will\" Davis-Michael Crawford-Laura Faver Dias-Dagmara Avelar-Theresa Mah, Katie Stuart and Maura Hirschauer",
    "summary": "Provides that all mandated categorical programs under the Code and the School Breakfast and Lunch Program Act shall be funded at 100% of their required levels as calculated by the State Board of Education, without proration.",
@@ -2638,6 +2836,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Kevin John Olickal",
    "summary": "Requires each school district to provide transportation to all students with an Individualized Education Program, based solely on the student's eligibility for special education.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Requires each school district to provide transportation to all students with an Individualized Education Program, based solely on the student's eligibility for special education. Provides that the transportation shall be provided at no cost and is presumed necessary for a free appropriate public education. Provides that the type, method, route, and accommodations for transportation shall be individualized to the student's needs. Sets forth how mileage shall be determined and verified. Requires school districts to maintain mileage records, provide the mileage records to parents or guardians within 10 business days of...",
@@ -2691,8 +2892,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Michelle Mussman, Michael Crawford and Maurice A. West, II",
-   "summary": "Provides that, subject to appropriation, the State Board of Education shall establish a program of paid internships for students enrolled in educator preparation programs in the school support personnel endorsement areas of school...",
+   "summary": "Provides that, subject to appropriation, the State Board of Education shall establish a program of paid internships for students enrolled in educator preparation programs in the school support personnel endorsement areas of school social worker, school psychologist, school counselor, school nurse, and speech-language pathologist.",
    "synopsis": "Amends the School Code. Provides that, subject to appropriation, the State Board of Education shall establish a program of paid internships for students enrolled in educator preparation programs in the school support personnel endorsement areas of school social worker, school psychologist, school counselor, school nurse, and speech-language pathologist. Sets forth provisions concerning the program. Provides that, subject to appropriation, the State Board of Education shall establish and maintain a mentorship and recruitment program to develop and maintain interest in the school support personnel endorsement areas of school social worker, school psychologist, school counselor, school...",
    "references": [
     "105 ILCS 5/2-3.206 new",
@@ -2757,6 +2961,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Diane Blair-Sherlock",
    "summary": "Urges full, sustainable funding for Mandated Categoricals (MCATs), as well as greater transparency and predictability in MCAT funding levels.",
    "synopsis": "Urges full, sustainable funding for Mandated Categoricals (MCATs), as well as greater transparency and predictability in MCAT funding levels. Urges all future education funding discussions to account for the cumulative impact of underfunded categoricals, particularly transportation and special education costs borne disproportionately by districts. Encourages school districts to respectfully urge legislators to ensure Evidence-Based Funding (EBF) in conjunction with MCATs ensure an equitable approach to education funding.",
@@ -2792,6 +2997,9 @@
    "title": "SCH CD-WORLD LANGUAGE",
    "tags": [
     "funding"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Sen. Kimberly A. Lightford",
    "summary": "Changes the term \"foreign language\" to \"world language\" throughout the Code.",
@@ -2847,6 +3055,9 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Joyce Mason",
    "summary": "Includes in the definition of \"Organizational Unit\" a State-approved charter school that has greater than or equal to 15% fewer low-income students than the school district in which the charter school is located.",
    "synopsis": "Amends the evidence-based funding provisions of the School Code. Includes in the definition of \"Organizational Unit\" a State-approved charter school that has greater than or equal to 15% fewer low-income students than the school district in which the charter school is located. Requires the State Board of Education to determine how each funding variable within the evidence-based funding formula needs to be adjusted to accommodate the changes made by the amendatory Act. Effective immediately.",
@@ -2891,6 +3102,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Daniel Didech",
    "summary": "Establishes within the State Board of Education the shortage differential salary incentive program to support licensed teachers who provide instruction in special education and hard-to-staff locations.",
    "synopsis": "Amends the School Code. Establishes within the State Board of Education the shortage differential salary incentive program to support licensed teachers who provide instruction in special education and hard-to-staff locations. Sets forth the various shortage differential grants under the program based on specified criteria. Provides that teachers who receive an annual shortage differential grant for being assigned to a position in a hard-to-staff location shall be assigned to a position in: (1) a complex area identified as a hard-to-staff location by a school district; (2) a complex area whose rate of teachers who have completed a State-approved educator preparation program has been below...",
@@ -2934,8 +3146,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Donald P. DeWitte",
-   "summary": "Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education...",
+   "summary": "Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education coursework for purposes of salary advancement or lane changes only if the continuing education coursework meets specified requirements.",
    "synopsis": "Amends the Employment of Teachers Article of the School Code. Provides that beginning with continuing education coursework commenced on or after July 1, 2026, a school district, special education cooperative, or other public educational employer may recognize graduate-level continuing education coursework for purposes of salary advancement or lane changes only if the continuing education coursework meets specified requirements. Provides that nothing in the provisions impairs the ability of the parties to a collective bargaining agreement to negotiate salary schedules or compensation structures, as long as any graduate-level continuing education coursework recognized for salary...",
    "references": [
     "105 ILCS 5/24-8.2 new"
@@ -2977,6 +3190,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Meg Loughran Cappel",
    "summary": "Provides that certain provisions concerning the recomputation and adjustment of a school district claim for general State aid or evidence-based funding shall end with Fiscal Year 2026.",
    "synopsis": "Amends the School Code. Provides that certain provisions concerning the recomputation and adjustment of a school district claim for general State aid or evidence-based funding shall end with Fiscal Year 2026. Provides that when a child from an orphanage, foster family home, other State agency, children's home, or State residential unit eligible for special education services is placed in a separate public day school, that school shall meet the programmatic requirements and regulations for separate public day schools. Provides that any funds appropriated for the Illinois Teaching Excellence Program must be used, among other purposes, for indirect costs necessary for Program operation....",
@@ -3023,6 +3237,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Dan Swanson",
    "summary": "With respect to special education teacher scholarships, provides that up to 50 additional scholarships may be awarded each year to persons who qualify, subject to appropriation to the Illinois Student Assistance Commission for this purpose.",
    "synopsis": "Amends the Higher Education Student Assistance Act. With respect to special education teacher scholarships, provides that up to 50 additional scholarships may be awarded each year to persons who qualify, subject to appropriation to the Illinois Student Assistance Commission for this purpose.",
@@ -3066,6 +3281,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Dan Swanson",
    "summary": "Appropriates $1,000,000 to the Illinois Student Assistance Commission to fund the Special Education Teacher Tuition Waiver Program and make grants to reimburse universities for unfunded liabilities related to the Program.",
    "synopsis": "Appropriates $1,000,000 to the Illinois Student Assistance Commission to fund the Special Education Teacher Tuition Waiver Program and make grants to reimburse universities for unfunded liabilities related to the Program. Effective July 1, 2026.",
@@ -3107,8 +3323,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Jed Davis-Nicole La Ha-Jennifer Sanalitro",
-   "summary": "Allows each school district or regional cooperative program providing special education services to establish and appoint a local advisory committee on special education if a local advisory committee is requested by more than 3 parents...",
+   "summary": "Allows each school district or regional cooperative program providing special education services to establish and appoint a local advisory committee on special education if a local advisory committee is requested by more than 3 parents or guardians of the students receiving the services.",
    "synopsis": "Creates the Local Advisory Committees on Special Education Act. Allows each school district or regional cooperative program providing special education services to establish and appoint a local advisory committee on special education if a local advisory committee is requested by more than 3 parents or guardians of the students receiving the services. Establishes the membership and responsibilities of a local advisory committee and the duties of the school district or regional cooperative program. Provides that members of a local advisory committee shall serve without compensation but may be reimbursed for reasonable and necessary expenses incurred in the performance of their duties....",
    "references": [
     "New Act"
@@ -3161,8 +3378,11 @@
     "funding",
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Kam Buckner",
-   "summary": "Establishes the One Health Framework Task Force in the Department of Public Health for the purpose of developing a strategic plan to promote interdisciplinary communication and collaboration between physicians, veterinarians, and other...",
+   "summary": "Establishes the One Health Framework Task Force in the Department of Public Health for the purpose of developing a strategic plan to promote interdisciplinary communication and collaboration between physicians, veterinarians, and other scientific professionals and State agencies, with the goal of promoting the health and well-being of the State's residents, animals, and environment.",
    "synopsis": "Creates the One Health Framework Task Force Act. Establishes the One Health Framework Task Force in the Department of Public Health for the purpose of developing a strategic plan to promote interdisciplinary communication and collaboration between physicians, veterinarians, and other scientific professionals and State agencies, with the goal of promoting the health and well-being of the State's residents, animals, and environment. Declares goals and responsibilities of the Task Force. Provides that the Task Force shall partner with or consult with certain entities in the State. Lists the members of the Task Force. Provides that the Task Force shall convene and meet at the call of the...",
    "references": [
     "New Act",
@@ -3240,6 +3460,9 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Margaret Croke and Sue Scherer",
    "summary": "Replaces everything after the enacting clause.",
    "synopsis": "Amends the Juvenile Court Act of 1987. Makes technical changes in a provision that states if the minor is in the custody of the Illinois Department of Children and Family Services, pursuant to an order entered under the Delinquent Minors Article of the Act, the court shall conduct permanency hearings as set out in the court review provisions of the Abused, Neglected, or Dependent Minors Article of the Act. Replaces everything after the enacting clause. Amends the Juvenile Court Act of 1987. Makes a technical change in a Section concerning delinquent minors. Replaces everything after the enacting clause. Amends the Juvenile Court Act of 1987. Makes technical changes in a provision that...",
@@ -3313,8 +3536,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. William \"Will\" Davis-Camille Y. Lilly, Michelle Mussman and Diane Blair-Sherlock",
-   "summary": "Provides that for a child residing in a long-term, acute care facility serving a majority of patients who are (i) minor children and (ii) Medicaid-eligible in Harvey School District 152, if a parent or guardian moves out of the State...",
+   "summary": "Provides that for a child residing in a long-term, acute care facility serving a majority of patients who are (i) minor children and (ii) Medicaid-eligible in Harvey School District 152, if a parent or guardian moves out of the State after the child is placed in such a facility, that parent or guardian shall enroll the child in a school in the other state to initiate reimbursement to Illinois.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that for a child residing in a long-term, acute care facility serving a majority of patients who are (i) minor children and (ii) Medicaid-eligible in Harvey School District 152, if a parent or guardian moves out of the State after the child is placed in such a facility, that parent or guardian shall enroll the child in a school in the other state to initiate reimbursement to Illinois. With respect to determining the location of a student's parent or guardian, provides that the information submitted to the State Superintendent of Education must include an affidavit from that school district's superintendent or the...",
    "references": [
     "105 ILCS 5/14-1.11",
@@ -3383,8 +3607,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Laura Faver Dias-Diane Blair-Sherlock-Amy Briel-Amy Elik, Michael Crawford, Michelle Mussman, Camille Y. Lilly, Edgar GonzÃ¡lez, Jr., Mary Beth Canty, Martha Deuter, Rita Mayfield, Yolonda Morris, Sonya M. Harper, Kimberly Du Buclet, Jehan Gordon-Booth and Harry Benton",
-   "summary": "With respect to impartial due process hearings, provides that no mediation agreement, resolution agreement, or settlement agreement may include, as a condition of settlement, that a parent, a student (if at least 18 years of age or...",
+   "summary": "With respect to impartial due process hearings, provides that no mediation agreement, resolution agreement, or settlement agreement may include, as a condition of settlement, that a parent, a student (if at least 18 years of age or emancipated), or the designated representative of a student who is at least 18 years of age prospectively waive a free, appropriate public education or prospectively waive the right to assert claims for the nonimplementation of a free, appropriate public education.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. With respect to impartial due process hearings, provides that no mediation agreement, resolution agreement, or settlement agreement may include, as a condition of settlement, that a parent, a student (if at least 18 years of age or emancipated), or the designated representative of a student who is at least 18 years of age prospectively waive a free, appropriate public education or prospectively waive the right to assert claims for the nonimplementation of a free, appropriate public education. Provides that any mediation agreement, resolution agreement, or settlement agreement containing such prospective waivers is...",
    "references": [
     "105 ILCS 5/14-8.02a"
@@ -3451,8 +3676,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Tracy Katz Muhl, Daniel Didech, Michael Crawford and Thaddeus Jones",
-   "summary": "In provisions concerning special education joint agreements, provides that, for joint agreements entered into before, on, or after the effective date of the amendatory Act, any membership fees, annual fees, up-front fees, or costs or...",
+   "summary": "In provisions concerning special education joint agreements, provides that, for joint agreements entered into before, on, or after the effective date of the amendatory Act, any membership fees, annual fees, up-front fees, or costs or fees assessed to a member district by virtue of being a party to the joint agreement, and not for the use of services, must take into account the member district's actual use of the services offered within the joint agreement and may not be based solely on each member district's population.",
    "synopsis": "Amends the School Code. In provisions concerning special education joint agreements, provides that, for joint agreements entered into before, on, or after the effective date of the amendatory Act, any membership fees, annual fees, up-front fees, or costs or fees assessed to a member district by virtue of being a party to the joint agreement, and not for the use of services, must take into account the member district's actual use of the services offered within the joint agreement and may not be based solely on each member district's population. Provides that, upon withdrawal from a joint agreement, all member districts are entitled to an appropriate allocation of assets and liabilities,...",
    "references": [
     "105 ILCS 5/10-22.31"
@@ -3519,8 +3745,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Nicole La Ha-Janet Yang Rohr-Diane Blair-Sherlock-Michelle Mussman-Norine K. Hammond, Katie Stuart, Tony M. McCombie, Amy Elik, Amy L. Grant, Jennifer Sanalitro, Jackie Haas, Patrick Sheehan, Michael Crawford, Mary Gill, Suzanne M. Ness, Matt Hanson, Yolonda Morris, Nicolle Grasse, Martha Deute",
-   "summary": "Provides that, by no later than the beginning of a student's third year of high school or by the student's 16th birthday, whichever occurs first, the transition planning process must include a consideration of whether the student is a...",
+   "summary": "Provides that, by no later than the beginning of a student's third year of high school or by the student's 16th birthday, whichever occurs first, the transition planning process must include a consideration of whether the student is a candidate for graduation.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that, by no later than the beginning of a student's third year of high school or by the student's 16th birthday, whichever occurs first, the transition planning process must include a consideration of whether the student is a candidate for graduation. Requires this process to involve discussions with the student's individualized education program team, including the parent and the student. Provides that the discussions must address the implications of graduating with a regular diploma, particularly how it affects the student's right to receive a free appropriate public education (FAPE). Effective immediately....",
    "references": [
     "105 ILCS 5/14-8.03"
@@ -3587,6 +3816,9 @@
    "tags": [
     "special-ed",
     "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Rep. Diane Blair-Sherlock and Hoan Huynh",
    "summary": "Provides that the State Board of Education shall have departments (rather than divisions) within the State Board.",
@@ -3667,8 +3899,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Michelle Mussman, Tracy Katz Muhl and Mary Beth Canty",
-   "summary": "Provides those entitled to inspect and copy a recipient's record include the parent or guardian of a minor, regardless of the minor's age, who is involved in special education services under the School Code or the \"designated...",
+   "summary": "Provides those entitled to inspect and copy a recipient's record include the parent or guardian of a minor, regardless of the minor's age, who is involved in special education services under the School Code or the \"designated representative\" of a student over the age of 18 involved in special education services under the School Code.",
    "synopsis": "Amends the Mental Health and Developmental Disabilities Confidentiality Act. Provides those entitled to inspect and copy a recipient's record include the parent or guardian of a minor, regardless of the minor's age, who is involved in special education services under the School Code or the \"designated representative\" of a student over the age of 18 involved in special education services under the School Code. Replaces everything after the enacting clause. Reinserts the provisions of the introduced bill with the following change. Adds a provision which specifies that the provisions of the Act that are being amended by the introduced bill shall not be construed to affect the protection of...",
    "references": [
     "740 ILCS 110/4"
@@ -3735,8 +3968,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Camille Y. Lilly",
-   "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human...",
+   "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made.",
    "synopsis": "Amends the Department of Human Services Act. In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made. Provides that unredacted investigative reports may be shared with the Department of Financial and Professional Regulation. Amends the Rehabilitation of Persons with Disabilities Act. Provides that the Department of Human Services shall operate and maintain an Illinois Center for Rehabilitation and Education-Wood for the education...",
    "references": [
     "20 ILCS 1305/1-17",
@@ -3814,8 +4050,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Suzanne M. Ness-Sue Scherer",
-   "summary": "Provides that beginning with the 2026-2027 school year, a school district shall provide informational materials about the Illinois Achieving a Better Life Experience (ABLE) account program (rather than the Achieving a Better Life...",
+   "summary": "Provides that beginning with the 2026-2027 school year, a school district shall provide informational materials about the Illinois Achieving a Better Life Experience (ABLE) account program (rather than the Achieving a Better Life Experience (ABLE) account program) annually to the parent or guardian of a student who has a section 504 Plan under the federal Rehabilitation Act of 1973, using the same distribution methods employed for other communications related to the student's section 504 Plan.",
    "synopsis": "Amends the School Code. Provides that beginning with the 2026-2027 school year, a school district shall provide informational materials about the Illinois Achieving a Better Life Experience (ABLE) account program (rather than the Achieving a Better Life Experience (ABLE) account program) annually to the parent or guardian of a student who has a section 504 Plan under the federal Rehabilitation Act of 1973, using the same distribution methods employed for other communications related to the student's section 504 Plan. Removes language providing that a school may transmit the informational material to a parent or guardian in the same manner as other documents and information related to an...",
    "references": [
     "5 ILCS 70/1.46 new",
@@ -3887,6 +4127,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Meg Loughran Cappel",
    "summary": "Allows the school district to initiate an impartial due process hearing within 14 (rather than 5) days of any written parent request for an independent educational evaluation to show that its evaluation is appropriate.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Allows the school district to initiate an impartial due process hearing within 14 (rather than 5) days of any written parent request for an independent educational evaluation to show that its evaluation is appropriate. Requires an independent educational evaluation at public expense to be completed within 60 school days (rather than 30 days) of a parent's written request unless the school district initiates an impartial due process hearing or the parent or school district offers reasonable grounds to show that such time period should be extended. Provides that if the due process hearing decision indicates that the parent...",
@@ -3955,8 +4196,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Laura M. Murphy",
-   "summary": "With respect to the suspension or revocation of a license, endorsement, or approval, allows disclosure of correspondence, documentation, and other information received by a regional superintendent of schools, the State Superintendent of...",
+   "summary": "With respect to the suspension or revocation of a license, endorsement, or approval, allows disclosure of correspondence, documentation, and other information received by a regional superintendent of schools, the State Superintendent of Education, the State Board of Education, or the State Educator Preparation and Licensure Board to the license holder's current or most recent employer.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. With respect to the suspension or revocation of a license, endorsement, or approval, allows disclosure of correspondence, documentation, and other information received by a regional superintendent of schools, the State Superintendent of Education, the State Board of Education, or the State Educator Preparation and Licensure Board to the license holder's current or most recent employer. Provides that a Notice of Opportunity for Hearing and Statement of Charges issued by the State Superintendent of Education against a license holder is not confidential and may be disclosed to third parties. Replaces everything after the enacting...",
    "references": [
     "105 ILCS 5/21B-75"
@@ -4023,8 +4265,11 @@
    "tags": [
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. Michael W. Halpin-Paul Faraci",
-   "summary": "Allows the State Superintendent of Education to designate a regional office of education or intermediate service center as a learning partner in any iteration of the statewide system of support so that services are provided to schools...",
+   "summary": "Allows the State Superintendent of Education to designate a regional office of education or intermediate service center as a learning partner in any iteration of the statewide system of support so that services are provided to schools that are identified for school improvement under (i) the accountability system and (ii) the definition for Targeted, Comprehensive, or Intensive.",
    "synopsis": "Amends the Regional Superintendent of Schools Article of the School Code. Allows the State Superintendent of Education to designate a regional office of education or intermediate service center as a learning partner in any iteration of the statewide system of support so that services are provided to schools that are identified for school improvement under (i) the accountability system and (ii) the definition for Targeted, Comprehensive, or Intensive. Provides that the status of learning partner may be revoked at the State Superintendent's sole discretion. Effective July 1, 2025. Replaces everything after the enacting clause. Amends the Educator Licensure Article of the School Code....",
    "references": [
     "105 ILCS 5/3-14.9",
@@ -4093,6 +4338,9 @@
    "title": "SCH CD-MANDATES-REORGANIZE",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
    ],
    "sponsors": "Sen. Mary Edly-Allen-Meg Loughran Cappel-Linda Holmes, Rachel Ventura, Julie A. Morrison, Laura Ellman, Adriane L. Johnson, Kimberly A. Lightford, Suzy Glowiak Hilton, Christopher Belt, Napoleon Harris III, Doris Turner and Steve Stadelman",
    "summary": "Removes outdated provisions regarding social science learning standards and provisions regarding meeting minimum higher education preparation and admission requirements.",
@@ -4173,8 +4421,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Cristina Castro and Lakesia Collins",
-   "summary": "Provides that initial physical therapy evaluations without a referral or an established diagnosis may be performed by a licensed physical therapist via telehealth when the physical therapist determines that an in-person examination is...",
+   "summary": "Provides that initial physical therapy evaluations without a referral or an established diagnosis may be performed by a licensed physical therapist via telehealth when the physical therapist determines that an in-person examination is not required based on the physical therapist's clinical judgment and the applicable standard of care (rather than cannot be performed via telehealth unless necessary to address a documented hardship).",
    "synopsis": "Amends the Illinois Physical Therapy Act. Provides that initial physical therapy evaluations without a referral or an established diagnosis may be performed by a licensed physical therapist via telehealth when the physical therapist determines that an in-person examination is not required based on the physical therapist's clinical judgment and the applicable standard of care (rather than cannot be performed via telehealth unless necessary to address a documented hardship). Provides that a physical therapist or a licensed physical therapy assistant may require the patient to undergo an in-person visit instead of providing telehealth services (rather than the use of telehealth as a primary...",
    "references": [
     "225 ILCS 90/1.3"
@@ -4240,6 +4492,9 @@
    "title": "FIRST 2025 GENERAL REVISORY",
    "tags": [
     "funding"
+   ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
    ],
    "sponsors": "Sen. Bill Cunningham",
    "summary": "Combines multiple versions of Sections amended by more than one Public Act.",
@@ -4320,6 +4575,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. David Koehler and Karina Villa",
    "summary": "Replaces everything after the enacting clause.",
    "synopsis": "Amends the School Code. Makes a technical change in a Section concerning the short title. Replaces everything after the enacting clause. Amends the Illinois School Student Records Act. In the definition of \"Student Permanent Record\", provides that a Student Permanent Record may include a summary of performance for students that received special education services. Provides that a summary of performance shall be substantially similar to the summary of performance form developed by the State Board. Provides that any summary of performance maintained as part of a Student Permanent Record shall be kept confidential and not be disclosed except as otherwise authorized under the Act. Provides...",
@@ -4391,8 +4647,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Michael Crawford-Lisa Davis-Yolonda Morris-Maurice A. West, II-Nicole La Ha, Jaime M. Andrade, Jr., Theresa Mah, Gregg Johnson, Nicolle Grasse, Joyce Mason, Janet Yang Rohr, Diane Blair-Sherlock, Martha Deuter and Hoan Huynh",
-   "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting...",
+   "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP. Provides that the school may provide the written notification as a part of other provided documentation, including, but not limited to, admission and enrollment documents. Replaces everything after the enacting clause....",
    "references": [
     "105 ILCS 5/14-19 new"
@@ -4459,6 +4718,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Meg Loughran Cappel and Lakesia Collins",
    "summary": "Adds the Secretary of Early Childhood or his or her designee as a member of the Advisory Council on the Education of Children with Disabilities.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Adds the Secretary of Early Childhood or his or her designee as a member of the Advisory Council on the Education of Children with Disabilities. Provides that the Council shall establish a committee charged with ensuring that all children aged 3 to 5 with disabilities have access to high-quality, inclusive, early-childhood services, provided in the least restrictive environment, across all early learning settings. Effective immediately. Removes the creation of a committee charged with ensuring that all children aged 3 to 5 with disabilities have access to high-quality, inclusive, early-childhood services, provided in the...",
@@ -4526,6 +4786,9 @@
    "title": "SCH CD-EDUCATOR LICENSURE-MISC",
    "tags": [
     "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Sen. Meg Loughran Cappel-Kimberly A. Lightford",
    "summary": "Adds 5 administrative or faculty members of community colleges to the State Educator Preparation and Licensure Board.",
@@ -4601,8 +4864,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Sen. Mary Edly-Allen",
-   "summary": "Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an...",
+   "summary": "Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an application for funds that includes a comprehensive plan.",
    "synopsis": "Amends the School Code. Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an application for funds that includes a comprehensive plan. Removes language providing that the State Board of Education staff person in charge of educational programs for gifted and talented children shall be responsible for developing an approval process for educational programs for gifted and talented children. With respect to the evidence-based funding provisions, provides that in the adequacy target calculation, each organizational...",
    "references": [
     "105 ILCS 5/14A-15",
@@ -4673,6 +4939,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. David Koehler and Paul Faraci",
    "summary": "Appropriates $6,000,000 to the Illinois State University for the purpose of the Special Education Teacher Tuition Waiver Program.",
    "synopsis": "Appropriates $6,000,000 to the Illinois State University for the purpose of the Special Education Teacher Tuition Waiver Program. Effective July 1, 2025.",
@@ -4735,8 +5002,11 @@
     "funding",
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Robyn Gabel-Will Guzzardi",
-   "summary": "Provides that, in accordance with the official day recognized by the government of the Republic of India, the 15th day of the Hindu lunisolar month of Kartika is designated as Diwali Day, to be observed throughout the State by the many...",
+   "summary": "Provides that, in accordance with the official day recognized by the government of the Republic of India, the 15th day of the Hindu lunisolar month of Kartika is designated as Diwali Day, to be observed throughout the State by the many Illinoisans who celebrate Diwali, also known as the Festival of Lights, as a day of thanksgiving and reflection.",
    "synopsis": "Amends the State Commemorative Dates Act. Provides that, in accordance with the official day recognized by the government of the Republic of India, the 15th day of the Hindu lunisolar month of Kartika is designated as Diwali Day, to be observed throughout the State by the many Illinoisans who celebrate Diwali, also known as the Festival of Lights, as a day of thanksgiving and reflection. Replaces everything after the enacting clause. Amends the State Commemorative Dates Act. Makes a technical change in a Section concerning the short title. Replaces everything after the enacting clause. Creates the Fiscal Year 2026 Budget Implementation Act. Adds, deletes, and makes changes to various...",
    "references": [
     "5 ILCS 490/197 new",
@@ -4814,6 +5084,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Michael Crawford-Harry Benton, Lisa Davis, Michelle Mussman, Amy Elik, Laura Faver Dias, Maura Hirschauer, Amy Briel, Nicolle Grasse, Martha Deuter, Diane Blair-Sherlock, Kimberly Du Buclet, Yolonda Morris, Brad Stephens and Jennifer Sanalitro",
    "summary": "Declares May 2025 as Individualized Education Plan (IEP) Awareness Month in the State of Illinois to increase the public's understanding of the development and implementation of a student's IEP.",
    "synopsis": "Declares May 2025 as Individualized Education Plan (IEP) Awareness Month in the State of Illinois to increase the public's understanding of the development and implementation of a student's IEP.",
@@ -4880,8 +5153,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Mattie Hunter-Karina Villa",
-   "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human...",
+   "summary": "In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made.",
    "synopsis": "Amends the Department of Human Services Act. In provisions concerning death reports investigated by the Department of Human Services' Office of Inspector General, provides that death reports with no allegation of abuse or neglect shall only be released to the Secretary of Human Services and to the director of the facility or agency when a recommendation is made. Provides that unredacted investigative reports may be shared with the Department of Financial and Professional Regulation. Amends the Rehabilitation of Persons with Disabilities Act. Provides that the Department of Human Services shall operate and maintain an Illinois Center for Rehabilitation and Education-Wood for the education...",
    "references": [
     "20 ILCS 1305/1-17",
@@ -4959,8 +5235,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. William \"Will\" Davis-Debbie Meyers-Martin",
-   "summary": "In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the...",
+   "summary": "In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the distribution of Tier funds through the evidence-based funding formula or the adequacy targets of organizational units funded through the evidence-based funding formula.",
    "synopsis": "Amends the School Code. In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the distribution of Tier funds through the evidence-based funding formula or the adequacy targets of organizational units funded through the evidence-based funding formula.",
    "references": [
     "105 ILCS 5/18-8.15"
@@ -5027,8 +5306,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Stephanie A. Kifowit",
-   "summary": "Provides that the school board of each school district maintaining a high school shall require the high school to prioritize granting school parking passes to students with disabilities who have a disability license plate or parking...",
+   "summary": "Provides that the school board of each school district maintaining a high school shall require the high school to prioritize granting school parking passes to students with disabilities who have a disability license plate or parking decal or device by ensuring that these students are able to park an accessible distance from the high school's entrance and are given first consideration (i) before assigning students school parking passes and (ii) after assigning students school parking passes for those students with disabilities who receive a disability license plate or parking decal or...",
    "synopsis": "Amends the School Code. Provides that the school board of each school district maintaining a high school shall require the high school to prioritize granting school parking passes to students with disabilities who have a disability license plate or parking decal or device by ensuring that these students are able to park an accessible distance from the high school's entrance and are given first consideration (i) before assigning students school parking passes and (ii) after assigning students school parking passes for those students with disabilities who receive a disability license plate or parking decal or device after students have been assigned school parking passes. Amends the Public...",
    "references": [
     "105 ILCS 5/10-20.88 new",
@@ -5096,6 +5376,9 @@
    "title": "SCH CD-EDUCATOR LICENSURE-MISC",
    "tags": [
     "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Rep. Laura Faver Dias",
    "summary": "Adds 5 administrative or faculty members of community colleges to the State Educator Preparation and Licensure Board.",
@@ -5171,6 +5454,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Michelle Mussman and Michael Crawford",
    "summary": "Requires the State Board of Education to provide regulatory guidance to relevant stakeholders regarding individualized education program evaluations.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Requires the State Board of Education to provide regulatory guidance to relevant stakeholders regarding individualized education program evaluations.",
@@ -5240,8 +5526,13 @@
     "special-ed",
     "workforce"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful",
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Sen. Michael W. Halpin and Laura M. Murphy",
-   "summary": "Provides that a social work associate endorsement on an Educator License with stipulations may be issued to an applicant who (i) holds a degree from a graduate program of social work that has been approved by the Council on Social Work...",
+   "summary": "Provides that a social work associate endorsement on an Educator License with stipulations may be issued to an applicant who (i) holds a degree from a graduate program of social work that has been approved by the Council on Social Work Education and (ii) has an active license through the Department of Financial and Professional Regulation under the Clinical Social Work and Social Work Practice Act as either a licensed clinical social worker or licensed social worker.",
    "synopsis": "Amends the Educator Licensure Article of the School Code. Provides that a social work associate endorsement on an Educator License with stipulations may be issued to an applicant who (i) holds a degree from a graduate program of social work that has been approved by the Council on Social Work Education and (ii) has an active license through the Department of Financial and Professional Regulation under the Clinical Social Work and Social Work Practice Act as either a licensed clinical social worker or licensed social worker. Provides that the holder of a social work associate endorsement is authorized to perform responsibilities associated with traditional social work practice, subject to...",
    "references": [
     "105 ILCS 5/21B-20",
@@ -5309,6 +5600,10 @@
    "title": "SCH CD-TIME OUT",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
    ],
    "sponsors": "Sen. Meg Loughran Cappel",
    "summary": "Expands the definitions of \"isolated time out\" or \"time out\", \"physical restraint\" or \"restraint\", and \"time out\".",
@@ -5378,8 +5673,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Ram Villivalam",
-   "summary": "Provides that any student with an individualized education program or any child with a disability who has not been removed from the regular education environment shall receive educational services at the local building that the child...",
+   "summary": "Provides that any student with an individualized education program or any child with a disability who has not been removed from the regular education environment shall receive educational services at the local building that the child would attend if the child did not require special education services.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that any student with an individualized education program or any child with a disability who has not been removed from the regular education environment shall receive educational services at the local building that the child would attend if the child did not require special education services.",
    "references": [
     "105 ILCS 5/14-2",
@@ -5435,6 +5733,79 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HB3488",
+   "ga": 104,
+   "number": "HB 3488",
+   "title": "SCH CD-WIRELESS COMM DEVICE",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)"
+   ],
+   "sponsors": "Rep. Michelle Mussman-Fred Crespo-Tracy Katz Muhl-Margaret Croke, Janet Yang Rohr and Jennifer Gong-Gershowitz",
+   "summary": "Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time.",
+   "synopsis": "Amends the School Code. Provides that, on or before the 2026-2027 school year, each school board shall adopt and implement a wireless communication device policy that: (1) prohibits a student from using a wireless communication device during instructional time, except as otherwise provided; and (2) includes guidance for secure and accessible storage of wireless devices during instructional time. Provides that the policy may not prohibit a student from using a wireless communication device during instructional time: (1) when a teacher or instructor has authorized the student to use a wireless communication device for educational purposes; (2) in an emergency or in response to an imminent...",
+   "references": [
+    "105 ILCS 5/10-20.88 new",
+    "105 ILCS 5/27A-5-3 new",
+    "105 ILCS 5/34-18.88 new"
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2025-03-25",
+    "chamber": "House",
+    "action": "Added Co-Sponsor Rep. Jennifer Gong-Gershowitz"
+   },
+   "recent_actions": [
+    {
+     "date": "2025-03-25",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Jennifer Gong-Gershowitz"
+    },
+    {
+     "date": "2025-03-21",
+     "chamber": "House",
+     "action": "Rule 19(a) / Re-referred to Rules Committee"
+    },
+    {
+     "date": "2025-03-11",
+     "chamber": "House",
+     "action": "Assigned to Education Policy Committee"
+    },
+    {
+     "date": "2025-02-25",
+     "chamber": "House",
+     "action": "Added Chief Co-Sponsor Rep. Margaret Croke"
+    },
+    {
+     "date": "2025-02-24",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
+    },
+    {
+     "date": "2025-02-20",
+     "chamber": "House",
+     "action": "Added Chief Co-Sponsor Rep. Tracy Katz Muhl"
+    },
+    {
+     "date": "2025-02-20",
+     "chamber": "House",
+     "action": "Added Chief Co-Sponsor Rep. Fred Crespo"
+    },
+    {
+     "date": "2025-02-18",
+     "chamber": "House",
+     "action": "Referred to Rules Committee"
+    }
+   ],
+   "action_count": 10,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3488&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-HB1107",
    "ga": 104,
    "number": "HB 1107",
@@ -5442,6 +5813,9 @@
    "tags": [
     "special-ed",
     "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
    ],
    "sponsors": "Rep. Jed Davis-Nicole La Ha",
    "summary": "Establishes findings.",
@@ -5501,8 +5875,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Daniel Didech",
-   "summary": "Allows a school district to place a student in a nonpublic day facility or residential special education facility providing educational services but not approved by the State Board of Education (rather than a nonpublic residential...",
+   "summary": "Allows a school district to place a student in a nonpublic day facility or residential special education facility providing educational services but not approved by the State Board of Education (rather than a nonpublic residential special education facility providing educational services but not approved by the State Board of Education) if the State Board of Education provides an emergency and student-specific approval for residential or day placement.",
    "synopsis": "Amends the Children With Disabilities Article of the School Code. Allows a school district to place a student in a nonpublic day facility or residential special education facility providing educational services but not approved by the State Board of Education (rather than a nonpublic residential special education facility providing educational services but not approved by the State Board of Education) if the State Board of Education provides an emergency and student-specific approval for residential or day placement. Makes changes to provisions concerning the circumstances under which the State Board of Education will grant such an approval. Grants jurisdiction to the State Board's...",
    "references": [
     "105 ILCS 5/14-7.02"
@@ -5554,8 +5931,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Maurice A. West, II",
-   "summary": "Requires a school district to develop and implement a plan to provide additional instructional services, support, or special accommodations to students who suffer from trauma related to experiencing the death of a sibling, parent,...",
+   "summary": "Requires a school district to develop and implement a plan to provide additional instructional services, support, or special accommodations to students who suffer from trauma related to experiencing the death of a sibling, parent, guardian, or household member by suicide or homicide or suffer from trauma caused by domestic violence or abuse and whom the school has determined require additional instructional services, support, or special accommodations but do not qualify for an individualized education program or for services under Section 504 of the federal Rehabilitation Act of 1973.",
    "synopsis": "Amends the School Code. Requires a school district to develop and implement a plan to provide additional instructional services, support, or special accommodations to students who suffer from trauma related to experiencing the death of a sibling, parent, guardian, or household member by suicide or homicide or suffer from trauma caused by domestic violence or abuse and whom the school has determined require additional instructional services, support, or special accommodations but do not qualify for an individualized education program or for services under Section 504 of the federal Rehabilitation Act of 1973. Sets forth what the plan may include. Provides that the plan shall remain in...",
    "references": [
     "105 ILCS 5/10-20.82 new",
@@ -5609,8 +5990,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Camille Y. Lilly",
-   "summary": "Beginning with fiscal year 2026, requires the General Assembly to appropriate for the evidence-based funding formula under the School Code an amount that is equal to or exceeds the sum of: (i) the total amount appropriated for the...",
+   "summary": "Beginning with fiscal year 2026, requires the General Assembly to appropriate for the evidence-based funding formula under the School Code an amount that is equal to or exceeds the sum of: (i) the total amount appropriated for the evidence-based funding formula during the fiscal year immediately preceding the fiscal year for which the appropriation is being made; and (ii) 51% of total new general funds available for spending from estimated growth in revenues and funds available because of budgeted program growth and decline in the fiscal year for which the appropriation is being made; but...",
    "synopsis": "Creates the Education Prioritization Act. Beginning with fiscal year 2026, requires the General Assembly to appropriate for the evidence-based funding formula under the School Code an amount that is equal to or exceeds the sum of: (i) the total amount appropriated for the evidence-based funding formula during the fiscal year immediately preceding the fiscal year for which the appropriation is being made; and (ii) 51% of total new general funds available for spending from estimated growth in revenues and funds available because of budgeted program growth and decline in the fiscal year for which the appropriation is being made; but in no event shall the sum be less than a certain...",
    "references": [
     "New Act",
@@ -5665,6 +6049,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Maura Hirschauer",
    "summary": "Adds the Secretary of Early Childhood or his or her designee as a member of the Advisory Council on the Education of Children with Disabilities.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Adds the Secretary of Early Childhood or his or her designee as a member of the Advisory Council on the Education of Children with Disabilities. Provides that the Council shall establish a committee charged with ensuring that all children aged 3 to 5 with disabilities have access to high-quality, inclusive, early-childhood services, provided in the least restrictive environment, across all early learning settings. Effective immediately.",
@@ -5711,6 +6096,69 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HB2470",
+   "ga": 104,
+   "number": "HB 2470",
+   "title": "HIGHER ED-GROW YOUR OWN TEACHR",
+   "tags": [
+    "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
+   "sponsors": "Rep. Jehan Gordon-Booth and Camille Y. Lilly",
+   "summary": "In a provision regarding the selection of grantees, provides that: State appropriations shall be allocated with the intention of providing direct candidate support through consortia; and Grown Your Own Illinois may use no more than 5% of State appropriations for operational expenditures, but may supplement its operational expenditures with private funds.",
+   "synopsis": "Amends the Grow Your Own Teacher Education Act. In a provision regarding the selection of grantees, provides that: State appropriations shall be allocated with the intention of providing direct candidate support through consortia; and Grown Your Own Illinois may use no more than 5% of State appropriations for operational expenditures, but may supplement its operational expenditures with private funds. In a provision regarding expenditures under the Grow Your Own Teacher Education Initiative: requires grants to be distributed to consortia from Grow Your Own Illinois in an equitable manner based on candidate needs and in such a way as to provide the required support for a cohort of...",
+   "references": [
+    "110 ILCS 48/20",
+    "110 ILCS 48/25",
+    "110 ILCS 48/35.5 new"
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2025-03-21",
+    "chamber": "House",
+    "action": "Rule 19(a) / Re-referred to Rules Committee"
+   },
+   "recent_actions": [
+    {
+     "date": "2025-03-21",
+     "chamber": "House",
+     "action": "Rule 19(a) / Re-referred to Rules Committee"
+    },
+    {
+     "date": "2025-03-04",
+     "chamber": "House",
+     "action": "Assigned to Higher Education Committee"
+    },
+    {
+     "date": "2025-03-03",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Camille Y. Lilly"
+    },
+    {
+     "date": "2025-02-04",
+     "chamber": "House",
+     "action": "Referred to Rules Committee"
+    },
+    {
+     "date": "2025-02-04",
+     "chamber": "House",
+     "action": "First Reading"
+    },
+    {
+     "date": "2025-02-03",
+     "chamber": "House",
+     "action": "Filed with the Clerk by Rep. Jehan Gordon-Booth"
+    }
+   ],
+   "action_count": 6,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2470&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-HB2486",
    "ga": 104,
    "number": "HB 2486",
@@ -5718,6 +6166,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Katie Stuart",
    "summary": "Provides that \"separate public special education day school\" does not mean any school in a school district that exceeds its Adequacy Target under the evidence-based funding formula.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that \"separate public special education day school\" does not mean any school in a school district that exceeds its Adequacy Target under the evidence-based funding formula. Effective immediately.",
@@ -5772,8 +6221,11 @@
     "special-ed",
     "workforce"
    ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
    "sponsors": "Rep. Maura Hirschauer",
-   "summary": "Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2026-2027 school year, (ii) $21 for the 2027-2028...",
+   "summary": "Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2026-2027 school year, (ii) $21 for the 2027-2028 school year, and (iii) $22 for the 2028-2029 school year.",
    "synopsis": "Amends the Employment of Teachers Article of the School Code. Provides that in fixing the salaries of employees, a school board or the governing board of a joint agreement shall pay to employees an hourly rate of not less than (i) $20 for the 2026-2027 school year, (ii) $21 for the 2027-2028 school year, and (iii) $22 for the 2028-2029 school year. Provides that the minimum hourly rate for each school year thereafter shall equal the minimum salary rate for the previous school year increased by a percentage equal to the percentage increase, if any, in the Consumer Price Index for All Urban Consumers for all items published by the United States Department of Labor for the previous school...",
    "references": [
     "105 ILCS 5/24-8.2 new"
@@ -5825,8 +6277,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Edgar GonzÃ¡lez, Jr.",
-   "summary": "Provides that on the effective date of the amendatory Act,any recipient of a scholarship, grant, or waiver that has been or may be converted to a student loan under a State program for which the Illinois Student Assistance Commission is...",
+   "summary": "Provides that on the effective date of the amendatory Act,any recipient of a scholarship, grant, or waiver that has been or may be converted to a student loan under a State program for which the Illinois Student Assistance Commission is responsible for collections shall be released from the remaining financial repayment obligations under that program.",
    "synopsis": "Amends the Higher Education Student Assistance Act. Provides that on the effective date of the amendatory Act,any recipient of a scholarship, grant, or waiver that has been or may be converted to a student loan under a State program for which the Illinois Student Assistance Commission is responsible for collections shall be released from the remaining financial repayment obligations under that program. In provisions concerning the Minority Teachers of Illinois scholarship program, the Golden Apple Scholars of Illinois Program, special education teacher scholarships, the Optometric Education Scholarship Program, Post-Master of Social Work School Social Work Professional Educator License...",
    "references": [
     "110 ILCS 947/20",
@@ -5889,6 +6342,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Jaime M. Andrade, Jr.",
    "summary": "Provides that the Secretary of State, in conjunction with the State Board of Education, shall develop a separate classroom course and refresher course for operation of vehicles of the first division being operated as school buses.",
    "synopsis": "Amends the Illinois Vehicle Code. Provides that the Secretary of State, in conjunction with the State Board of Education, shall develop a separate classroom course and refresher course for operation of vehicles of the first division being operated as school buses. Requires all applicants to operate a first division vehicle to: (1) meet specified requirements; and (2) complete the classroom course or refresher course or complete a training course administered by the service provider in which the applicant will be employed by that covers safe driving practices with a first division vehicle, special considerations for transporting students with disabilities, emergency preparedness, and safe...",
@@ -5943,8 +6397,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Michael Crawford",
-   "summary": "Requires the Board of Higher Education, in consultation with the Department of Commerce and Economic Opportunity and the Department of Employment Security, to develop a career and education guide for postsecondary students with...",
+   "summary": "Requires the Board of Higher Education, in consultation with the Department of Commerce and Economic Opportunity and the Department of Employment Security, to develop a career and education guide for postsecondary students with disabilities.",
    "synopsis": "Amends the Board of Higher Education Act. Requires the Board of Higher Education, in consultation with the Department of Commerce and Economic Opportunity and the Department of Employment Security, to develop a career and education guide for postsecondary students with disabilities. Sets forth the included information in the career and education guide. Requires the guide to be publicly available on the websites of the Board, the Department of Commerce and Economic Opportunity, and the Department of Employment Security. Allows the Board to publish physical copies and charge a reasonable fee for such copies. Requires the first guide to be published by August 1, 2026, and every August 1...",
    "references": [
     "110 ILCS 205/17 new"
@@ -5996,8 +6451,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Tracy Katz Muhl",
-   "summary": "Provides that a school board shall establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student, including rules that restrict the use of cellular radio...",
+   "summary": "Provides that a school board shall establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student, including rules that restrict the use of cellular radio telecommunication devices during instructional time (instead of providing that the school board may establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student).",
    "synopsis": "Amends the School Code. Provides that a school board shall establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student, including rules that restrict the use of cellular radio telecommunication devices during instructional time (instead of providing that the school board may establish appropriate rules and disciplinary procedures governing the use or possession of cellular radio telecommunication devices by a student). Provides that a school board may create exceptions to these rules, including exceptions for school-based emergencies, individual student and family emergencies, and individualized...",
    "references": [
     "105 ILCS 5/10-20.28",
@@ -6050,8 +6509,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Janet Yang Rohr",
-   "summary": "Provides that the State Board of Education shall create appropriate guidelines for students enrolled in peer-support courses, which shall include, but not be limited to: (i) education on common cognitive and physical disabilities and...",
+   "summary": "Provides that the State Board of Education shall create appropriate guidelines for students enrolled in peer-support courses, which shall include, but not be limited to: (i) education on common cognitive and physical disabilities and the associated accommodations as defined in the federal Americans with Disabilities Act of 1990; (ii) the skills and knowledge required to support fellow students, including skills and knowledge in a specific course or disciplinary area; (iii) possible methods educators can use to assess the proficiency of student aides; (iv) relevant learning standards and...",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that the State Board of Education shall create appropriate guidelines for students enrolled in peer-support courses, which shall include, but not be limited to: (i) education on common cognitive and physical disabilities and the associated accommodations as defined in the federal Americans with Disabilities Act of 1990; (ii) the skills and knowledge required to support fellow students, including skills and knowledge in a specific course or disciplinary area; (iii) possible methods educators can use to assess the proficiency of student aides; (iv) relevant learning standards and expectations required of student...",
    "references": [
     "105 ILCS 5/14-19 new"
@@ -6103,8 +6563,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Rep. Daniel Didech",
-   "summary": "Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an...",
+   "summary": "Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an application for funds that includes a comprehensive plan.",
    "synopsis": "Amends the School Code. Removes language providing that a local program for the education of gifted and talented children may be approved for funding by the State Board of Education if funds for that purpose are available and if the local program submits an application for funds that includes a comprehensive plan. Removes language providing that the State Board of Education staff person in charge of educational programs for gifted and talented children shall be responsible for developing an approval process for educational programs for gifted and talented children. With respect to the evidence-based funding provisions, provides that in the adequacy target calculation, each organizational...",
    "references": [
     "105 ILCS 5/14A-15",
@@ -6159,8 +6622,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Daniel Didech",
-   "summary": "With respect to identification, evaluation, and placement, provides that, beginning no later than the first annual review meeting after a child turns 13 years of age, the individualized education program (IEP) team shall determine at...",
+   "summary": "With respect to identification, evaluation, and placement, provides that, beginning no later than the first annual review meeting after a child turns 13 years of age, the individualized education program (IEP) team shall determine at each annual review meeting whether it would be appropriate for the child to participate in IEP meetings with the child's IEP team.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. With respect to identification, evaluation, and placement, provides that, beginning no later than the first annual review meeting after a child turns 13 years of age, the individualized education program (IEP) team shall determine at each annual review meeting whether it would be appropriate for the child to participate in IEP meetings with the child's IEP team.",
    "references": [
     "105 ILCS 5/14-8.02"
@@ -6212,8 +6678,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Laura M. Murphy",
-   "summary": "Requires an association or other entity that has as one of its purposes promoting, sponsoring, regulating, or in any manner providing for interscholastic athletics or any form of athletic competition among schools and students within...",
+   "summary": "Requires an association or other entity that has as one of its purposes promoting, sponsoring, regulating, or in any manner providing for interscholastic athletics or any form of athletic competition among schools and students within this State to allow a student for whom it is determined that special education services are needed under the School Code to participate in interscholastic athletics and other forms of athletic competition for as long as the student is eligible for such special education services, which, for purposes of the School Code, means through the day before the...",
    "synopsis": "Amends the Interscholastic Athletic Organization Act. Requires an association or other entity that has as one of its purposes promoting, sponsoring, regulating, or in any manner providing for interscholastic athletics or any form of athletic competition among schools and students within this State to allow a student for whom it is determined that special education services are needed under the School Code to participate in interscholastic athletics and other forms of athletic competition for as long as the student is eligible for such special education services, which, for purposes of the School Code, means through the day before the student's 22nd birthday.",
    "references": [
     "105 ILCS 25/1.30 new"
@@ -6265,8 +6732,11 @@
    "tags": [
     "funding"
    ],
+   "platform": [
+    "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)"
+   ],
    "sponsors": "Sen. Adriane Johnson and Laura M. Murphy",
-   "summary": "In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the...",
+   "summary": "In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the distribution of Tier funds through the evidence-based funding formula or the adequacy targets of organizational units funded through the evidence-based funding formula.",
    "synopsis": "Amends the School Code. In a provision concerning evidence-based funding for student success, allows the Professional Review Panel to study, at the discretion of the chairperson, any proposed legislation by the General Assembly impacting the provision or the distribution of Tier funds through the evidence-based funding formula or the adequacy targets of organizational units funded through the evidence-based funding formula.",
    "references": [
     "105 ILCS 5/18-8.15"
@@ -6313,8 +6783,11 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Rep. Nicole La Ha",
-   "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting...",
+   "summary": "Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Provides that a school shall provide written notice to the parents or guardian of a child with disabilities that the parents or guardian have the right to have an individualized education program (IEP) advocate present at any meeting regarding the child's current or prospective individualized education program and that the parents or guardian have the right to ask for an IEP facilitator for the child's IEP. Provides that the school may provide the written notification as a part of other provided documentation, including, but not limited to, admission and enrollment documents.",
    "references": [
     "105 ILCS 5/14-19 new"
@@ -6356,6 +6829,7 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Sen. Ram Villivalam",
    "summary": "Provides that the Secretary of State, in conjunction with the State Board of Education, shall develop a separate classroom course and refresher course for operation of vehicles of the first division being operated as school buses.",
    "synopsis": "Amends the Illinois Vehicle Code. Provides that the Secretary of State, in conjunction with the State Board of Education, shall develop a separate classroom course and refresher course for operation of vehicles of the first division being operated as school buses. Requires all applicants to operate a first division vehicle to: (1) meet specified requirements; and (2) complete the classroom course or refresher course or complete a training course administered by the service provider in which the applicant will be employed by that covers safe driving practices with a first division vehicle, special considerations for transporting students with disabilities, emergency preparedness, and safe...",
@@ -6400,8 +6874,12 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [
+    "Committee watch item: Section 504 bills (IAASE is working with IASB to prepare a defense)",
+    "IAASE Priority 3: Make IEPs clearer and more useful"
+   ],
    "sponsors": "Sen. Laura Fine",
-   "summary": "Provides that in the development of an individual education program (IEP) or Section 504 plan for a twice-exceptional child, if the child's ability or achievement indicates that the student would benefit from advanced academic programs,...",
+   "summary": "Provides that in the development of an individual education program (IEP) or Section 504 plan for a twice-exceptional child, if the child's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be the primary focus of the child's IEP or Section 504 plan and be reflected in the individualized services, goals, and objectives for the child.",
    "synopsis": "Amends the School Code. Provides that in the development of an individual education program (IEP) or Section 504 plan for a twice-exceptional child, if the child's ability or achievement indicates that the student would benefit from advanced academic programs, then those abilities or achievement levels shall be the primary focus of the child's IEP or Section 504 plan and be reflected in the individualized services, goals, and objectives for the child. Defines \"twice-exceptional child\". Effective immediately.",
    "references": [
     "105 ILCS 5/22-50"
@@ -6436,12 +6914,71 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "104-HB1148",
+   "ga": 104,
+   "number": "HB 1148",
+   "title": "GROW YOUR OWN TEACHER-ISAC",
+   "tags": [
+    "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
+   "sponsors": "Rep. Dan Swanson and Tony M. McCombie",
+   "summary": "Transfers the powers and duties under the Act from the Board of Higher Education to the Illinois Student Assistance Commission.",
+   "synopsis": "Amends the Grow Your Own Teacher Education Act. Transfers the powers and duties under the Act from the Board of Higher Education to the Illinois Student Assistance Commission. Replaces the requirement that the Board of Higher Education must contract annually for an independent evaluation of program implementation with the requirement that the Illinois Student Assistance Commission monitor and evaluate the implementation of the program. Provides that the Illinois Student Assistance Commission may elect to contract for an independent evaluation with an outside entity. Effective immediately.",
+   "references": [
+    "110 ILCS 48/10",
+    "110 ILCS 48/13-1 new",
+    "110 ILCS 48/20",
+    "110 ILCS 48/35",
+    "110 ILCS 48/90",
+    "110 ILCS 48/13 rep."
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2025-01-15",
+    "chamber": "House",
+    "action": "Added Co-Sponsor Rep. Tony M. McCombie"
+   },
+   "recent_actions": [
+    {
+     "date": "2025-01-15",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Tony M. McCombie"
+    },
+    {
+     "date": "2025-01-09",
+     "chamber": "House",
+     "action": "Referred to Rules Committee"
+    },
+    {
+     "date": "2025-01-09",
+     "chamber": "House",
+     "action": "First Reading"
+    },
+    {
+     "date": "2025-01-05",
+     "chamber": "House",
+     "action": "Prefiled with Clerk by Rep. Dan Swanson"
+    }
+   ],
+   "action_count": 4,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1148&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "104-HB1097",
    "ga": 104,
    "number": "HB 1097",
    "title": "SCH CD-CHILD PLACEMENT",
    "tags": [
     "special-ed"
+   ],
+   "platform": [
+    "IAASE Priority 3: Make IEPs clearer and more useful"
    ],
    "sponsors": "Rep. Jed Davis",
    "summary": "Allows parents or guardians to use audio recording devices during meetings with their child's individualized education program team regarding the child's placement or progress in an individualized education program.",
@@ -6486,8 +7023,9 @@
    "tags": [
     "special-ed"
    ],
+   "platform": [],
    "sponsors": "Rep. Steven Reick",
-   "summary": "",
+   "summary": "Amends the Children with Disabilities Article of the School Code.",
    "synopsis": "Amends the Children with Disabilities Article of the School Code. Makes a technical change in a Section concerning definitions.",
    "references": [
     "105 ILCS 5/14-1.01"
@@ -6522,5 +7060,56 @@
    "first_seen": "2026-10-24"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "seen": "2026-10-24T20:29:50.339Z",
+   "bill": "104-HR1026",
+   "number": "HR 1026",
+   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
+   "kind": "newly-watched",
+   "date": "2026-09-09",
+   "chamber": "House",
+   "action": "Filed with the Clerk by Rep. Tony M. McCombie"
+  },
+  {
+   "seen": "2026-10-24T20:29:50.339Z",
+   "bill": "104-HB4967",
+   "number": "HB 4967",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "kind": "newly-watched",
+   "date": "2026-04-28",
+   "chamber": "House",
+   "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
+  },
+  {
+   "seen": "2026-10-24T20:29:50.339Z",
+   "bill": "104-HB3488",
+   "number": "HB 3488",
+   "title": "SCH CD-WIRELESS COMM DEVICE",
+   "kind": "newly-watched",
+   "date": "2025-03-25",
+   "chamber": "House",
+   "action": "Added Co-Sponsor Rep. Jennifer Gong-Gershowitz"
+  },
+  {
+   "seen": "2026-10-24T20:29:50.339Z",
+   "bill": "104-HB2470",
+   "number": "HB 2470",
+   "title": "HIGHER ED-GROW YOUR OWN TEACHR",
+   "kind": "newly-watched",
+   "date": "2025-03-21",
+   "chamber": "House",
+   "action": "Rule 19(a) / Re-referred to Rules Committee"
+  },
+  {
+   "seen": "2026-10-24T20:29:50.339Z",
+   "bill": "104-HB1148",
+   "number": "HB 1148",
+   "title": "GROW YOUR OWN TEACHER-ISAC",
+   "kind": "newly-watched",
+   "date": "2025-01-15",
+   "chamber": "House",
+   "action": "Added Co-Sponsor Rep. Tony M. McCombie"
+  }
+ ]
 }
