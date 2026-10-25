@@ -1,5 +1,5 @@
 {
-  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always'. Numbers in 'never' are skipped. 'platform' links a match to the 2026-2027 IAASE Legislative Platform (adopted Oct 21, 2026) or to an item on the IAASE Advocacy & Public Policy Committee's Oct 7, 2026 agenda. A link is context for the committee, not a position. A rule with 'field': 'title' is a regular expression checked against the short title ILGA gives the bill. Edit freely; the next daily run applies the change.",
+  "_about": "Rules for scripts/bill_watch.mjs. A bill is watched when it amends a listed statute, its summary uses a listed phrase, or its number is in 'always' (HB4416: IAASE asked members to oppose it on Mar 24, 2026, but it amends the Unemployment Insurance Act, so the School Code rules miss it). Numbers in 'never' are skipped. 'platform' links a match to the 2026-2027 IAASE Legislative Platform (adopted Oct 21, 2026) or to an item on the IAASE Advocacy & Public Policy Committee's Oct 7, 2026 agenda. A link is context for the committee, not a position. A rule with 'field': 'title' is a regular expression checked against the short title ILGA gives the bill. Edit freely; the next daily run applies the change.",
   "platformItems": {
     "P1": "IAASE Priority 1: Equitable funding across educational settings (placement-neutral funding, SB3606)",
     "P2": "IAASE Priority 2: Fully fund services for students with the most significant needs (Fund Code X)",
@@ -43,6 +43,6 @@
     { "tag": "workforce", "text": "Grow Your Own", "platform": ["P4"] }
   ],
   "skipResolutionTitles": ["CONGRATS", "MOURNS", "MEMORIAL", "IN MEMORY"],
-  "always": [],
+  "always": ["HB4416"],
   "never": []
 }

@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T20:37:58.422Z",
- "watched": 109,
+ "updated": "2026-10-24T21:30:40.015Z",
+ "watched": 110,
  "bills": [
   {
    "number": "HB 5436",
@@ -138,6 +138,15 @@
    "action": "Added as Alternate Co-Sponsor Sen. Karina Villa"
   },
   {
+   "number": "HB 4416",
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4416&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "title": "UNEMPLOYMENT INS-ACADEMICS",
+   "summary": "Provides that, with respect to a week of unemployment beginning on or after June 1, 2026, benefits shall be payable to an individual on the basis of wages for employment in other than an instructional, research, or principal administrative capacity performed for an educational institution or an educational service agency, as long as the individual is otherwise eligible for benefits.",
+   "status": "Waiting in the House Rules Committee",
+   "date": "2026-04-17",
+   "action": "Rule 19(a) / Re-referred to Rules Committee"
+  },
+  {
    "number": "HB 4423",
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4423&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
    "title": "SCH CD-LICENSE ENDORSEMENT",
@@ -198,7 +207,7 @@
    "summary": "Provides that beginning in State fiscal year 2027, the State (instead of the Chicago Board of Education) shall contribute for each of fiscal years 2027 through 2059, a minimum contribution to the Fund in an amount determined by the Fund to be sufficient to bring the total assets of the Fund up to 90% of the total actuarial liabilities of the Fund by the end of fiscal year 2059.",
    "status": "Waiting in Senate Assignments",
    "date": "2026-04-14",
-   "action": "Added as Co-Sponsor Sen. Graciela GuzmÃ¡n"
+   "action": "Added as Co-Sponsor Sen. Graciela Guzmán"
   },
   {
    "number": "HB 2420",
@@ -352,15 +361,6 @@
    "status": "Waiting in the House Rules Committee",
    "date": "2025-11-12",
    "action": "Added Co-Sponsor Rep. Sue Scherer"
-  },
-  {
-   "number": "SB 1987",
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1987&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
-   "title": "$ISU-SPECIAL ED TEACH PROGRAM",
-   "summary": "Appropriates $6,000,000 to the Illinois State University for the purpose of the Special Education Teacher Tuition Waiver Program.",
-   "status": "Waiting in Senate Assignments",
-   "date": "2025-07-02",
-   "action": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments"
   }
  ]
 }
