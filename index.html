@@ -159,6 +159,7 @@ nav a:hover { color: var(--capitol); }
 .signup legend { font-weight: 650; font-size: 0.9rem; margin-bottom: 0.2rem; }
 .signup .check { display: flex; align-items: center; gap: 0.5rem; font-weight: 400; }
 .signup[hidden] { display: none; }
+.signup .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .card .done { font-weight: 650; color: var(--prairie); }
 @media (max-width: 420px) { .signup .pair { grid-template-columns: 1fr; } }
 .reps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
@@ -361,7 +362,9 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
               <label>Last name<input type="text" name="entry.2106092286" autocomplete="family-name" required></label>
             </div>
             <label>Personal email <small>(not a school or work email)</small><input type="email" name="entry.1722219361" autocomplete="email" required></label>
-            <label>Home ZIP code <small>(so we can tell legislators how many of you live in their district)</small><input type="text" name="entry.1522544571" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" required></label>
+            <label>Home ZIP code <small>(so we can tell legislators how many of you live in their district)</small><input type="text" name="entry.1522544571" autocomplete="postal-code" inputmode="numeric" pattern="6[0-2][0-9]{3}" maxlength="5" title="Please enter an Illinois ZIP code (60000 to 62999)." required></label>
+            <!-- Spam trap: hidden from people and screen readers. It has no name, so it is never sent; a bot that fills it is dropped. -->
+            <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" id="alerts-hp" tabindex="-1" autocomplete="off"></label></div>
             <fieldset>
               <legend>Which describes you? <small>(optional)</small></legend>
               <label class="check"><input type="checkbox" name="entry.1019290349" value="Special education administrator">Special education administrator</label>
@@ -618,6 +621,13 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
   // Alerts sign-up posts to the Google Form in the background, then thanks the visitor in place.
   var alerts = document.getElementById('alerts-form');
   alerts.addEventListener('submit', function (e) {
+    // A filled spam trap means a bot: show the thank-you and send nothing.
+    if (document.getElementById('alerts-hp').value) {
+      e.preventDefault();
+      alerts.hidden = true;
+      document.getElementById('alerts-done').hidden = false;
+      return;
+    }
     if (!window.fetch) return;
     e.preventDefault();
     var btn = alerts.querySelector('button');
