@@ -1,6 +1,7 @@
 # Keeps data/bills.json current: Illinois bills that touch special education.
 # Runs every morning after ILGA's nightly file sync, and can be started by hand
-# from the Actions tab. Commits only when a watched bill changes.
+# from the Actions tab. Commits the bill data only when a watched bill changes,
+# plus a one-line data/bills-checked.json once a day so the site can show the last check.
 name: Watch Illinois bills
 
 on:
@@ -27,15 +28,20 @@ jobs:
       # Uses the Google Chrome already installed on GitHub's runners.
       - run: npm install --no-save --no-package-lock playwright@1.47.2
       - run: node scripts/bill_watch.mjs
-      - name: Commit if watched bills changed
+      - name: Commit if watched bills or the check date changed
         run: |
-          if [ -z "$(git status --porcelain -- data/bills.json data/bills-public.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/bills.json data/bills-public.json data/bills-checked.json)" ]; then
             echo "No changes."
             exit 0
           fi
+          if [ -n "$(git status --porcelain -- data/bills.json data/bills-public.json)" ]; then
+            msg="Update watched Illinois bills"
+          else
+            msg="Record bill check date"
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bills.json data/bills-public.json
-          git commit -m "Update watched Illinois bills"
+          git add data/bills.json data/bills-public.json data/bills-checked.json
+          git commit -m "$msg"
           git pull --rebase --quiet
           git push

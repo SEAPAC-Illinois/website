@@ -16,6 +16,7 @@ import { join } from 'node:path';
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = process.env.BILLS_OUT || join(ROOT, 'data/bills.json');
 const PUBLIC_OUT = process.env.BILLS_PUBLIC_OUT || join(ROOT, 'data/bills-public.json');
+const CHECKED_OUT = process.env.BILLS_CHECKED_OUT || join(ROOT, 'data/bills-checked.json');
 const CONFIG = join(ROOT, 'data/bill-watch-config.json');
 const BILL_TYPES = new Set(['HB', 'SB', 'HR', 'SR', 'HJR', 'SJR', 'HJRCA', 'SJRCA']);
 const KEEP_CHANGES_DAYS = 60;
@@ -278,6 +279,10 @@ try {
     }));
     writeFileSync(PUBLIC_OUT, JSON.stringify({ updated: seen, watched: list.length, bills: pub }, null, 1) + '\n');
   }
+  // Record the day of this successful check so the website can say when the list was last checked,
+  // even on quiet days when bills.json stays the same. Rewritten only when the date changes.
+  const checked = JSON.stringify({ checked: seen.slice(0, 10) }) + '\n';
+  if (!existsSync(CHECKED_OUT) || readFileSync(CHECKED_OUT, 'utf8') !== checked) writeFileSync(CHECKED_OUT, checked);
   console.log(same ? 'No changes to watched bills. ' : '', `GA ${gas.join(', ')}: read ${toFetch.length} files (${out.scan}), watching ${list.length} bills, ${changes.length} changes kept.`);
 } finally {
   await source.close();

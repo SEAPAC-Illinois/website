@@ -594,8 +594,14 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
     }).then(function () { btn.disabled = false; });
   });
 
-  // Bills we're watching: data/bills-public.json is rebuilt each morning by scripts/bill_watch.mjs.
-  if (window.fetch) fetch('data/bills-public.json').then(function (r) { return r.json(); }).then(function (d) {
+  // Bills we're watching: data/bills-public.json is rebuilt each morning by scripts/bill_watch.mjs,
+  // which also writes the day of its last successful check to data/bills-checked.json.
+  if (window.fetch) Promise.all([
+    fetch('data/bills-public.json').then(function (r) { return r.json(); }),
+    fetch('data/bills-checked.json').then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ]).then(function (res) {
+    var d = res[0], checked = d.updated.slice(0, 10);
+    if (res[1].checked && res[1].checked > checked) checked = res[1].checked;
     if (!d.bills || !d.bills.length) return;
     var list = document.getElementById('bill-list');
     var nice = function (iso) { var p = iso.split('-'); return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); };
@@ -611,7 +617,7 @@ footer .notice { max-width: 80ch; line-height: 1.5; }
       li.appendChild(el('p', { 'class': 'stage' }, b.status + '. Last action ' + nice(b.date) + '.'));
       list.appendChild(li);
     });
-    document.getElementById('bill-meta').textContent = 'Showing the ' + Math.min(6, d.bills.length) + ' bills that moved most recently, out of ' + d.watched + ' we follow this session. Checked ' + nice(d.updated.slice(0, 10)) + '. Source: Illinois General Assembly.';
+    document.getElementById('bill-meta').textContent = 'Showing the ' + Math.min(6, d.bills.length) + ' bills that moved most recently, out of ' + d.watched + ' we follow this session. Checked ' + nice(checked) + '. Source: Illinois General Assembly.';
     document.getElementById('watch').hidden = false;
   }).catch(function () {});
 
