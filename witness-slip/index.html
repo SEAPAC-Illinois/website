@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to file a witness slip | SEA-PAC Illinois</title>
+<meta name="description" content="A two-minute guide to filing an Illinois General Assembly witness slip, from SEA-PAC Illinois.">
+<link rel="icon" href="/assets/logo.png">
+<link rel="canonical" href="https://seapacil.com/witness-slip/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://seapacil.com/witness-slip/">
+<meta property="og:title" content="How to file a witness slip">
+<meta property="og:description" content="Tell an Illinois committee where you stand on a bill. It takes about two minutes.">
+<meta property="og:image" content="https://seapacil.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: one reading column for a how-to. Same tokens, header, and footer as the home page; a gradient title band, three quick facts, numbered steps, then mistakes and a closing link back to the alerts sign-up. */
+:root {
+  --paper: #f3f6f4; --surface: #ffffff; --tint: #e6eef0; --ink: #0f1a2e; --muted: #4a586c; --rule: #d3dce1;
+  --capitol: #0d27b4; --prairie: #236a1f; --go: #236a1f; --go-hover: #1b5418; --go-ink: #ffffff;
+  --hero-a: #1f5f22; --hero-b: #123d72; --hero-c: #0d27b4; --on-hero: #ffffff; --on-hero-muted: #d7e2f4;
+  --foot: #0c1630; --foot-ink: #c9d3e6;
+  --display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --body: "Public Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0b1220; --surface: #131c30; --tint: #101a2e; --ink: #e9eef6; --muted: #a5b1c4; --rule: #26324a;
+    --capitol: #9aa9ff; --prairie: #7cc873; --go: #2b7d25; --go-hover: #33912c; --go-ink: #ffffff;
+    --hero-a: #143f17; --hero-b: #0c2a52; --hero-c: #0a1c86; --on-hero: #ffffff; --on-hero-muted: #c6d2ea;
+    --foot: #060b18; --foot-ink: #a5b1c4;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0b1220; --surface: #131c30; --tint: #101a2e; --ink: #e9eef6; --muted: #a5b1c4; --rule: #26324a;
+  --capitol: #9aa9ff; --prairie: #7cc873; --go: #2b7d25; --go-hover: #33912c; --go-ink: #ffffff;
+  --hero-a: #143f17; --hero-b: #0c2a52; --hero-c: #0a1c86; --on-hero: #ffffff; --on-hero-muted: #c6d2ea;
+  --foot: #060b18; --foot-ink: #a5b1c4;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1.0625rem/1.6 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--surface); }
+a { color: var(--capitol); }
+:focus-visible { outline: 3px solid var(--capitol); outline-offset: 3px; }
+.title :focus-visible, footer :focus-visible { outline-color: #ffffff; }
+.wrap { max-width: 46rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap.wide { max-width: 70rem; }
+h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.05; text-wrap: balance; }
+h2 { font-size: clamp(1.6rem, 3.6vw, 2.2rem); font-weight: 850; font-stretch: 78%; }
+h3 { font-size: 1.15rem; font-weight: 750; font-stretch: 92%; line-height: 1.2; }
+p { margin: 0; }
+.eyebrow { font: 750 0.8rem/1 var(--display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--prairie); }
+.stack { display: grid; gap: 1rem; }
+.muted { color: var(--muted); }
+.note { font-size: 0.85rem; color: var(--muted); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+section { padding-block: 2.75rem; scroll-margin-top: 5rem; }
+section + section { border-top: 1px solid var(--rule); }
+
+/* header */
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--rule); }
+header.top .wrap { display: flex; align-items: center; gap: 1rem 1.5rem; padding-block: 0.6rem; }
+.brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--ink); margin-right: auto; }
+.brand img { width: 46px; height: 46px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule); background: #fff; }
+.brand b { font: 900 1.25rem/1 var(--display); font-stretch: 80%; letter-spacing: 0.02em; color: var(--prairie); }
+.brand span { display: block; font: 750 0.72rem/1 var(--display); letter-spacing: 0.22em; color: var(--capitol); margin-top: 0.2rem; }
+.back { font-weight: 600; font-size: 0.95rem; color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--capitol); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font: 800 1.02rem/1 var(--display); font-stretch: 95%; text-decoration: none; border-radius: 999px; padding: 0.95rem 1.5rem; border: 0; cursor: pointer; transition: background-color .15s ease; }
+.btn.go { background: var(--go); color: var(--go-ink); }
+.btn.go:hover { background: var(--go-hover); }
+.btn.small { padding: 0.7rem 1.15rem; font-size: 0.95rem; }
+@media (max-width: 520px) { header.top .btn { display: none; } }
+
+/* title band */
+.title { color: var(--on-hero); background: linear-gradient(155deg, var(--hero-a) 0%, var(--hero-b) 55%, var(--hero-c) 100%); padding-block: 2.75rem 3rem; }
+.title .eyebrow { color: #b9e6b2; }
+.title h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); font-weight: 900; font-stretch: 72%; line-height: 0.98; }
+.title p { color: var(--on-hero-muted); font-size: 1.15rem; max-width: 52ch; }
+
+/* quick facts */
+.facts { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+@media (max-width: 680px) { .facts { grid-template-columns: 1fr; } }
+.facts li { background: var(--surface); border: 1px solid var(--rule); border-top: 3px solid var(--prairie); border-radius: 10px; padding: 1rem 1.1rem; display: grid; gap: 0.35rem; align-content: start; }
+.facts b { font: 750 0.78rem/1 var(--display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--prairie); }
+.facts span { color: var(--muted); line-height: 1.45; }
+
+/* steps */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; counter-reset: step; }
+.steps > li { counter-increment: step; display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: 0.2rem 0.9rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 1rem 1.1rem; }
+.steps > li::before { content: counter(step); grid-row: span 2; width: 2.2rem; height: 2.2rem; border-radius: 50%; background: var(--capitol); color: #fff; font: 800 1.05rem/2.2rem var(--display); text-align: center; }
+:root[data-theme="dark"] .steps > li::before { color: #0b1220; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .steps > li::before { color: #0b1220; } }
+.steps p { color: var(--muted); }
+.steps ul { margin: 0.4rem 0 0; padding-left: 1.1rem; color: var(--muted); display: grid; gap: 0.25rem; }
+.steps.small > li { padding: 0.8rem 1rem; }
+kbd, .field { font: 600 0.92em/1 var(--body); background: var(--tint); border: 1px solid var(--rule); border-radius: 5px; padding: 0.12rem 0.35rem; color: var(--ink); white-space: nowrap; }
+
+/* callouts and lists */
+.callout { background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--capitol); border-radius: 10px; padding: 1rem 1.2rem; display: grid; gap: 0.4rem; }
+.callout.green { border-left-color: var(--prairie); }
+.callout p { color: var(--muted); }
+.mistakes { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.7rem; }
+.mistakes li { display: grid; gap: 0.15rem; padding-left: 1.6rem; position: relative; }
+.mistakes li::before { content: "!"; position: absolute; left: 0; top: 0.1rem; width: 1.15rem; height: 1.15rem; border-radius: 50%; background: var(--capitol); color: #fff; font: 800 0.75rem/1.15rem var(--display); text-align: center; }
+.mistakes b { font-weight: 700; }
+.mistakes span { color: var(--muted); }
+details { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.85rem 1.1rem; }
+summary { cursor: pointer; font: 750 1.05rem/1.3 var(--display); font-stretch: 92%; }
+details p { color: var(--muted); margin-top: 0.5rem; }
+.cta { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
+
+footer { background: var(--foot); color: var(--foot-ink); padding-block: 2.25rem; font-size: 0.88rem; }
+footer .wrap { display: grid; gap: 0.8rem; }
+footer strong { color: #fff; font-family: var(--display); font-size: 1.05rem; }
+footer a { color: inherit; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap wide">
+    <a class="brand" href="/" aria-label="SEA-PAC Illinois home">
+      <img src="/assets/logo.png" alt="" width="46" height="46">
+      <div><b>SEA-PAC</b><span>ILLINOIS</span></div>
+    </a>
+    <a class="back" href="/#act">Back to Take action</a>
+    <a class="btn go small" href="/#act">Get session alerts</a>
+  </div>
+</header>
+
+<main>
+  <div class="title">
+    <div class="wrap stack">
+      <p class="eyebrow">Take action</p>
+      <h1>How to file a witness slip</h1>
+      <p>A witness slip tells an Illinois House or Senate committee where you stand on a bill before it votes. It takes about two minutes.</p>
+    </div>
+  </div>
+
+  <section aria-label="Quick facts">
+    <div class="wrap">
+      <ul class="facts">
+        <li><b>What</b><span>An online form that puts your name and position on the record for one committee hearing.</span></li>
+        <li><b>When</b><span>Only after the bill is scheduled for a hearing, and before that hearing starts.</span></li>
+        <li><b>What to pick</b><span>The position named in our alert, and "Record of Appearance Only."</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="file-h">
+    <div class="wrap stack" style="gap:1.5rem">
+      <div class="stack" style="gap:0.5rem">
+        <p class="eyebrow">Step by step</p>
+        <h2 id="file-h">File your slip</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Open the button in our alert.</h3>
+          <p>It goes straight to the slip form for the right bill and hearing. No alert handy? Go to <a href="https://www.ilga.gov/" target="_blank" rel="noopener">ilga.gov<span class="sr-only"> (opens in a new tab)</span></a>, look up the bill number, open its Witness Slip tab, pick the hearing, and click the create slip icon next to the bill.</p>
+        </li>
+        <li>
+          <h3>Fill in your contact details.</h3>
+          <p>Your name, home address, personal email, and phone. Sign in first if you made an account (see below) and these fill in for you.</p>
+        </li>
+        <li>
+          <h3>Say who you represent.</h3>
+          <p>Most of us file as private citizens:</p>
+          <ul>
+            <li><span class="field">Firm/Business or Agency</span>: Self</li>
+            <li><span class="field">Title</span>: NA</li>
+            <li><span class="field">Representation</span>: Self</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Choose your position.</h3>
+          <p>Pick the one our alert names: Proponent (for the bill) or Opponent (against it). If the alert names an amendment, choose that amendment, not the original bill.</p>
+        </li>
+        <li>
+          <h3>Choose "Record of Appearance Only."</h3>
+          <p>This records your position without asking you to testify. Skip oral and written testimony unless you plan to speak or send a statement.</p>
+        </li>
+        <li>
+          <h3>Agree to the terms and click "Create Slip."</h3>
+          <p>Complete the "I'm not a robot" check if asked. You'll get a copy of your slip by email.</p>
+        </li>
+      </ol>
+      <div class="callout">
+        <h3>Deadline: before the hearing starts</h3>
+        <p>You can file as soon as the hearing is posted. File the day before if you can, so nothing gets missed. Each hearing needs its own slip, so if the bill moves to the other chamber, watch for a new alert.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="account-h">
+    <div class="wrap stack" style="gap:1.25rem">
+      <div class="stack" style="gap:0.5rem">
+        <p class="eyebrow">Optional, but handy</p>
+        <h2 id="account-h">Make a free account before January</h2>
+        <p class="muted">You can file without one. An account fills in your details, saves your slips, and lets you fix a slip later. If you had an account on the old General Assembly site, you need a new one.</p>
+      </div>
+      <ol class="steps small">
+        <li><p>On <a href="https://www.ilga.gov/" target="_blank" rel="noopener">ilga.gov<span class="sr-only"> (opens in a new tab)</span></a>, click <span class="field">Login</span> at the top right, then <span class="field">Register</span>.</p></li>
+        <li><p>Enter your personal email and a password, agree to the terms, and finish the robot check.</p></li>
+        <li><p>Open the confirmation email, enter the code, and click <span class="field">Confirm Registration</span>.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="mistakes-h">
+    <div class="wrap stack" style="gap:1.25rem">
+      <div class="stack" style="gap:0.5rem">
+        <p class="eyebrow">Avoid these</p>
+        <h2 id="mistakes-h">Common mistakes</h2>
+      </div>
+      <ul class="mistakes">
+        <li><b>Listing your school district or employer.</b><span>Use "Self" unless your organization has asked you to file for it.</span></li>
+        <li><b>Choosing oral or written testimony by accident.</b><span>"Record of Appearance Only" is all you need.</span></li>
+        <li><b>Filing after the hearing starts.</b><span>A late slip may not count. Aim for the day before.</span></li>
+        <li><b>Picking the wrong bill, amendment, or hearing.</b><span>Match the bill number and committee to the alert.</span></li>
+        <li><b>Picking a different position than the alert.</b><span>Check it before you click "Create Slip."</span></li>
+        <li><b>Assuming one slip covers every hearing.</b><span>A slip counts for one hearing only.</span></li>
+      </ul>
+      <div class="callout green">
+        <h3>File as a private citizen</h3>
+        <p>Use your personal email and device, on your own time, never school email or equipment. Slips are public: anyone can see who filed on a bill and their position.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="more-h">
+    <div class="wrap stack" style="gap:1.25rem">
+      <h2 id="more-h">Questions</h2>
+      <details>
+        <summary>I made a mistake. Can I fix my slip?</summary>
+        <p>If you were signed in when you filed, you can edit it from your account. If not, file a new slip with the right answers.</p>
+      </details>
+      <details>
+        <summary>How do I know which position to choose?</summary>
+        <p>Every SEA-PAC alert names the position to pick for that bill. This guide covers how to file, not where to stand.</p>
+      </details>
+      <details>
+        <summary>A screen looks different from these steps.</summary>
+        <p>The General Assembly updates its site from time to time. Email <a href="mailto:support@seapacil.com">support@seapacil.com</a> and we'll update this guide.</p>
+      </details>
+      <div class="cta">
+        <a class="btn go" href="/#act">Sign up for session alerts</a>
+        <p class="note">Steps checked against General Assembly guidance as of November 2026.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap wide">
+    <strong>SEA-PAC Illinois</strong>
+    <p>Questions: <a href="mailto:support@seapacil.com">support@seapacil.com</a>. <a href="/">Back to seapacil.com</a>.</p>
+    <p>Paid for by Special Education Administrators' PAC (SEAPAC), Committee ID 7464.</p>
+  </div>
+</footer>
+</body>
+</html>
