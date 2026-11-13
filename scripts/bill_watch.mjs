@@ -280,8 +280,11 @@ try {
     writeFileSync(PUBLIC_OUT, JSON.stringify({ updated: seen, watched: list.length, bills: pub }, null, 1) + '\n');
   }
   // Record the day of this successful check so the website can say when the list was last checked,
-  // even on quiet days when bills.json stays the same. Rewritten only when the date changes.
-  const checked = JSON.stringify({ checked: seen.slice(0, 10) }) + '\n';
+  // even on quiet days when bills.json stays the same. Also record the stamp of ILGA's newest bill
+  // file, because bills.json's listing_newest only moves when a watched bill changes and so looks
+  // stale on quiet days. Rewritten only when one of these changes.
+  const newestFile = Object.values(listingNewest).reduce((a, s) => (s > a ? s : a), '');
+  const checked = JSON.stringify({ checked: seen.slice(0, 10), newest_ilga_file: newestFile, files_read: toFetch.length }) + '\n';
   if (!existsSync(CHECKED_OUT) || readFileSync(CHECKED_OUT, 'utf8') !== checked) writeFileSync(CHECKED_OUT, checked);
   console.log(same ? 'No changes to watched bills. ' : '', `GA ${gas.join(', ')}: read ${toFetch.length} files (${out.scan}), watching ${list.length} bills, ${changes.length} changes kept.`);
 } finally {
