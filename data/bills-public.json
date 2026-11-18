@@ -1,7 +1,16 @@
 {
- "updated": "2026-10-24T21:30:40.015Z",
+ "updated": "2026-11-18T12:32:40.691Z",
  "watched": 110,
  "bills": [
+  {
+   "number": "HR 1026",
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
+   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
+   "summary": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
+   "status": "Waiting in the House Rules Committee",
+   "date": "2026-11-17",
+   "action": "Referred to Rules Committee"
+  },
   {
    "number": "HB 5436",
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5436&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
@@ -19,15 +28,6 @@
    "status": "Waiting in Senate Assignments",
    "date": "2026-10-15",
    "action": "Added as Co-Sponsor Sen. Chris Balkema"
-  },
-  {
-   "number": "HR 1026",
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
-   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
-   "summary": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
-   "status": "Filed",
-   "date": "2026-09-09",
-   "action": "Filed with the Clerk by Rep. Tony M. McCombie"
   },
   {
    "number": "SR 542",

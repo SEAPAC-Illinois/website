@@ -1,20 +1,60 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-10-24T21:30:40.015Z",
+ "updated": "2026-11-18T12:32:40.691Z",
  "general_assemblies": [
   104
  ],
- "scan": "full",
- "files_read": 11964,
+ "scan": "incremental",
+ "files_read": 399,
  "config": "4e04265a76c4",
  "listing_newest": {
-  "104": "2026-10-23T23:20"
+  "104": "2026-11-17T23:21"
  },
  "counts": {
   "watched": 110,
   "active": 75
  },
  "bills": [
+  {
+   "id": "104-HR1026",
+   "ga": 104,
+   "number": "HR 1026",
+   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
+   "tags": [
+    "workforce"
+   ],
+   "platform": [
+    "IAASE Priority 4: Build and sustain the special education workforce"
+   ],
+   "sponsors": "Rep. Tony M. McCombie",
+   "altsponsors": "",
+   "summary": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
+   "synopsis": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
+   "references": [],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2026-11-17",
+    "chamber": "House",
+    "action": "Referred to Rules Committee"
+   },
+   "recent_actions": [
+    {
+     "date": "2026-11-17",
+     "chamber": "House",
+     "action": "Referred to Rules Committee"
+    },
+    {
+     "date": "2026-09-09",
+     "chamber": "House",
+     "action": "Filed with the Clerk by Rep. Tony M. McCombie"
+    }
+   ],
+   "action_count": 2,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
   {
    "id": "104-HB5436",
    "ga": 104,
@@ -154,41 +194,6 @@
    ],
    "action_count": 8,
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3451&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "id": "104-HR1026",
-   "ga": 104,
-   "number": "HR 1026",
-   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
-   "tags": [
-    "workforce"
-   ],
-   "platform": [
-    "IAASE Priority 4: Build and sustain the special education workforce"
-   ],
-   "sponsors": "Rep. Tony M. McCombie",
-   "altsponsors": "",
-   "summary": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
-   "synopsis": "Directs the Auditor General to conduct a management, performance, and fiscal audit of Grow Your Own Illinois (GYO-IL).",
-   "references": [],
-   "status": "Filed",
-   "committee": null,
-   "active": true,
-   "last_action": {
-    "date": "2026-09-09",
-    "chamber": "House",
-    "action": "Filed with the Clerk by Rep. Tony M. McCombie"
-   },
-   "recent_actions": [
-    {
-     "date": "2026-09-09",
-     "chamber": "House",
-     "action": "Filed with the Clerk by Rep. Tony M. McCombie"
-    }
-   ],
-   "action_count": 1,
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
    "first_seen": "2026-10-24"
   },
   {
@@ -7240,6 +7245,16 @@
   }
  ],
  "changes": [
+  {
+   "seen": "2026-11-18T12:32:40.691Z",
+   "bill": "104-HR1026",
+   "number": "HR 1026",
+   "title": "AUDIT-GROW YOUR OWN ILLINOIS",
+   "kind": "action",
+   "date": "2026-11-17",
+   "chamber": "House",
+   "action": "Referred to Rules Committee"
+  },
   {
    "seen": "2026-10-24T21:30:40.015Z",
    "bill": "104-HB4416",
