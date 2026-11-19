@@ -1,20 +1,165 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-11-18T12:32:40.691Z",
+ "updated": "2026-11-19T12:36:29.685Z",
  "general_assemblies": [
   104
  ],
  "scan": "incremental",
- "files_read": 399,
+ "files_read": 261,
  "config": "4e04265a76c4",
  "listing_newest": {
-  "104": "2026-11-17T23:21"
+  "104": "2026-11-18T23:20"
  },
  "counts": {
-  "watched": 110,
-  "active": 75
+  "watched": 111,
+  "active": 76
  },
  "bills": [
+  {
+   "id": "104-HB4967",
+   "ga": 104,
+   "number": "HB 4967",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [],
+   "sponsors": "Rep. Kevin John Olickal, Michelle Mussman, Janet Yang Rohr and Kelly M. Cassidy",
+   "altsponsors": "",
+   "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
+   "synopsis": "Amends the Illinois Civil Rights Act of 2003. Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal financial assistance; or (iv) any program or activity...",
+   "references": [
+    "740 ILCS 23/5"
+   ],
+   "status": "Waiting in the House Rules Committee",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2026-11-18",
+    "chamber": "House",
+    "action": "Added Co-Sponsor Rep. Kelly M. Cassidy"
+   },
+   "recent_actions": [
+    {
+     "date": "2026-11-18",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Kelly M. Cassidy"
+    },
+    {
+     "date": "2026-04-28",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
+    },
+    {
+     "date": "2026-04-17",
+     "chamber": "House",
+     "action": "Rule 19(a) / Re-referred to Rules Committee"
+    },
+    {
+     "date": "2026-04-10",
+     "chamber": "House",
+     "action": "Held on Calendar Order of Second Reading - Short Debate"
+    },
+    {
+     "date": "2026-04-10",
+     "chamber": "House",
+     "action": "Second Reading - Short Debate"
+    },
+    {
+     "date": "2026-03-27",
+     "chamber": "House",
+     "action": "Placed on Calendar 2nd Reading - Short Debate"
+    },
+    {
+     "date": "2026-03-26",
+     "chamber": "House",
+     "action": "Do Pass as Amended / Short Debate Judiciary - Civil Committee; 013-007-000"
+    },
+    {
+     "date": "2026-03-26",
+     "chamber": "House",
+     "action": "House Committee Amendment No. 1 Adopted in Judiciary - Civil Committee; by Voice Vote"
+    }
+   ],
+   "action_count": 16,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "104-HB5491",
+   "ga": 104,
+   "number": "HB 5491",
+   "title": "EDUC-QLFD COMMUNITY FOUNDATION",
+   "tags": [
+    "special-ed"
+   ],
+   "platform": [],
+   "sponsors": "Rep. Katie Stuart",
+   "altsponsors": "Sen. Meg Loughran Cappel-Chapin Rose-Kimberly A. Lightford and Lakesia Collins",
+   "summary": "Changes the definition of \"qualified community foundation\" to mean a community foundation or similar publicly supported organization that is organized or operating in the State and that (i) for applications submitted before July 1, 2025, substantially complies with the national standards for U.S. community foundations established by the Community Foundations National Standards, (ii) for applications or renewals submitted on or after July 1, 2025 and before July 1, 2026, has received or applied for the Community Foundations National Standards accreditation seal, or (iii) for applications or...",
+   "synopsis": "Amends the Workforce Development through Charitable Loan Repayment Act. Changes the definition of \"qualified community foundation\" to mean a community foundation or similar publicly supported organization that is organized or operating in the State and that (i) for applications submitted before July 1, 2025, substantially complies with the national standards for U.S. community foundations established by the Community Foundations National Standards, (ii) for applications or renewals submitted on or after July 1, 2025 and before July 1, 2026, has received or applied for the Community Foundations National Standards accreditation seal, or (iii) for applications or renewals submitted on or...",
+   "references": [
+    "110 ILCS 998/10-10",
+    "110 ILCS 998/10-10",
+    "110 ILCS 947/5",
+    "110 ILCS 947/5",
+    "105 ILCS 5/21B-70",
+    "105 ILCS 5/24-8.2"
+   ],
+   "status": "Passed one chamber",
+   "committee": null,
+   "active": true,
+   "last_action": {
+    "date": "2026-11-18",
+    "chamber": "House",
+    "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1, 2"
+   },
+   "recent_actions": [
+    {
+     "date": "2026-11-18",
+     "chamber": "House",
+     "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1, 2"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "House",
+     "action": "Arrived in House"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Added as Alternate Co-Sponsor Sen. Lakesia Collins"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Added as Alternate Chief Co-Sponsor Sen. Kimberly A. Lightford"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Third Reading - Passed; 054-000-000"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Placed on Calendar Order of 3rd Reading"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Senate Floor Amendment No. 2 Adopted; Loughran-Cappel"
+    },
+    {
+     "date": "2026-11-18",
+     "chamber": "Senate",
+     "action": "Second Reading"
+    }
+   ],
+   "action_count": 43,
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5491&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "first_seen": "2026-11-19"
+  },
   {
    "id": "104-HR1026",
    "ga": 104,
@@ -1835,76 +1980,6 @@
    ],
    "action_count": 12,
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3913&GAID=18&GA=104&DocTypeID=SB&SessionID=114",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "id": "104-HB4967",
-   "ga": 104,
-   "number": "HB 4967",
-   "title": "CIVIL RIGHTS-DISABILITY",
-   "tags": [
-    "special-ed"
-   ],
-   "platform": [],
-   "sponsors": "Rep. Kevin John Olickal, Michelle Mussman and Janet Yang Rohr",
-   "altsponsors": "",
-   "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
-   "synopsis": "Amends the Illinois Civil Rights Act of 2003. Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal financial assistance; or (iv) any program or activity...",
-   "references": [
-    "740 ILCS 23/5"
-   ],
-   "status": "Waiting in the House Rules Committee",
-   "committee": null,
-   "active": true,
-   "last_action": {
-    "date": "2026-04-28",
-    "chamber": "House",
-    "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
-   },
-   "recent_actions": [
-    {
-     "date": "2026-04-28",
-     "chamber": "House",
-     "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
-    },
-    {
-     "date": "2026-04-17",
-     "chamber": "House",
-     "action": "Rule 19(a) / Re-referred to Rules Committee"
-    },
-    {
-     "date": "2026-04-10",
-     "chamber": "House",
-     "action": "Held on Calendar Order of Second Reading - Short Debate"
-    },
-    {
-     "date": "2026-04-10",
-     "chamber": "House",
-     "action": "Second Reading - Short Debate"
-    },
-    {
-     "date": "2026-03-27",
-     "chamber": "House",
-     "action": "Placed on Calendar 2nd Reading - Short Debate"
-    },
-    {
-     "date": "2026-03-26",
-     "chamber": "House",
-     "action": "Do Pass as Amended / Short Debate Judiciary - Civil Committee; 013-007-000"
-    },
-    {
-     "date": "2026-03-26",
-     "chamber": "House",
-     "action": "House Committee Amendment No. 1 Adopted in Judiciary - Civil Committee; by Voice Vote"
-    },
-    {
-     "date": "2026-03-24",
-     "chamber": "House",
-     "action": "House Committee Amendment No. 1 Rules Refers to Judiciary - Civil Committee"
-    }
-   ],
-   "action_count": 15,
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
    "first_seen": "2026-10-24"
   },
   {
@@ -7245,6 +7320,26 @@
   }
  ],
  "changes": [
+  {
+   "seen": "2026-11-19T12:36:29.685Z",
+   "bill": "104-HB4967",
+   "number": "HB 4967",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "kind": "action",
+   "date": "2026-11-18",
+   "chamber": "House",
+   "action": "Added Co-Sponsor Rep. Kelly M. Cassidy"
+  },
+  {
+   "seen": "2026-11-19T12:36:29.685Z",
+   "bill": "104-HB5491",
+   "number": "HB 5491",
+   "title": "EDUC-QLFD COMMUNITY FOUNDATION",
+   "kind": "newly-watched",
+   "date": "2026-11-18",
+   "chamber": "House",
+   "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1, 2"
+  },
   {
    "seen": "2026-11-18T12:32:40.691Z",
    "bill": "104-HR1026",

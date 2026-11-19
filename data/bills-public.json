@@ -1,7 +1,25 @@
 {
- "updated": "2026-11-18T12:32:40.691Z",
- "watched": 110,
+ "updated": "2026-11-19T12:36:29.685Z",
+ "watched": 111,
  "bills": [
+  {
+   "number": "HB 4967",
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
+   "status": "Waiting in the House Rules Committee",
+   "date": "2026-11-18",
+   "action": "Added Co-Sponsor Rep. Kelly M. Cassidy"
+  },
+  {
+   "number": "HB 5491",
+   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5491&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
+   "title": "EDUC-QLFD COMMUNITY FOUNDATION",
+   "summary": "Changes the definition of \"qualified community foundation\" to mean a community foundation or similar publicly supported organization that is organized or operating in the State and that (i) for applications submitted before July 1, 2025, substantially complies with the national standards for U.S. community foundations established by the Community Foundations National Standards, (ii) for applications or renewals submitted on or after July 1, 2025 and before July 1, 2026, has received or applied for the Community Foundations National Standards accreditation seal, or (iii) for applications or...",
+   "status": "Passed one chamber",
+   "date": "2026-11-18",
+   "action": "Placed on Calendar Order of Concurrence Senate Amendment(s) 1, 2"
+  },
   {
    "number": "HR 1026",
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1026&GAID=18&GA=104&DocTypeID=HR&SessionID=114",
@@ -109,15 +127,6 @@
    "status": "Waiting in Senate Assignments",
    "date": "2026-05-08",
    "action": "Rule 3-9(a) / Re-referred to Assignments"
-  },
-  {
-   "number": "HB 4967",
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
-   "title": "CIVIL RIGHTS-DISABILITY",
-   "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
-   "status": "Waiting in the House Rules Committee",
-   "date": "2026-04-28",
-   "action": "Added Co-Sponsor Rep. Janet Yang Rohr"
   },
   {
    "number": "SB 3112",
@@ -352,15 +361,6 @@
    "status": "Waiting in the House Rules Committee",
    "date": "2026-01-28",
    "action": "Added Chief Co-Sponsor Rep. Jennifer Sanalitro"
-  },
-  {
-   "number": "HB 1823",
-   "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=1823&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
-   "title": "COURT REVIEW-PERMANENCY HEARNG",
-   "summary": "Replaces everything after the enacting clause.",
-   "status": "Waiting in the House Rules Committee",
-   "date": "2025-11-12",
-   "action": "Added Co-Sponsor Rep. Sue Scherer"
   }
  ]
 }
