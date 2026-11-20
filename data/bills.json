@@ -1,14 +1,14 @@
 {
  "source": "Illinois General Assembly public file repository (https://ftp.ilga.gov/), synced nightly by ILGA. Hearing dates are not in this source.",
- "updated": "2026-11-19T12:36:29.685Z",
+ "updated": "2026-11-20T12:34:12.710Z",
  "general_assemblies": [
   104
  ],
  "scan": "incremental",
- "files_read": 261,
+ "files_read": 376,
  "config": "4e04265a76c4",
  "listing_newest": {
-  "104": "2026-11-18T23:20"
+  "104": "2026-11-19T23:20"
  },
  "counts": {
   "watched": 111,
@@ -24,7 +24,7 @@
     "special-ed"
    ],
    "platform": [],
-   "sponsors": "Rep. Kevin John Olickal, Michelle Mussman, Janet Yang Rohr and Kelly M. Cassidy",
+   "sponsors": "Rep. Kevin John Olickal, Michelle Mussman, Janet Yang Rohr, Kelly M. Cassidy and Lindsey LaPointe",
    "altsponsors": "",
    "summary": "Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal...",
    "synopsis": "Amends the Illinois Civil Rights Act of 2003. Prohibits an otherwise qualified individual with a disability, as defined by the Environmental Barriers Act, from being excluded from participation in, be denied the benefits of, or be subjected to discrimination solely by reason of the individual's disability under any of the following: (i) any program or activity operating inside Illinois and receiving federal financial assistance; (ii) any program or activity receiving federal financial assistance that passes through or is administered by State, county, or local government; (iii) any activity regulated by the State that receives federal financial assistance; or (iv) any program or activity...",
@@ -35,11 +35,16 @@
    "committee": null,
    "active": true,
    "last_action": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "chamber": "House",
-    "action": "Added Co-Sponsor Rep. Kelly M. Cassidy"
+    "action": "Added Co-Sponsor Rep. Lindsey LaPointe"
    },
    "recent_actions": [
+    {
+     "date": "2026-11-19",
+     "chamber": "House",
+     "action": "Added Co-Sponsor Rep. Lindsey LaPointe"
+    },
     {
      "date": "2026-11-18",
      "chamber": "House",
@@ -74,14 +79,9 @@
      "date": "2026-03-26",
      "chamber": "House",
      "action": "Do Pass as Amended / Short Debate Judiciary - Civil Committee; 013-007-000"
-    },
-    {
-     "date": "2026-03-26",
-     "chamber": "House",
-     "action": "House Committee Amendment No. 1 Adopted in Judiciary - Civil Committee; by Voice Vote"
     }
    ],
-   "action_count": 16,
+   "action_count": 17,
    "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=4967&GAID=18&GA=104&DocTypeID=HB&SessionID=114",
    "first_seen": "2026-10-24"
   },
@@ -7320,6 +7320,16 @@
   }
  ],
  "changes": [
+  {
+   "seen": "2026-11-20T12:34:12.710Z",
+   "bill": "104-HB4967",
+   "number": "HB 4967",
+   "title": "CIVIL RIGHTS-DISABILITY",
+   "kind": "action",
+   "date": "2026-11-19",
+   "chamber": "House",
+   "action": "Added Co-Sponsor Rep. Lindsey LaPointe"
+  },
   {
    "seen": "2026-11-19T12:36:29.685Z",
    "bill": "104-HB4967",
